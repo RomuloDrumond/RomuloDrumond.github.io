@@ -19,8 +19,9 @@ jobs:
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.0.2'
+        ruby-version: '3.2.0'
         bundler-cache: true
+        bundler: '2.6.6'
     - name: Install deps
       run: |
         npm install -g mermaid.cli
