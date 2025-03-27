@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Unspoken Ineffectiveness of AI Agents"
-date: 2025-03-01 04:00:00
+date: 2025-03-27 04:00:00
 description: "Wait, where's my UBS deposit??"
 tags: ['AI Agents', 'LLMs', 'GenAI']
 ---
