@@ -4,6 +4,8 @@ title: AIVQ Media Store
 description: A private media archive utility maintained by Romulo Drumond.
 permalink: /aivq-media-store/
 nav: false
+sitemap: false
+noindex: true
 ---
 
 AIVQ Media Store is a personal-use application for archiving, verifying, and

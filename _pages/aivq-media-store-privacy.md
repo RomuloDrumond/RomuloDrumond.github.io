@@ -4,6 +4,8 @@ title: AIVQ Media Store Privacy Policy
 description: How the private archive utility handles Google user data.
 permalink: /aivq-media-store/privacy/
 nav: false
+sitemap: false
+noindex: true
 ---
 
 Effective date: September 5, 2026.

@@ -4,6 +4,8 @@ title: AIVQ Media Store Terms of Use
 description: Conditions for using the personal archive utility.
 permalink: /aivq-media-store/terms/
 nav: false
+sitemap: false
+noindex: true
 ---
 
 Effective date: September 5, 2026.
