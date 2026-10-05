@@ -4,17 +4,12 @@ title: "The Unspoken Ineffectiveness of AI Agents"
 date: 2025-03-27 04:00:00
 description: "Wait, where's my UBS deposit??"
 tags: ['AI Agents', 'LLMs', 'GenAI']
+toc:
+  sidebar: left
+thumbnail: /assets/img/posts/2025-03-ineffectiveness-of-ai-agents/ai-agents-by-the-author.png
 ---
 
-- [1. Introduction](#1-introduction)
-- [2. You put AI Agents in production, and then...](#2-you-put-ai-agents-in-production-and-then)
-- [3. The Autonomy Landscape](#3-the-autonomy-landscape)
-- [4. Conclusion: AGI when??](#4-conclusion-agi-when)
-- [Appendix A: Why do AI multi-agent frameworks like CrewAI and AutoGen work?](#appendix-a-why-do-ai-multi-agent-frameworks-like-crewai-and-autogen-work)
-
-
-
-# 1. Introduction
+## 1. Introduction
 
 I feel that this blog post might be almost too late... *Why?* Things are moving too fast! We now have reasoning models, and in my experience, **Claude 3.7 - Thinking** may have increased the ratio between (*this mtfk knows stuff, let him cook*) and (the unbearable sadness of seeing it be the dumbest dude) by an order of magnitude. So, by the time you finish reading this blog post, it might already be outdated.
 
@@ -52,7 +47,7 @@ In my opinion, the best definition is the one for software developers: **AI Agen
 <p style= "text-align: center; margin-top: 0.5em;">Figure 2: AI Agents bar, as seen by the author</p>
 
 
-# 2. You put AI Agents in production, and then...
+## 2. You put AI Agents in production, and then...
 
 ... they suck, hahahahaha 🤣. Yeah, man, **LLMs suck**; they are not all-mighty as many of us feel at the beginning. While the "*vibes*" might be strong at first, nothing kills the *vibes* quite like real-world interaction.
 
@@ -65,7 +60,7 @@ So, *what can we do then?* The answer is to take away their freedom. Don't expec
 
 As you gain more experience with AI Agents in production, it becomes increasingly clear how to work with LLMs effectively: you reduce their autonomy and develop the AI Agent to resemble more traditional software. This realization might prompt you to consider...
 
-# 3. The Autonomy Landscape
+## 3. The Autonomy Landscape
 
 Alright, so LLMs are now a part of the ~*modern*~ software stack and are being used everywhere. But how should you use them? The answer, of course, is that it **depends**. The key lies in finding the balance between **<span style="color: green;">flexibility/autonomy</span>** and **<span style="color: darkblue;">control/reliability</span>**.
 
@@ -103,7 +98,7 @@ Don't get me wrong; it's a marvel to see an AI Agent make the right decisions an
 
 ***But aren't we being too harsh on the LLMs?*** Yes, I believe we are!! Humans often rely on predefined workflows in their work environments, commonly called Standard Operating Procedures (SOPs) or simply "how-to" guides. Additionally, humans sometimes struggle with open-ended tasks where they must devise steps and adapt along the way.
 
-# 4. Conclusion: AGI when??
+## 4. Conclusion: AGI when??
 
 Things are moving fast; you might find yourself outdated just by spending time reading this blog post instead of *vibe coding* with Gemini 2.5 Pro ~*GOD MODE*~. Jokes aside, the TLDR is: **Don't overly rely on LLM capabilities; give them structure, high-level tools, and output checks**. Doing this will make you happier, and your clients will be happier.
 
@@ -112,7 +107,7 @@ Full autonomy is the dream, but what will we build when it finally arrives? Will
 Will AGI solve everything? I'm not sure... We often provide a lot of context to newcomers in our companies. Will AGI be able to ingest this context like a human? Some may only label it AGI when it can, but is the average human significantly better than today's leading models? (excluding spatial/physical reasoning). Do you even believe that the average human possesses good common sense?
 
 
-# Appendix A: Why do AI multi-agent frameworks like CrewAI and AutoGen work?
+## Appendix A: Why do AI multi-agent frameworks like CrewAI and AutoGen work?
 
 This section may be too small for a standalone blog post, but it fits nicely here as we talk about autonomy and workflows. We consistently observe that multi-agent workflows with LLMs outperform single conversations with a few back-and-forth exchanges, and... this is expected!
 

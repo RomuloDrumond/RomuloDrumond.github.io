@@ -4,11 +4,11 @@ title: "Fast-distributed inference with Deep Learning models on Spark"
 date: 2022-11-07 04:00:00
 description: Learn how to efficiently distribute inference load on Spark
 tags: ['Spark', 'Deep Learning']
+thumbnail: /assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/extracting-embeddings.png
 ---
-
 Machine learning (ML) models are getting bigger and bigger and [this trend doesn't seem to be over](https://arxiv.org/abs/2001.08361). As a result of that, has become mainstream in the industry the use of big models, usually referred to as Deep Learning (DL) models. Although a few companies do have enough data and processing power to train DL from scratch, a common practice is to leverage these big models to produce embeddings, which are a kind of vectorial representation of "unstructured" data as text, images, audio, and videos. The embeddings may be the final product/objective of these models as the [Universal Sentence Encoder (USE)](https://arxiv.org/abs/1803.11175) or a by-product of getting the output of the internal layers of a model (eg. [BERT](https://arxiv.org/abs/1810.04805) internal layers). See Figure 1.
 
-{% include figure.html path="assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/extracting-embeddings.png" class="img-fluid rounded z-depth-1" zoomable=true 
+{% include figure.liquid width="auto" path="assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/extracting-embeddings.png" class="img-fluid rounded z-depth-1" zoomable=true
 caption = "Figure 1 - Embeddings generation with USE (the default output of the model) and with BERT (the embeddings are extracted from an internal layer or a combination of them)."
 %}
 
@@ -22,7 +22,7 @@ In this context, some companies do the batch generation of these embeddings on b
 In a nutshell, [Spark](https://spark.apache.org/) is a distributed computing engine that is run on clusters. The architecture consists of a Driver node that sends jobs to, possibly, multiple Worker nodes.
 
 <div style="text-align: center">
-    {% include figure.html path="assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/spark-cluster-overview.png" class="img-fluid rounded z-depth-1" zoomable=true 
+    {% include figure.liquid width="auto" path="assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/spark-cluster-overview.png" class="img-fluid rounded z-depth-1" zoomable=true
     caption = "<small><i>Source: https://spark.apache.org/docs/latest/cluster-overview.html</i></small><br>
     Figure 1 - Spark Cluster overview."
     %}
@@ -32,7 +32,7 @@ In a nutshell, [Spark](https://spark.apache.org/) is a distributed computing eng
 As DL models usually involve many parallel operations (as matrix multiplications), a GPU can be multiple times faster than a multicore CPU to run inference/embedding generation. In this scenario, our team used a cluster comprised of multiple Worker nodes, each one with a single GPU (see Figure 2).
 
 <div style="text-align: center">
-    {% include figure.html path="assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/cluster-configuration.png" class="img-fluid rounded z-depth-1" zoomable=true 
+    {% include figure.liquid path="assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/cluster-configuration.png" class="img-fluid rounded z-depth-1" zoomable=true
     width="50%"
     caption = "Figure 2 - Overview of cluster used."
     %}

@@ -4,18 +4,11 @@ title: "Dealing with data in ML projects that go to Production"
 date: 2022-12-05 04:00:00
 description: Analysis of problems and tools at our disposal
 tags: ['MLOps', 'Spark']
+toc:
+  sidebar: left
 ---
-- [1. Introduction](#1-introduction)
-- [2. Do you need data version control?](#2-do-you-need-data-version-control)
-- [3. Tools for dealing with data in ML projects](#3-tools-for-dealing-with-data-in-ml-projects)
-  - [3.1 Git, Git-LFS](#31-git-git-lfs)
-  - [3.2 Data Version Control (DVC)](#32-data-version-control-dvc)
-  - [3.3 Delta Tables (Databricks)](#33-delta-tables-databricks)
-  - [3.4 Honorable mentions](#34-honorable-mentions)
-- [4. Conclusion](#4-conclusion)
 
-
-# 1. Introduction
+## 1. Introduction
 
 "Data" in a Machine Learning (ML) project can mean many things:
 * The train/validation/test data needed to train/validate/test a machine learning model;
@@ -40,7 +33,7 @@ With that in mind, a Data Scientist (DS) or Machine Learning Engineer (MLE) shou
 </p>
 
 
-# 2. Do you need data version control? 
+## 2. Do you need data version control?
 
 From the questions raised in the introduction, you may be thinking: *Do I even need such a thing as version control on all my data?*
 
@@ -59,11 +52,11 @@ Ok ok, it seems like good capabilities to have, at least for the second point, a
 * If the data changes frequently and the updates make more sense being modeled (e.g. receiving events from external sources that it is not reliable, it makes more sense to have all events in a table with their timestamp)
 
 
-# 3. Tools for dealing with data in ML projects
+## 3. Tools for dealing with data in ML projects
 
 With the objective of answering the 3 starting questions, some of the following tools you may consider.
 
-## 3.1 Git, Git-LFS
+### 3.1 Git, Git-LFS
 
 1. **Where is the data stored?** On the GIT remote servers, being external providers (e.g. [Github](https://github.com/), [Gitlab](https://about.gitlab.com/), [Gitbucket](https://gitbucket.github.io/), [Bitbucket](https://bitbucket.org/product)...) or self-provided.
 2. **Can we have version control?** Very strong and familiar version control for developers.
@@ -76,7 +69,7 @@ Other points to consider:
 * :x: Default data comparison: you will need to download both file versions and compare if the format is not human-readable. Examples of human-readable: CSV and JSON. Examples of not human-readable: binary and parquet;
 * :x: Max file size of 100 MB on default git and 10 GB on git-lfs.
 
-## 3.2 Data Version Control ([DVC](https://dvc.org/))
+### 3.2 Data Version Control ([DVC](https://dvc.org/))
 
 
 1. **Where is the data stored?** It accepts many [backends](https://dvc.org/doc/command-reference/remote/add#supported-storage-types) (this is pretty awesome by the way).
@@ -91,7 +84,7 @@ Other points to consider:
 
 *Personal note: It is a great tool for migrating from the limitations of Git and Git-LFS, but not so good for big data environments.*
 
-## 3.3 Delta Tables (Databricks)
+### 3.3 Delta Tables (Databricks)
 
 1. **Where is the data stored?** Multiple backends, usually some data lake (ADLS, S3, etc).
 2. **Can we have version control?** Yes, delta history.
@@ -107,7 +100,7 @@ Other points to consider:
 
 
 
-## 3.4 Honorable mentions
+### 3.4 Honorable mentions
 
 **[MLflow](https://www.mlflow.org/)**: best option when thinking about versioning models;
 
@@ -118,7 +111,7 @@ Other points to consider:
 **[Dolt](https://www.dolthub.com/)**: a SQL database that feels like a git repository. The problem is that it is a database in itself, too big of a solution.
 
 
-# 4. Conclusion
+## 4. Conclusion
 
 Given my experiences and analysis of this article, my rules of thumb are:
 

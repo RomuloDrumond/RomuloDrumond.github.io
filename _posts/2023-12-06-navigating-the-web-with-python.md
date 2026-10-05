@@ -4,20 +4,12 @@ title: "Navigating the Web with Python: Insights into Scraping and Automation To
 date: 2023-12-06 04:00:00
 description: "Because manually browsing the web is so 1990s."
 tags: ['Python', 'Web scraping', 'Web automation']
+toc:
+  sidebar: left
+thumbnail: /assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/selenium_vs_bs4_vs_scrapy.png
 ---
 
-- [1. Introduction](#1-introduction)
-- [2. Tool overview](#2-tool-overview)
-  - [2.1. Beautiful Soup](#21-beautiful-soup)
-  - [2.2. Selenium](#22-selenium)
-  - [2.3. Scrapy](#23-scrapy)
-- [3. Choosing the right tool for the job](#3-choosing-the-right-tool-for-the-job)
-- [4. TLDR](#4-tldr)
-- [Appendix A: Exploring Additional Webpage Rendering Tools](#appendix-a-exploring-additional-webpage-rendering-tools)
-- [Appendix B: Waiting for browser rendering sucks](#appendix-b-waiting-for-browser-rendering-sucks)
-
-
-# 1. Introduction
+## 1. Introduction
 No developer can afford not to know or interact with web technologies. From APIs to network security protocols that one needs to attend for the company, a developer, and even 'data' people, end up interacting with HTTP requests, VPNs, and network boundaries. But fancy jargon aside this post is not going to be either about serving on the web, developing a web application on Django or Flask, or exposing an API with FastAPI, we gonna talk about being a client, a consumer, being 'served by the web'.
 
 When do we act as a web client outside of traditional web browsing? This often occurs in the realms of **web scraping** and **web automation**. Web scraping involves programmatically extracting data from websites, while web automation refers to automating web-based tasks, sometimes known as [Robotic Process Automation (RPA)](https://en.wikipedia.org/wiki/Robotic_process_automation). These practices are especially relevant when dealing with legacy systems or in scenarios where direct user interaction is restricted. In this context, I want to discuss three widely used tools intended for these applications: **Beautiful Soup**, **Selenium**, and **Scrapy**. Each of these tools offers unique features and capabilities, making them go-to choices for web scraping and automation tasks.
@@ -25,7 +17,7 @@ When do we act as a web client outside of traditional web browsing? This often o
 
 
 <div style="text-align: center">
-    {% include figure.html path="assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/selenium_vs_bs4_vs_scrapy.png" class="img-fluid rounded z-depth-1" zoomable="true"
+    {% include figure.liquid path="assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/selenium_vs_bs4_vs_scrapy.png" class="img-fluid rounded z-depth-1" zoomable="true"
     width="65%"
     caption = "Figure 1 - The Web Warriors Civil War."
     %}
@@ -47,13 +39,13 @@ When do we act as a web client outside of traditional web browsing? This often o
     }
 </style>
 
-# 2. Tool overview
-## 2.1. Beautiful Soup
+## 2. Tool overview
+### 2.1. Beautiful Soup
 Is the simplest of the three, it is basically an HTML/XML parser that provides a more user-friendly interface for iterating, searching, and parsing the HTML document tree.
 
 
 <div style="text-align: center">
-    {% include figure.html path="assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/beautifulsoup_serving_a_developer.png" class="img-fluid rounded z-depth-1" zoomable="true"
+    {% include figure.liquid path="assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/beautifulsoup_serving_a_developer.png" class="img-fluid rounded z-depth-1" zoomable="true"
     width="65%"
     caption = "Figure 2 - Beautiful Soup serving a delicious Python object to a developer."
     %}
@@ -101,11 +93,11 @@ else:
 ...
 ```
 
-## 2.2. Selenium
+### 2.2. Selenium
 Selenium is kind of a big monster that has made a name for itself among web developers, primarily because it was originally developed for automated software testing of web applications. Its versatility is further showcased by its support for multiple programming languages, including Java, Python, C#, Ruby, JavaScript, and Kotlin. Unlike libraries that are limited to parsing HTML, Selenium offers users the ability to control a full-fledged browser, automating a wide range of tasks across [several supported browsers](https://www.selenium.dev/documentation/webdriver/browsers/).
 
 <div style="text-align: center">
-    {% include figure.html path="assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/selenium_automation.gif" class="img-fluid rounded z-depth-1" zoomable="true"
+    {% include figure.liquid avoid_scaling=true path="assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/selenium_automation.gif" class="img-fluid rounded z-depth-1" zoomable="true"
     width="80%"
     caption = "Gif 1 - Example of Selenium controlling a Firefox browser."
     %}
@@ -128,7 +120,7 @@ Because of these types of sites Selenium shines in the scrappy activity, as it i
 
 Actually no, you can replicate the requests you found on the 'network' tab on your Python code, using Selenium just makes the job pretty easy, despite adding a lot of latency and asking for more computing resources.
 
-## 2.3. Scrapy
+### 2.3. Scrapy
 Scrapy is a bit different from Beautiful Soup and Selenium. Scrapy is a framework, not a library. Instead of writing code that uses Scrapy, you write code that the Scrapy framework will use. For example, if you want to craw and dump a whole website you just need to:
 1. Run the scrappy create command: `scrapy startproject <project-name>`;
 2. Put a code similar to this one in the spider:
@@ -179,7 +171,7 @@ Note: [John Watson Rooney](https://www.youtube.com/@JohnWatsonRooney) is a prett
 
 
 
-# 3. Choosing the right tool for the job
+## 3. Choosing the right tool for the job
 Deciding on the right tool can be overwhelming. To simplify the process, consider two main factors: the scope of your project — including the number of sites, requests, operations, or items involved — and your primary goal, which might range from web testing to simple or extensive web scraping. Wondering how to choose between the three? Below is a table that summarizes their key attributes and uses:
 
 
@@ -202,7 +194,7 @@ So, in the end, if you are looking for automation go to Selenium and if you are 
 Yeah, Selenium makes things easy on this front, but it's really slow and hardware-hungry (it's a browser in the end, everybody knows that they are becoming almost as containerized operational systems (OS)). If you need to cut costs and be blazing fast you need to go raw and do the extra request by yourself (inspect the website with the dev tools and discover what request gets the data you want) and replicate it in Beautiful Soup/Scrapy. **That's a no-brainer: when scraping, rendering is helpful for the human eye, but remember that you don't want to render things, what you really want is the data.**
 
 
-# 4. TLDR
+## 4. TLDR
 *What to choose if I'm starting and don't need to do a lot of requests?*
 * Beautiful Soup.
 * *But what if the site is JS-heavy?*
@@ -216,7 +208,7 @@ Yeah, Selenium makes things easy on this front, but it's really slow and hardwar
 * You might go raw with BeatitulSoup/Scrapy, translating click and API calls, it depends on your project's requirements. Going raw will ask you to understand the web better (API calls, headers, sessions, cookies).
 
 
-# Appendix A: Exploring Additional Webpage Rendering Tools
+## Appendix A: Exploring Additional Webpage Rendering Tools
 
 While I've highlighted the use of raw HTTP requests and Selenium, it's worth noting that the ecosystem of tools for webpage rendering is rich with options. You can explore tools like [Playwright](https://playwright.dev/python/docs/api/class-playwright), which offers browser automation capabilities such as Selenium, or [Splash](https://github.com/scrapy-plugins/scrapy-splash), a lightweight browser render service that integrates well with Scrapy. For those seeking a more managed solution, services like [Zyte](https://docs.zyte.com/zyte-api/usage/http.html#html-and-browser-html) can render pages on your behalf.
 
@@ -231,6 +223,6 @@ Transitioning to raw HTTP requests can be a smooth process. Here's an approach t
 By pacing your learning this way, you'll build a solid foundation in web scraping and automation, allowing you to choose the right tool for each job with more confidence.
 
 
-# Appendix B: Waiting for browser rendering sucks
+## Appendix B: Waiting for browser rendering sucks
 
 Browser rendering delays are a common pain point in web scraping, particularly on JavaScript-rich sites. Playwright claims to handle these delays more adeptly than Selenium, though I've yet to thoroughly test this myself. From experience, Selenium's built-in wait functions often fall short on such sites. I once had to engineer custom wait functions to deal with a particularly tricky site, which required me to measured max image dissimilarity between sequential screenshots to determine when the page had fully loaded.

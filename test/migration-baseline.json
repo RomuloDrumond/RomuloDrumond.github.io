@@ -1,0 +1,362 @@
+{
+  "baseline": "154712e",
+  "posts": [
+    {
+      "file": "2022-04-30-welcome-post.md",
+      "url": "/blog/2022/welcome-post/",
+      "title": "Welcome! This is my first post",
+      "tags": null,
+      "figures": [],
+      "code": [],
+      "iframes": [
+        "https://pointerpointer.com/"
+      ],
+      "heading_ids": []
+    },
+    {
+      "file": "2022-08-29-setting-up-docker-on-wsl2.md",
+      "url": "/blog/2022/setting-up-docker-on-wsl2/",
+      "title": "Setting up Docker on WSL2",
+      "tags": [
+        "WSL"
+      ],
+      "figures": [],
+      "code": [
+        "$ docker run hello-world \ndocker: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?. See 'docker run --help'.\n",
+        "$ sudo service docker start\n",
+        "# /etc/wsl.conf\n[boot]\ncommand=\"service docker start\"\n",
+        "# /etc/wsl.conf\n[boot]\ncommand=\"service docker start; service cron start\"\n"
+      ],
+      "iframes": [
+        "https://www.youtube.com/embed/MrZolfGm8Zk",
+        "https://www.youtube.com/embed/0qotVMX-J5s",
+        "https://www.youtube.com/embed/ymtq8yjmD9I",
+        "https://www.youtube.com/embed/nnndxbr_Xq4"
+      ],
+      "heading_ids": [
+        "1-a-bit-of-context",
+        "2-setting-up-docker-on-wsl2",
+        "3-bonus"
+      ]
+    },
+    {
+      "file": "2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl.md",
+      "url": "/blog/2022/using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/",
+      "title": "Using Lens to inspect a Kubernetes minikube cluster on WSL",
+      "tags": [
+        "Kubernetes",
+        "WSL"
+      ],
+      "figures": [
+        {
+          "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-dashboard-print.png",
+          "caption": "Figure 1 - Minikube's dashboard example.",
+          "zoomable": "true"
+        },
+        {
+          "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-initial-screen-for-setup.png",
+          "caption": "Figure 2 - Cluster tab on Lens.",
+          "zoomable": "true"
+        },
+        {
+          "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/sync-kube-config.png",
+          "caption": "Figure 3 - Lens options for adding clusters.",
+          "width": "30%",
+          "zoomable": "true"
+        },
+        {
+          "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/available-clusters-after-sync-kubeconfig-file.png",
+          "caption": "Figure 4 - Lens list of available clusters after syncing kubeconfig file.",
+          "zoomable": "true"
+        },
+        {
+          "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-connection-error.png",
+          "caption": "Figure 5 - Error while trying to access a minikube cluster with Lens.",
+          "zoomable": "true"
+        }
+      ],
+      "code": [
+        "➜  ~ minikube start --nodes 3 --profile multinode3\n😄  [multinode3] minikube v1.27.0 on Ubuntu 20.04 (amd64)\n❗  Kubernetes 1.25.0 has a known issue with resolv.conf. minikube is using a workaround that should work for most use cases.\n❗  For more information, see: https://github.com/kubernetes/kubernetes/issues/112135\n✨  Automatically selected the docker driver\n📌  Using Docker driver with root privileges\n👍  Starting control plane node multinode3 in cluster multinode3\n🚜  Pulling base image ...\n🔥  Creating docker container (CPUs=2, Memory=2200MB) ...\n🐳  Preparing Kubernetes v1.25.0 on Docker 20.10.17 ...\n    ▪ Generating certificates and keys ...\n    ▪ Booting up control plane ...\n    ▪ Configuring RBAC rules ...\n🔗  Configuring CNI (Container Networking Interface) ...\n🔎  Verifying Kubernetes components...\n    ▪ Using image gcr.io/k8s-minikube/storage-provisioner:v5\n🌟  Enabled addons: storage-provisioner, default-storageclass\n\n👍  Starting worker node multinode3-m02 in cluster multinode3\n🚜  Pulling base image ...\n🔥  Creating docker container (CPUs=2, Memory=2200MB) ...\n🌐  Found network options:\n    ▪ NO_PROXY=192.153.27.2\n🐳  Preparing Kubernetes v1.25.0 on Docker 20.10.17 ...\n    ▪ env NO_PROXY=192.153.27.2\n🔎  Verifying Kubernetes components...\n\n👍  Starting worker node multinode3-m03 in cluster multinode3\n🚜  Pulling base image ...\n🔥  Creating docker container (CPUs=2, Memory=2200MB) ...\n🌐  Found network options:\n    ▪ NO_PROXY=192.153.27.2,192.153.27.3\n🐳  Preparing Kubernetes v1.25.0 on Docker 20.10.17 ...\n    ▪ env NO_PROXY=192.153.27.2\n    ▪ env NO_PROXY=192.153.27.2,192.168.27.3\n🔎  Verifying Kubernetes components...\n🏄  Done! kubectl is now configured to use \"multinode3\" cluster and \"default\" namespace by default\n\n",
+        "➜  ~ minikube profile list                     \n|------------|-----------|---------|--------------|------|---------|---------|-------|--------|\n|  Profile   | VM Driver | Runtime |      IP      | Port | Version | Status  | Nodes | Active |\n|------------|-----------|---------|--------------|------|---------|---------|-------|--------|\n| minikube   | docker    | docker  | 192.153.49.2 | 8443 | v1.24.3 | Running |     1 | *      |\n| multinode3 | docker    | docker  | 192.153.85.2 | 8443 | v1.25.0 | Running |     3 |        |\n|------------|-----------|---------|--------------|------|---------|---------|-------|--------|\n➜  ~ minikube stop -p minikube # stoping the cluster of the 'minikube' profile\n✋  Stopping node \"minikube\"  ...\n🛑  Powering off \"minikube\" via SSH ...\n🛑  1 node stopped.\n➜  ~ minikube profile multinode3 # changing current profile\n✅  minikube profile was successfully set to multinode3\n➜  ~ minikube profile list      \n|------------|-----------|---------|--------------|------|---------|---------|-------|--------|\n|  Profile   | VM Driver | Runtime |      IP      | Port | Version | Status  | Nodes | Active |\n|------------|-----------|---------|--------------|------|---------|---------|-------|--------|\n| minikube   | docker    | docker  | 192.153.49.2 | 8443 | v1.24.3 | Stopped |     1 |        |\n| multinode3 | docker    | docker  | 192.153.85.2 | 8443 | v1.25.0 | Running |     3 | *      |\n|------------|-----------|---------|--------------|------|---------|---------|-------|--------|\n",
+        "➜  ~ kubectl config get-contexts \nCURRENT   NAME                         CLUSTER                      AUTHINFO                                                       NAMESPACE\n          minikube                     minikube                     minikube                                                       default\n*         multinode3                   multinode3                   multinode3                                                     default\n          other-cluster                other-cluster                clusterUser_k8s_other-cluster\n➜  ~ kubectl get nodes\nNAME             STATUS   ROLES           AGE     VERSION\nmultinode3       Ready    control-plane   6m27s   v1.25.0\nmultinode3-m02   Ready    <none>          4m30s   v1.25.0\nmultinode3-m03   Ready    <none>          3m53s   v1.25.0\n",
+        "➜  ~ minikube status\nmultinode3\ntype: Control Plane\nhost: Running\nkubelet: Running\napiserver: Running\nkubeconfig: Configured\n\nmultinode3-m02\ntype: Worker\nhost: Running\nkubelet: Running\n\nmultinode3-m03\ntype: Worker\nhost: Running\nkubelet: Running\n",
+        "F1027 17:47:49.413105 54440 main.go:74] failed to initialize kubeconfiginvalid configuration: [unable to read client-cert \\\\wsl.localhost\\Ubuntu-20.04\\home\\romulo\\.kube\\home\\romulo\\.minikube\\profiles\\multinode3\\client.crt for multinode3 due to open \\\\wsl.localhost\\Ubuntu-20.04\\home\\romulo\\.kube\\home\\romulo\\.minikube\\profiles\\multinode3\\client.crt: The system cannot find the path specified., unable to read client-key \\\\wsl.localhost\\Ubuntu-20.04\\home\\romulo\\.kube\\home\\romulo\\.minikube\\profiles\\multinode3\\client.key for multinode3 due to open \\\\wsl.localhost\\Ubuntu-20.04\\home\\romulo\\.kube\\home\\romulo\\.minikube\\profiles\\multinode3\\client.key: The system cannot find the path specified., unable to read certificate-authority \\\\wsl.localhost\\Ubuntu-20.04\\home\\romulo\\.kube\\home\\romulo\\.minikube\\ca.crt for multinode3 due to open \\\\wsl.localhost\\Ubuntu-20.04\\home\\romulo\\.kube\\home\\romulo\\.minikube\\ca.crt: The system cannot find the path specified.]\ngoroutine 1 [running]:\nk8s.io/klog/v2.stacks(0x1)\nC:/Users/runneradmin/go/pkg/mod/k8s.io/klog/v2@v2.40.1/klog.go:1140 +0x8a\nk8s.io/klog/v2.(*loggingT).output(0x22a5140, 0x3, 0x0, 0xc0001810a0, 0x1, {0x1a7c0b5, 0x20}, 0x22a6020, 0x0)\nC:/Users/runneradmin/go/pkg/mod/k8s.io/klog/v2@v2.40.1/klog.go:1088 +0x66f\nk8s.io/klog/v2.(*loggingT).printDepth(0xc000720800, 0x6018, 0x0, {0x0, 0x0}, 0x1, {0xc000386100, 0x2, 0x2})\nC:/Users/runneradmin/go/pkg/mod/k8s.io/klog/v2@v2.40.1/klog.go:735 +0x1ae\nk8s.io/klog/v2.(*loggingT).print(...)\nC:/Users/runneradmin/go/pkg/mod/k8s.io/klog/v2@v2.40.1/klog.go:717\nk8s.io/klog/v2.Fatal(...)\nC:/Users/runneradmin/go/pkg/mod/k8s.io/klog/v2@v2.40.1/klog.go:1622\nmain.main()\nD:/a/lens-k8s-proxy/lens-k8s-proxy/main.go:74 +0x6a6\n\ngoroutine 6 [chan receive]:\nk8s.io/klog/v2.(*loggingT).flushDaemon(0x0)\nC:/Users/runneradmin/go/pkg/mod/k8s.io/klog/v2@v2.40.1/klog.go:1283 +0x6a\ncreated by k8s.io/klog/v2.init.0\nC:/Users/runneradmin/go/pkg/mod/k8s.io/klog/v2@v2.40.1/klog.go:420 +0xfb\n\ngoroutine 10 [syscall]:\nos/signal.signal_recv()\nC:/hostedtoolcache/windows/go/1.17.8/x64/src/runtime/sigqueue.go:169 +0x98\nos/signal.loop()\nC:/hostedtoolcache/windows/go/1.17.8/x64/src/os/signal/signal_unix.go:24 +0x19\ncreated by os/signal.Notify.func1.1\nC:/hostedtoolcache/windows/go/1.17.8/x64/src/os/signal/signal.go:151 +0x2c\n\nproxy exited with code: 255\n\nFailed to start connection: Error: failed to retrieve port from stream\n",
+        "➜  ~ minikube delete # to delete old docker containers for the active profile\n🔥  Deleting \"minikube\" in docker ...\n🔥  Deleting container \"minikube\" ...\n🔥  Removing /home/romulo/.minikube/machines/minikube ...\n💀  Removed all traces of the \"minikube\" cluster.\n➜  ~ minikube start --ports=127.0.0.1:55555:8443 # forwarding <server-port-you-want-fixed>:<K8s-default-apiserver-port>\n😄  minikube v1.27.0 on Ubuntu 20.04 (amd64)\n❗  Kubernetes 1.25.0 has a known issue with resolv.conf. minikube is using a workaround that should work for most use cases.\n❗  For more information, see: https://github.com/kubernetes/kubernetes/issues/112135\n✨  Automatically selected the docker driver\n📌  Using Docker driver with root privileges\n👍  Starting control plane node minikube in cluster minikube\n🚜  Pulling base image ...\n🔥  Creating docker container (CPUs=2, Memory=2200MB) ...\n🐳  Preparing Kubernetes v1.25.0 on Docker 20.10.17 ...\n    ▪ Generating certificates and keys ...\n    ▪ Booting up control plane ...\n    ▪ Configuring RBAC rules ...\n🔎  Verifying Kubernetes components...\n    ▪ Using image gcr.io/k8s-minikube/storage-provisioner:v5\n🌟  Enabled addons: storage-provisioner, default-storageclass\n🏄  Done! kubectl is now configured to use \"minikube\" cluster and \"default\" namespace by default\n",
+        "➜  ~ docker ps\nCONTAINER ID   IMAGE                                 COMMAND                  CREATED       STATUS         PORTS                                                                                                                                  NAMES\n1536bce200c   gcr.io/k8s-minikube/kicbase:v0.0.33   \"/usr/local/bin/entr…\"   2 weeks ago   Up 2 minutes   127.0.0.1:49157->22/tcp, 127.0.0.1:49156->2376/tcp, 127.0.0.1:49155->5000/tcp, 127.0.0.1:49154->8443/tcp, 127.0.0.1:49153->32443/tcp   minikube\n",
+        "➜  ~ kubectl get nodes\nNAME       STATUS   ROLES           AGE   VERSION\nminikube   Ready    control-plane   20d   v1.24.3\n",
+        "➜  ~ kubectl config get-contexts # get available contexts\nCURRENT   NAME                         CLUSTER                      AUTHINFO                                                       NAMESPACE\n          minikube                     minikube                     minikube                                                       default\n*         other-cluster                other-cluster                clusterUser_k8s_other-cluster               \n➜  ~ kubectl config use-context minikube # in this example, changes the context from 'other-cluster' to 'minikube'\nSwitched to context \"minikube\".\n",
+        "minikube start --nodes <number-of-nodes> --profile <name-of-new-profile>\n",
+        "minikube delete # to delete old docker containers for the active profile\nminikube start --ports=127.0.0.1:55555:8443 # forwarding <server-port-you-want-fixed>:<K8s-default-apiserver-port>\n",
+        "➜  ~ minikube profile list\n|------------|-----------|---------|--------------|------|---------|---------|-------|--------|\n|  Profile   | VM Driver | Runtime |      IP      | Port | Version | Status  | Nodes | Active |\n|------------|-----------|---------|--------------|------|---------|---------|-------|--------|\n| minikube   | docker    | docker  | 192.153.49.2 | 8443 | v1.25.0 | Stopped |     1 | *      |\n| multinode3 | docker    | docker  | 192.153.67.2 | 8443 | v1.25.0 | Stopped |     3 |        |\n|------------|-----------|---------|--------------|------|---------|---------|-------|--------|\n"
+      ],
+      "iframes": [
+        "https://www.youtube.com/embed/eeDwdVXattc",
+        "https://www.youtube.com/embed/E2pP1MOfo3g"
+      ],
+      "heading_ids": [
+        "1-a-bit-of-context",
+        "11-lens",
+        "12-minikube",
+        "13-wsl",
+        "2-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl"
+      ]
+    },
+    {
+      "file": "2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark.md",
+      "url": "/blog/2022/fast-distributed-inference-with-deep-learning-models-on-spark/",
+      "title": "Fast-distributed inference with Deep Learning models on Spark",
+      "tags": [
+        "Spark",
+        "Deep Learning"
+      ],
+      "figures": [
+        {
+          "path": "assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/extracting-embeddings.png",
+          "caption": "Figure 1 - Embeddings generation with USE (the default output of the model) and with BERT (the embeddings are extracted from an internal layer or a combination of them).",
+          "zoomable": "true"
+        },
+        {
+          "path": "assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/spark-cluster-overview.png",
+          "caption": "<small><i>Source: https://spark.apache.org/docs/latest/cluster-overview.html</i></small><br>\n    Figure 1 - Spark Cluster overview.",
+          "zoomable": "true"
+        },
+        {
+          "path": "assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/cluster-configuration.png",
+          "caption": "Figure 2 - Overview of cluster used.",
+          "width": "50%",
+          "zoomable": "true"
+        }
+      ],
+      "code": [
+        "\ndef generate_embeddings(embeder_model, dataframe: pyspark.sql.DataFrame) -> pyspark.sql.DataFrame:\n    broacasted_embeddings_model = spark.sparkContext.broadcast(embeder_model)\n\n    @pandas_udf(returnType=ArrayType(FloatType()))\n    def batch_embed(dataset: pandas.Series) -> pandas.Series:\n        model = broacasted_embeddings_model.value\n        model.toGPU()\n\n        embeddings = model.embed(dataset)\n        \n        embeddings_cpu = embeddings.numpy() if embeddings else []\n\n        return pandas.Series(embeddings_cpu)\n    \n    return dataframe.withColumn(EMBEDDINGS_COLUMN_NAME, batch_embed(dataframe[DATA_COLUMN_NAME]))\n\n"
+      ],
+      "iframes": [],
+      "heading_ids": []
+    },
+    {
+      "file": "2022-12-05-dealing-with-data-in-ml-projects-that-go-to-production.md",
+      "url": "/blog/2022/dealing-with-data-in-ml-projects-that-go-to-production/",
+      "title": "Dealing with data in ML projects that go to Production",
+      "tags": [
+        "MLOps",
+        "Spark"
+      ],
+      "figures": [],
+      "code": [],
+      "iframes": [],
+      "heading_ids": [
+        "1-introduction",
+        "2-do-you-need-data-version-control",
+        "3-tools-for-dealing-with-data-in-ml-projects",
+        "31-git-git-lfs",
+        "32-data-version-control-dvc",
+        "33-delta-tables-databricks",
+        "34-honorable-mentions",
+        "4-conclusion"
+      ]
+    },
+    {
+      "file": "2023-10-06-finishing-my-data-career-masterplan.md",
+      "url": "/blog/2023/finishing-my-data-career-masterplan/",
+      "title": "Finishing my Data Career Masterplan",
+      "tags": [
+        "Career"
+      ],
+      "figures": [
+        {
+          "path": "assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_de_the_ds_and_the_mle.jpg",
+          "caption": "Figure 1 - The DS, The DE and The MLE.",
+          "width": "50%",
+          "zoomable": "true"
+        },
+        {
+          "path": "assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_fsds_appears.jpg",
+          "caption": "Figure 2 - The trio is baffled by the appearance of a mythical creature called FSDS.",
+          "width": "60%",
+          "zoomable": "true"
+        },
+        {
+          "path": "assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/roles_on_data_pipeline.png",
+          "caption": "Figure 3 - Roles boundaries on a data pipeline.",
+          "width": "90%",
+          "zoomable": "true"
+        },
+        {
+          "path": "assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/veen_diagram.jpeg",
+          "caption": "Figure 4 - Skill intersections of the roles.",
+          "width": "60%",
+          "zoomable": "true"
+        }
+      ],
+      "code": [],
+      "iframes": [],
+      "heading_ids": [
+        "1-introduction",
+        "2-role-complexity-and-intersecting-responsibilities",
+        "21-why-role-overlap-exists",
+        "22-core-responsibilities-in-each-role",
+        "23-what-roles-can-learn-from-each-other",
+        "3-engineering-vs-data-science-in-companies",
+        "4-conclusion",
+        "5-tldr"
+      ]
+    },
+    {
+      "file": "2023-12-06-navigating-the-web-with-python.md",
+      "url": "/blog/2023/navigating-the-web-with-python/",
+      "title": "Navigating the Web with Python: Insights into Scraping and Automation Tools",
+      "tags": [
+        "Python",
+        "Web scraping",
+        "Web automation"
+      ],
+      "figures": [
+        {
+          "path": "assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/selenium_vs_bs4_vs_scrapy.png",
+          "caption": "Figure 1 - The Web Warriors Civil War.",
+          "width": "65%",
+          "zoomable": "true"
+        },
+        {
+          "path": "assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/beautifulsoup_serving_a_developer.png",
+          "caption": "Figure 2 - Beautiful Soup serving a delicious Python object to a developer.",
+          "width": "65%",
+          "zoomable": "true"
+        },
+        {
+          "path": "assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/selenium_automation.gif",
+          "caption": "Gif 1 - Example of Selenium controlling a Firefox browser.",
+          "width": "80%",
+          "zoomable": "true"
+        }
+      ],
+      "code": [
+        "\nimport requests\nfrom bs4 import BeautifulSoup\n\n# URL of the webpage to scrape\nurl = 'https://books.toscrape.com/'\n\n# Send HTTP request to the URL\nresponse = requests.get(url)\n\n# Check if the request was successful\nif response.status_code == 200:\n    # Parse the content of the response\n    soup = BeautifulSoup(response.text, 'html.parser')\n\n    # Find all h3 tags (which contain book titles)\n    book_titles = soup.find_all('h3')\n\n    # Extract the titles and write to a file\n    with open('book_titles.txt', 'w') as file:\n        for i, title in enumerate(book_titles):\n            book_title = title.find('a')['title']\n            line = f\"{i+1}: {book_title}\"\n            print(line)\n            file.write(line + '\\n')\nelse:\n    print(f\"Failed to retrieve the webpage. Status code: {response.status_code}\")\n\n",
+        "import os\n\nimport scrapy\nfrom scrapy.spiders import CrawlSpider, Rule\nfrom scrapy.linkextractors import LinkExtractor\n\nclass ExampleCrawlSpider(CrawlSpider):\n    name = 'examplecrawlspider'\n    allowed_domains = ['example.com']  # Replace with the target domain\n    start_urls = ['http://example.com']  # Replace with the starting URL\n\n    rules = (\n        # Rule to follow links (LinkExtractor), calling the defined \n        # 'parse_item' method\n        Rule(LinkExtractor(), callback='parse_item', follow=True),\n    )\n\n    def parse_item(self, response):\n        # Extract the entire content of the <body> tag from the response\n        page_content = response.css('body').get()\n\n        filename = f'dumped_pages/{response.url.split(\"/\")[-1]}.html'\n        if filename == 'dumped_pages/.html':\n            filename = 'dumped_pages/index.html'\n\n        if not os.path.exists('dumped_pages'):\n            os.makedirs('dumped_pages')\n\n        with open(filename, 'wb') as f:\n            f.write(page_content.encode())\n        self.log(f'Saved file {filename}')\n\n",
+        "1: A Light in the Attic\n2: Tipping the Velvet\n3: Soumission\n4: Sharp Objects\n5: Sapiens: A Brief History of Humankind\n...\n"
+      ],
+      "iframes": [],
+      "heading_ids": [
+        "1-introduction",
+        "2-tool-overview",
+        "21-beautiful-soup",
+        "22-selenium",
+        "23-scrapy",
+        "3-choosing-the-right-tool-for-the-job",
+        "4-tldr",
+        "appendix-a-exploring-additional-webpage-rendering-tools",
+        "appendix-b-waiting-for-browser-rendering-sucks"
+      ]
+    },
+    {
+      "file": "2023-12-11-escaping-dependency-hell.md",
+      "url": "/blog/2023/escaping-dependency-hell/",
+      "title": "Escaping Dependency Hell: An Introduction to Devcontainers",
+      "tags": [
+        "WSL",
+        "MLOps",
+        "Devcontainers"
+      ],
+      "figures": [
+        {
+          "path": "assets/img/posts/2023-12-13-escaping-dependency-hell/architecture-containers.png",
+          "caption": "Figure 1 - Architecture of devcontainers in VSCode.<br>Source: https://code.visualstudio.com/docs/devcontainers/containers",
+          "zoomable": "true"
+        }
+      ],
+      "code": [
+        "{\n\t\"name\": \"scrapest\",\n\t\"build\": {\n\t\t\"dockerfile\": \"Dockerfile\"\n\t},\n\t\"postCreateCommand\": \"make install\",\n}\n",
+        "FROM mcr.microsoft.com/devcontainers/python:1-3.9-buster\n\nRUN sudo apt update && \\\n    wget <https://github.com/mozilla/geckodriver/releases/download/v0.33.0/geckodriver-v0.33.0-linux64.tar.gz> && \\\n    tar -xvzf geckodriver* && \\\n    chmod +x geckodriver && \\\n    mv geckodriver /usr/local/bin/ && \\\n    sudo apt install -y \\\n    firefox-esr  \\\n    pip install poetry==1.5.0\n",
+        "{\n\t\"name\": \"scrapest\",\n\t\"build\": {\n\t\t\"dockerfile\": \"Dockerfile\"\n\t},\n\t\"postCreateCommand\": \"make install\",\n\t\"mounts\": [\n\t\t\"source=/mnt/wslg,target=/mnt/wslg,type=bind\"\n\t],\n\t\"containerEnv\": {\n\t\t\"PULSE_SERVER\": \"${localEnv:PULSE_SERVER}\"\n\t},\n}\n",
+        "if [ -z \"$SSH_AUTH_SOCK\" ]; then\n   # Check for a currently running instance of the agent\n   RUNNING_AGENT=\"`ps -ax | grep 'ssh-agent -s' | grep -v grep | wc -l | tr -d '[:space:]'`\"\n   if [ \"$RUNNING_AGENT\" = \"0\" ]; then\n        # Launch a new instance of the agent\n        ssh-agent -s &> $HOME/.ssh/ssh-agent\n   fi\n   { eval `cat $HOME/.ssh/ssh-agent`; ssh-add ~/.ssh/id_ed25519 >> /dev/null } &> /dev/null\nfi\n"
+      ],
+      "iframes": [],
+      "heading_ids": [
+        "1-introduction",
+        "2-what-are-devcontainers",
+        "3-why-devcontainers",
+        "4-how-do-devcontainers-compare",
+        "5-advantages-and-disadvantages-of-devcontainers",
+        "51-advantages",
+        "52-disadvantages",
+        "6-devcontainer-in-a-web-scraping-project",
+        "61-the-devcontainerjson-file",
+        "62-the-dockerfile",
+        "63-comparison-with-a-non-devcontainer-setup",
+        "7-using-devcontainers-in-vs-code",
+        "71-essential-commands-for-devcontainers",
+        "711-troubleshooting-common-errors",
+        "8-conclusion",
+        "appendix-a-devcontainers-and-wsl",
+        "apendix-b-how-do-devcontainers-really-compare"
+      ]
+    },
+    {
+      "file": "2025-03-27-ineffectiveness-of-ai-agents.md",
+      "url": "/blog/2025/ineffectiveness-of-ai-agents/",
+      "title": "The Unspoken Ineffectiveness of AI Agents",
+      "tags": [
+        "AI Agents",
+        "LLMs",
+        "GenAI"
+      ],
+      "figures": [],
+      "code": [],
+      "iframes": [],
+      "heading_ids": [
+        "1-introduction",
+        "2-you-put-ai-agents-in-production-and-then",
+        "3-the-autonomy-landscape",
+        "4-conclusion-agi-when",
+        "appendix-a-why-do-ai-multi-agent-frameworks-like-crewai-and-autogen-work"
+      ]
+    }
+  ],
+  "assets": {
+    "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/available-clusters-after-sync-kubeconfig-file.png": "61b67cca381903789794bc40365a7db54855341cdc4807553a64e1007afe4fe2",
+    "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-initial-screen-for-setup.png": "00e41063592368d98433e86adfaec0f7e7a6eab7a7f708d01a0caa0e3b742597",
+    "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-working-with-minikube.png": "74958fe8d1c0ee5fb3121915f81fd5422e27e953c0c8c6f9f28678cdebdac316",
+    "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-connection-error.png": "3fb9f8d532a5982da6db1356ea782ccddcfc3d639abce65f8f06556906083ab2",
+    "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-dashboard-print.png": "c961024d4d850894da749003be57433b247b833c012b177ebc37a7d905f32802",
+    "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/sync-kube-config.png": "0547ebcd3fcfc3dbe3b1628e1c239c49144a58c54a8c8f379d1fdaed5b4cd2ad",
+    "assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/cluster-configuration.png": "8b5348b6a3f5d3f3639cd6facad994ae6999a9d93e496bda02cc567f5ac4d591",
+    "assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/extracting-embeddings.png": "6861cdeff91bb14bfcf313d88aa83a9afa7881e6363be94aaa0d522eadadbdd9",
+    "assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/spark-cluster-overview.png": "02edec1332b65c7d9b096b008d19a9d39def39ecc41fbcff65252434a7affd01",
+    "assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/roles_on_data_pipeline.png": "f8b197943161ed7dee1f94f54aa40c68bdc6e8aa55271c2af10150504c66c0b6",
+    "assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_de_the_ds_and_the_mle.jpg": "adf0d8bc37eeeece52a842fe8474aa9163b99d2dc11acf958b7efb3ac1049fc2",
+    "assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_fsds_appears.jpg": "e0646f69345278ed67fc7aeb6561a147039a0b7f6dbc02ab5ed747c2acf58eb2",
+    "assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/veen_diagram.jpeg": "97c6f2eb174523c79505f98dba3ea36c12fc014f57ec83ddcc1e1ad36e7affc5",
+    "assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/beautifulsoup_serving_a_developer.png": "06769e08b0211d905e4ea73af7f9dd6753bdda7b22467cb14861c70c1fab8bdd",
+    "assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/selenium_automation.gif": "0babe8b2c39b9fae68125530df2e001a64833a274aade3f2fcc7e6e8ea3640fc",
+    "assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/selenium_vs_bs4_vs_scrapy.png": "7b43dc522e7dca7303e3eac1ff89e430ca809e96818a4e046d4f17fdf9abd06a",
+    "assets/img/posts/2023-12-13-escaping-dependency-hell/architecture-containers.png": "6cd2d8165a5ef06303795e59f5239fdc0d21c4c2a83c53d0caf2f56d9ccb2c3e",
+    "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/ai-agents-by-the-author.png": "672305c040c511885614a1880abd89d00bf157ed6565eb202d6f543b9d5c304e",
+    "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/chatbots-are-rl-agents.png": "7470b0932be05d3b2d1f7dedd6e85618aa12a89a852685430ca4638b2b28c098",
+    "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/example-llm-workflow.png": "fa9455754abacc3ce06a9f625d51d4a3bbd6ece86d6b72d604e0c160df208e04",
+    "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/first-ai-agents.png": "73fcb796e9226cb8fa03e6908dd2f57842826f1a0766b454e726fbba5c22b790",
+    "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/llm-as-router.png": "d75c42ec83494cd0d8e60ca5bdc5e95740e2ada6950a33fac7305dff8e720ccd",
+    "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/react-maw-wwhf.png": "17a1ca85e3680d9aac5747425920e1d775a4f6e04c462c036acaa116352b2781",
+    "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/the-autonomy-landscape.png": "1ad981b7a6097b994e64ca146dcd7cd48b4428aebce23f196104a4469e298b2c",
+    "assets/img/profile_picture.jpg": "428d7ca7d346fcaafaabfb31ef2f653fc54f93a358461859416d27de4a62d8e7",
+    "assets/img/favicon-32x32.png": "f88615e9b5eac48f08a11f5be902eb0ac13479099f088b96b259857c82d45336",
+    "assets/img/publication_preview/regional_modeling.jpg": "545eb79837beb6b455ace0be152c5d280a463dc67960e5ee680d4473a8b75a22",
+    "CNAME": "0961128c5db63e2ce7b8293cf65f32db95109203e0743dbc98a396d5676f1f04"
+  },
+  "aivq": {
+    "_pages/aivq-media-store-privacy.md": "c6f2870bf9255275d0298f8bf19beb65da3da5b95a63dcfc85671c88511caf51",
+    "_pages/aivq-media-store-terms.md": "bf4ac932a22606bef5b6f0dd52312313a052bf5a3215957f6d51692cc5286aa6",
+    "_pages/aivq-media-store.md": "893e338eda87edd24000dc2db1b0219d31dbf6e5f455dbe2e8f02cfcbdd9075c"
+  },
+  "retired_routes": [
+    "/_pages/dropdown/",
+    "/projects/1_project/",
+    "/projects/2_project/",
+    "/projects/3_project/",
+    "/projects/4_project/",
+    "/projects/5_project/",
+    "/projects/6_project/",
+    "/news/announcement_1/",
+    "/news/announcement_2/",
+    "/news/announcement_3/"
+  ]
+}

@@ -1,0 +1,470 @@
+{
+  "captured_on": "2026-10-05",
+  "source_baseline": "154712e",
+  "upstream_tag": "v1.2",
+  "production_candidate_status": "pending deployment",
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "before": {
+        "url": "https://romulodrumond.com/",
+        "image": "home-before.png",
+        "metrics": {
+          "brokenImages": [],
+          "codeButtons": 0,
+          "height": 960,
+          "iframes": [],
+          "imageCount": 1,
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 0,
+          "width": 1536
+        }
+      },
+      "after": {
+        "url": "http://localhost:4000/",
+        "image": "home-after.png",
+        "metrics": {
+          "brokenImages": [],
+          "codeButtons": 0,
+          "height": 960,
+          "iframes": [],
+          "imageCount": 1,
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 0,
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "blog",
+      "route": "/blog/",
+      "before": {
+        "url": "https://romulodrumond.com/blog/",
+        "image": "blog-before.png",
+        "metrics": {
+          "brokenImages": [],
+          "codeButtons": 0,
+          "height": 960,
+          "iframes": [],
+          "imageCount": 0,
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 0,
+          "width": 1536
+        }
+      },
+      "after": {
+        "url": "http://localhost:4000/blog/",
+        "image": "blog-after.png",
+        "metrics": {
+          "brokenImages": [],
+          "codeButtons": 0,
+          "height": 960,
+          "iframes": [],
+          "imageCount": 4,
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 0,
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "publications",
+      "route": "/publications/",
+      "before": {
+        "url": "https://romulodrumond.com/publications/",
+        "image": "publications-before.png",
+        "metrics": {
+          "brokenImages": [],
+          "codeButtons": 0,
+          "height": 960,
+          "iframes": [],
+          "imageCount": 1,
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 0,
+          "width": 1536
+        }
+      },
+      "after": {
+        "url": "http://localhost:4000/publications/",
+        "image": "publications-after.png",
+        "metrics": {
+          "brokenImages": [],
+          "codeButtons": 0,
+          "height": 960,
+          "iframes": [],
+          "imageCount": 1,
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 0,
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "repositories",
+      "route": "/repositories/",
+      "before": {
+        "url": "https://romulodrumond.com/repositories/",
+        "image": "repositories-before.png",
+        "metrics": {
+          "brokenImages": [],
+          "codeButtons": 0,
+          "height": 960,
+          "iframes": [],
+          "imageCount": 10,
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 0,
+          "width": 1536
+        }
+      },
+      "after": {
+        "url": "http://localhost:4000/repositories/",
+        "image": "repositories-after.png",
+        "metrics": {
+          "brokenImages": [],
+          "codeButtons": 0,
+          "height": 960,
+          "iframes": [],
+          "imageCount": 10,
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 0,
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "2022-04-30-welcome-post",
+      "route": "/blog/2022/welcome-post/",
+      "before": {
+        "url": "https://romulodrumond.com/blog/2022/welcome-post/",
+        "image": "2022-04-30-welcome-post-before.png",
+        "metrics": {
+          "brokenImages": [],
+          "codeButtons": 0,
+          "height": 960,
+          "iframes": [
+            "https://pointerpointer.com/"
+          ],
+          "imageCount": 1,
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 0,
+          "width": 1536
+        }
+      },
+      "after": {
+        "url": "http://localhost:4000/blog/2022/welcome-post/",
+        "image": "2022-04-30-welcome-post-after.png",
+        "metrics": {
+          "brokenImages": [],
+          "codeButtons": 0,
+          "height": 960,
+          "iframes": [
+            "https://pointerpointer.com/"
+          ],
+          "imageCount": 1,
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 0,
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "2022-08-29-setting-up-docker-on-wsl2",
+      "route": "/blog/2022/setting-up-docker-on-wsl2/",
+      "before": {
+        "url": "https://romulodrumond.com/blog/2022/setting-up-docker-on-wsl2/",
+        "image": "2022-08-29-setting-up-docker-on-wsl2-before.png",
+        "metrics": {
+          "brokenImages": [],
+          "codeButtons": 0,
+          "height": 960,
+          "iframes": [
+            "https://www.youtube.com/embed/MrZolfGm8Zk",
+            "https://www.youtube.com/embed/0qotVMX-J5s",
+            "https://www.youtube.com/embed/ymtq8yjmD9I",
+            "https://www.youtube.com/embed/nnndxbr_Xq4"
+          ],
+          "imageCount": 0,
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 0,
+          "width": 1536
+        }
+      },
+      "after": {
+        "url": "http://localhost:4000/blog/2022/setting-up-docker-on-wsl2/",
+        "image": "2022-08-29-setting-up-docker-on-wsl2-after.png",
+        "metrics": {
+          "brokenImages": [],
+          "codeButtons": 4,
+          "height": 960,
+          "iframes": [
+            "https://www.youtube.com/embed/MrZolfGm8Zk",
+            "https://www.youtube.com/embed/0qotVMX-J5s",
+            "https://www.youtube.com/embed/ymtq8yjmD9I",
+            "https://www.youtube.com/embed/nnndxbr_Xq4"
+          ],
+          "imageCount": 0,
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 3,
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl",
+      "route": "/blog/2022/using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/",
+      "before": {
+        "url": "https://romulodrumond.com/blog/2022/using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/",
+        "image": "2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl-before.png",
+        "metrics": {
+          "brokenImages": [],
+          "codeButtons": 0,
+          "height": 960,
+          "iframes": [
+            "https://www.youtube.com/embed/eeDwdVXattc",
+            "https://www.youtube.com/embed/E2pP1MOfo3g"
+          ],
+          "imageCount": 8,
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 0,
+          "width": 1536
+        }
+      },
+      "after": {
+        "url": "http://localhost:4000/blog/2022/using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/",
+        "image": "2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl-after.png",
+        "metrics": {
+          "brokenImages": [],
+          "codeButtons": 12,
+          "height": 960,
+          "iframes": [
+            "https://www.youtube.com/embed/eeDwdVXattc",
+            "https://www.youtube.com/embed/E2pP1MOfo3g"
+          ],
+          "imageCount": 8,
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 5,
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark",
+      "route": "/blog/2022/fast-distributed-inference-with-deep-learning-models-on-spark/",
+      "before": {
+        "url": "https://romulodrumond.com/blog/2022/fast-distributed-inference-with-deep-learning-models-on-spark/",
+        "image": "2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark-before.png",
+        "metrics": {
+          "brokenImages": [],
+          "codeButtons": 0,
+          "height": 960,
+          "iframes": [],
+          "imageCount": 3,
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 0,
+          "width": 1536
+        }
+      },
+      "after": {
+        "url": "http://localhost:4000/blog/2022/fast-distributed-inference-with-deep-learning-models-on-spark/",
+        "image": "2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark-after.png",
+        "metrics": {
+          "brokenImages": [],
+          "codeButtons": 1,
+          "height": 960,
+          "iframes": [],
+          "imageCount": 3,
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 0,
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "2022-12-05-dealing-with-data-in-ml-projects-that-go-to-production",
+      "route": "/blog/2022/dealing-with-data-in-ml-projects-that-go-to-production/",
+      "before": {
+        "url": "https://romulodrumond.com/blog/2022/dealing-with-data-in-ml-projects-that-go-to-production/",
+        "image": "2022-12-05-dealing-with-data-in-ml-projects-that-go-to-production-before.png",
+        "metrics": {
+          "brokenImages": [],
+          "codeButtons": 0,
+          "height": 960,
+          "iframes": [],
+          "imageCount": 14,
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 0,
+          "width": 1536
+        }
+      },
+      "after": {
+        "url": "http://localhost:4000/blog/2022/dealing-with-data-in-ml-projects-that-go-to-production/",
+        "image": "2022-12-05-dealing-with-data-in-ml-projects-that-go-to-production-after.png",
+        "metrics": {
+          "brokenImages": [],
+          "codeButtons": 0,
+          "height": 960,
+          "iframes": [],
+          "imageCount": 14,
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 8,
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "2023-10-06-finishing-my-data-career-masterplan",
+      "route": "/blog/2023/finishing-my-data-career-masterplan/",
+      "before": {
+        "url": "https://romulodrumond.com/blog/2023/finishing-my-data-career-masterplan/",
+        "image": "2023-10-06-finishing-my-data-career-masterplan-before.png",
+        "metrics": {
+          "brokenImages": [],
+          "codeButtons": 0,
+          "height": 960,
+          "iframes": [],
+          "imageCount": 4,
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 0,
+          "width": 1536
+        }
+      },
+      "after": {
+        "url": "http://localhost:4000/blog/2023/finishing-my-data-career-masterplan/",
+        "image": "2023-10-06-finishing-my-data-career-masterplan-after.png",
+        "metrics": {
+          "brokenImages": [],
+          "codeButtons": 0,
+          "height": 960,
+          "iframes": [],
+          "imageCount": 4,
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 8,
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "2023-12-06-navigating-the-web-with-python",
+      "route": "/blog/2023/navigating-the-web-with-python/",
+      "before": {
+        "url": "https://romulodrumond.com/blog/2023/navigating-the-web-with-python/",
+        "image": "2023-12-06-navigating-the-web-with-python-before.png",
+        "metrics": {
+          "brokenImages": [],
+          "codeButtons": 0,
+          "height": 960,
+          "iframes": [],
+          "imageCount": 3,
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 0,
+          "width": 1536
+        }
+      },
+      "after": {
+        "url": "http://localhost:4000/blog/2023/navigating-the-web-with-python/",
+        "image": "2023-12-06-navigating-the-web-with-python-after.png",
+        "metrics": {
+          "brokenImages": [],
+          "codeButtons": 3,
+          "height": 960,
+          "iframes": [],
+          "imageCount": 3,
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 9,
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "2023-12-11-escaping-dependency-hell",
+      "route": "/blog/2023/escaping-dependency-hell/",
+      "before": {
+        "url": "https://romulodrumond.com/blog/2023/escaping-dependency-hell/",
+        "image": "2023-12-11-escaping-dependency-hell-before.png",
+        "metrics": {
+          "brokenImages": [],
+          "codeButtons": 0,
+          "height": 960,
+          "iframes": [],
+          "imageCount": 1,
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 0,
+          "width": 1536
+        }
+      },
+      "after": {
+        "url": "http://localhost:4000/blog/2023/escaping-dependency-hell/",
+        "image": "2023-12-11-escaping-dependency-hell-after.png",
+        "metrics": {
+          "brokenImages": [],
+          "codeButtons": 4,
+          "height": 960,
+          "iframes": [],
+          "imageCount": 1,
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 16,
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "2025-03-27-ineffectiveness-of-ai-agents",
+      "route": "/blog/2025/ineffectiveness-of-ai-agents/",
+      "before": {
+        "url": "https://romulodrumond.com/blog/2025/ineffectiveness-of-ai-agents/",
+        "image": "2025-03-27-ineffectiveness-of-ai-agents-before.png",
+        "metrics": {
+          "brokenImages": [],
+          "codeButtons": 0,
+          "height": 960,
+          "iframes": [],
+          "imageCount": 7,
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 0,
+          "width": 1536
+        }
+      },
+      "after": {
+        "url": "http://localhost:4000/blog/2025/ineffectiveness-of-ai-agents/",
+        "image": "2025-03-27-ineffectiveness-of-ai-agents-after.png",
+        "metrics": {
+          "brokenImages": [],
+          "codeButtons": 0,
+          "height": 960,
+          "iframes": [],
+          "imageCount": 7,
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 5,
+          "width": 1536
+        }
+      }
+    }
+  ]
+}

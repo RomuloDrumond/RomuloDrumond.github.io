@@ -1,0 +1,8 @@
+Migration checks passed (1939 assertions): routes, content, images, code, embeds, canonicals, feed, archives, AIVQ, search and local links.
+Upgrade audit complete. Blocking: 0, Non-blocking: 0.
+Report: al-folio-upgrade-report.md
+Detected 1 local override(s):
+- _layouts/default.liquid: acknowledged (al_folio_core 1.0.15, upstream _layouts/default.liquid)
+Acknowledgement file: .al-folio-overrides.yml
+upgrade cli integration checks passed
+actionlint: passed

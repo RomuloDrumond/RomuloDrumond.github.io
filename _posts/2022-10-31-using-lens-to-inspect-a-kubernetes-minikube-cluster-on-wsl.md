@@ -4,18 +4,13 @@ title: "Using Lens to inspect a Kubernetes minikube cluster on WSL"
 date: 2022-10-31 04:00:00
 description: Learn how to use Lens to see K8s clusters on WSL
 tags: ['Kubernetes', 'WSL']
+toc:
+  sidebar: left
 ---
 
+## 1. A bit of context
 
-- [1. A bit of context](#1-a-bit-of-context)
-  - [1.1 Lens](#11-lens)
-  - [1.2 Minikube](#12-minikube)
-  - [1.3 WSL](#13-wsl)
-- [2. Using Lens to inspect a Kubernetes minikube cluster on WSL](#2-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl)
-
-# 1. A bit of context
-
-## 1.1 Lens
+### 1.1 Lens
 
 [Lens](https://k8slens.dev/) is like a [Kubernetes (K8s)](https://kubernetes.io/) IDE, with the app you can monitor and interact with K8s clusters using a graphical user interface (GUI). See Video 1 for an intro on that desktop app.
 
@@ -29,7 +24,7 @@ Video 1 - Introduction to Lens.
 
 In the context of this tutorial, we installed Lens on Windows 11.
 
-## 1.2 Minikube
+### 1.2 Minikube
 
 [Minikube](https://minikube.sigs.k8s.io/docs/start/) is an easy way to have a local K8s cluster running on your computer, all you need is Docker container or some similar tool, and [kubectl](https://kubernetes.io/docs/reference/kubectl/kubectl/). For a quick intro to this tool check Video 2.
 
@@ -172,19 +167,19 @@ multinode3-m03   Ready    <none>          3m53s   v1.25.0
 
 Note: Although is possible to run this multi-node test locally it is difficult to work on a modest machine now that we have 3 containers each expecting 2 CPUs and 2 Gb of RAM :disappointed:.
 
-## 1.3 WSL
+### 1.3 WSL
 
 I've made a quick intro about it on an [older post]({% post_url 2022-08-29-setting-up-docker-on-wsl2 %}), but you can go straight to this quick [video intro](https://www.youtube.com/watch?v=MrZolfGm8Zk&ab_channel=MicrosoftDeveloper). Basically, WSL is a tool to have a Linux developer environment on your Windows PC.
 
 ---
 
-# 2. Using Lens to inspect a Kubernetes minikube cluster on WSL
+## 2. Using Lens to inspect a Kubernetes minikube cluster on WSL
 
 *Wait! Couldn't I just use `minikube dashboard` instead?*
 
 Yes, minikube comes with a dashboard (see Figure 1) so you can look up your local K8s cluster and interact with it, but **the idea of using Lens is to have the same tool for interacting with the local cluster and with a production cluster in a cloud provider**.
 
-{% include figure.html path="assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-dashboard-print.png" class="img-fluid rounded z-depth-1" zoomable=true caption="Figure 1 - Minikube's dashboard example."%}
+{% include figure.liquid width="auto" path="assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-dashboard-print.png" class="img-fluid rounded z-depth-1" zoomable=true caption="Figure 1 - Minikube's dashboard example."%}
 
 <p style="margin-bottom:0;">
     First, check if your cluster is running with <code>minikube status</code> command, if no cluster is running you can spin one up with the <code>minikube start</code> command.
@@ -216,18 +211,18 @@ kubelet: Running
 
 If you still don't have it, download and install [Lens](https://k8slens.dev/). Start it and go the the "Cluster" tab as shown by the left arrow in Figure 2 and then click on the plus sign pointed by the right arrow. Figure 3 shows the possible ways to add clusters to Lens.
 
-{% include figure.html path="assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-initial-screen-for-setup.png" class="img-fluid rounded z-depth-1" zoomable=true caption="Figure 2 - Cluster tab on Lens."%}
+{% include figure.liquid width="auto" path="assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-initial-screen-for-setup.png" class="img-fluid rounded z-depth-1" zoomable=true caption="Figure 2 - Cluster tab on Lens."%}
 
 <div style="text-align: center">
-    {% include figure.html path="assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/sync-kube-config.png" class="img-fluid rounded z-depth-1" zoomable=true width="30%" caption="Figure 3 - Lens options for adding clusters."%}
+    {% include figure.liquid path="assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/sync-kube-config.png" class="img-fluid rounded z-depth-1" zoomable=true width="30%" caption="Figure 3 - Lens options for adding clusters."%}
 </div>
 
 Here comes the problem, you may want to sync the kubeconfig file that you can find in a path like this: `\\wsl.localhost\Ubuntu-20.04\home\romulo\.kube\config` when using the first option shown in Figure 3. You shall end up with a list of clusters similar to Figure 4, where in my case I can easily access the second one, a K8s cluster on Azure. The problem lies when trying to access the minikube one, the error in Figure 5 is raised.
 
-{% include figure.html path="assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/available-clusters-after-sync-kubeconfig-file.png" class="img-fluid rounded z-depth-1" zoomable=true caption="Figure 4 - Lens list of available clusters after syncing kubeconfig file."%}
+{% include figure.liquid width="auto" path="assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/available-clusters-after-sync-kubeconfig-file.png" class="img-fluid rounded z-depth-1" zoomable=true caption="Figure 4 - Lens list of available clusters after syncing kubeconfig file."%}
 
 
-{% include figure.html path="assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-connection-error.png" class="img-fluid rounded z-depth-1" zoomable=true caption="Figure 5 - Error while trying to access a minikube cluster with Lens."%}
+{% include figure.liquid width="auto" path="assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-connection-error.png" class="img-fluid rounded z-depth-1" zoomable=true caption="Figure 5 - Error while trying to access a minikube cluster with Lens."%}
 <details><summary>(click to expand) <strong>Full error</strong></summary>
 {% highlight bash %}
 F1027 17:47:49.413105 54440 main.go:74] failed to initialize kubeconfiginvalid configuration: [unable to read client-cert \\wsl.localhost\Ubuntu-20.04\home\romulo\.kube\home\romulo\.minikube\profiles\multinode3\client.crt for multinode3 due to open \\wsl.localhost\Ubuntu-20.04\home\romulo\.kube\home\romulo\.minikube\profiles\multinode3\client.crt: The system cannot find the path specified., unable to read client-key \\wsl.localhost\Ubuntu-20.04\home\romulo\.kube\home\romulo\.minikube\profiles\multinode3\client.key for multinode3 due to open \\wsl.localhost\Ubuntu-20.04\home\romulo\.kube\home\romulo\.minikube\profiles\multinode3\client.key: The system cannot find the path specified., unable to read certificate-authority \\wsl.localhost\Ubuntu-20.04\home\romulo\.kube\home\romulo\.minikube\ca.crt for multinode3 due to open \\wsl.localhost\Ubuntu-20.04\home\romulo\.kube\home\romulo\.minikube\ca.crt: The system cannot find the path specified.]

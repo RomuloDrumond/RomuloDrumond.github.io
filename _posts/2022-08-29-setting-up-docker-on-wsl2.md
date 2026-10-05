@@ -4,12 +4,11 @@ title: "Setting up Docker on WSL2"
 date: 2022-08-29 04:00:00
 description: Quick tutorial to ease up using Docker on WSL without Docker Desktop
 tags: ['WSL']
+toc:
+  sidebar: left
 ---
-- [1. A bit of context](#1-a-bit-of-context)
-- [2. Setting up Docker on WSL2](#2-setting-up-docker-on-wsl2)
-- [3. Bonus](#3-bonus)
 
-# 1. A bit of context
+## 1. A bit of context
 
 So, it has been a journey to use a Windows 11 machine again and leave Linux behind (used mostly Ubuntu in my dev/machine learning experience). Although in the beginning, the Windows Subsystem for Linux (WSL) had many problems, today it is in a useable state (all the engineering team I work on uses Windows with WSL and we all develop in "Linux"). If you don't know the tool or maybe dismissed it in the past I advise you to give it a try, just go to the [Microsoft docs](https://docs.microsoft.com/en-us/windows/wsl/about). PS: Today you can even lunch Linux applications that have UI ([link](https://docs.microsoft.com/en-us/windows/wsl/tutorials/gui-apps)).
 
@@ -44,7 +43,7 @@ Video 4: A good intro to Dask.
 </p>
 
 
-# 2. Setting up Docker on WSL2
+## 2. Setting up Docker on WSL2
 
 If you can/plan to use [Docker Desktop](https://www.docker.com/products/docker-desktop/) on Windows to manage your containers, it is pretty straightforward, just follow this [tutorial](https://docs.docker.com/desktop/windows/wsl/). But, be aware that Docker Desktop is changing its [license agreement](https://docs.docker.com/subscription/#docker-desktop-license-agreement) and you become paid for large organizations, although the docker engine will remain free.
 
@@ -79,7 +78,7 @@ command="service docker start"
 
 That's it! Docker will be ready to run every time you start WSL.
 
-# 3. Bonus
+## 3. Bonus
 
 You can add more commands to start services at WSL startup, as an example, you could add cron:
 
