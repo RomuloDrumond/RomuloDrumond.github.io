@@ -1,0 +1,7 @@
+# Used only by `make preview`; production keeps its original domain and empty baseurl.
+# GitHub project Pages inherit the account site's custom domain.
+url: https://romulodrumond.com
+baseurl: /blog-v12-preview
+keep_files:
+  - .nojekyll
+disqus_shortname: ''

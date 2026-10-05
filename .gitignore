@@ -1,6 +1,7 @@
 .vscode
 
 _site
+_preview
 .bundle
 .sass-cache
 .jekyll-cache

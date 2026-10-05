@@ -137,6 +137,8 @@ exclude:
 - migrations/
 - vendor
 - test/
+- script/
+- _preview/
 - Makefile
 - ".al-folio-overrides.yml"
 keep_files:
