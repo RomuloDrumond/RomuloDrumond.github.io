@@ -1,10 +1,14 @@
 # Before/after validation
 
-Local candidate: **passed**. Production candidate: **pending deployment**.
+Local candidate: **passed**. Production deployment and validation: **passed**.
+
+The migration is live at <https://romulodrumond.com/>. See the
+[production report](PRODUCTION_DEPLOYMENT.md) and
+[original/local-versus-production gallery](production-screenshots/index.html).
 
 Isolated GitHub Pages preview: **passed**. See the [deployment report](PREVIEW_DEPLOYMENT.md)
 and [24-pair local-versus-deployed gallery](deployment-screenshots/index.html).
-The production root remains unchanged; the post-cutover check below is still pending.
+This earlier isolated test preceded the authorized production deployment. Its evidence is retained separately.
 
 Open the [interactive screenshot gallery](migration-screenshots/index.html), or serve it locally:
 
@@ -16,7 +20,7 @@ The gallery is then at <http://localhost:4001>. The working site preview is at <
 
 ## Capture scope
 
-The 13 desktop pairs cover home, blog, publications, repositories and all nine authored posts. Before images are from the current personal site at `https://romulodrumond.com`; after images are from the actual local production build of this branch, with the same personal content. These are not upstream demo screenshots. Capture date: October 5, 2026.
+The 13 desktop pairs cover home, blog, publications, repositories and all nine authored posts. Before images are from the original personal site before migration at `https://romulodrumond.com`; after images are from the actual local production build of this branch, with the same personal content. These are not upstream demo screenshots. Capture date: October 5, 2026.
 
 Both sides use the shared browser's measured 1536 × 960 CSS-pixel viewport; its saved PNGs are 1280 × 800. The [capture manifest](migration-screenshots/captures.json) records routes, dimensions, image-load results, code-control counts and TOC counts. Native viewport resizing repeatedly timed out, so mobile checks used a real 390 × 844 CSS-pixel same-origin iframe in the same browser. This exercises actual responsive media queries; the viewport harness exists only in browser memory and is not part of the site. Mobile screenshots show that narrow viewport within the browser's outer frame.
 
@@ -36,14 +40,15 @@ The nine articles and four main pages were checked at mobile width. All images d
 
 The [validation log](migration-screenshots/checks.txt) records 1,939 preservation assertions, clean upstream migration/override audits, the upstream upgrade CLI smoke test and workflow lint. All nine article bodies were also compared with the original sources after accounting for figure API changes, heading levels and removed manual contents lists; no prose or code edits were found.
 
-## Repeat on the real URL after deployment
+## Production verification completed
 
-No deployment or merge has been performed. Production validation must run **after this candidate is actually published**, rather than checking the old live site and treating it as the candidate.
+The authorized production release is `db4f371`, with Pages output `c72768e`. The
+production workflow and Pages publication both succeeded. All 249 public files
+match the downloaded production artifact byte for byte. The full follow-up is in
+[PRODUCTION_DEPLOYMENT.md](PRODUCTION_DEPLOYMENT.md), including 24 local/production
+screenshot pairs, 13 original/production comparisons, native mobile checks,
+metadata checks, color-managed image comparisons and remaining limits.
 
-1. Confirm that the deployed output corresponds to the reviewed branch. One quick marker is `/assets/css/custom.css`; its SHA256 for this candidate is `d8ff4ab5af5f6287f40d62b9c857fcbcd30ce87feaa773790c80231cf56a4e2c`.
-2. Capture every route in `captures.json` on `https://romulodrumond.com` at the recorded desktop and mobile widths. Keep the existing “before” PNGs as the original baseline. Compare both original→deployed and local-candidate→deployed.
-3. Repeat the focused home/blog/menu, light/dark table, code-copy, sidebar/progress, search, GIF/zoom, publication and repository checks. Wait for fonts and images to finish loading before saving full screenshots.
-4. Check all article URLs, feed, pagination, year/tag archives and all three AIVQ routes over HTTPS. Inspect the robots tags, canonical URLs, sitemap and inline `ninja.data` search payload. Confirm `CNAME`/custom-domain resolution and that no demo content appears.
-5. Record the deployed revision, capture date, screenshots and any differences in a separate `deployed/` evidence folder. Update this document's production status only after those checks pass.
-
-The Docker image and Linux CI were not executed locally. External iframe playback and repository-card availability remain dependent on their third-party services. Desktop and mobile screenshot validation cannot substitute for a production-hosting check; that is why the production pass remains explicitly pending.
+The earlier local/preview evidence above remains historical. Production clipboard
+read-back is restricted by browser focus; Docker/devcontainer execution remains
+untested. External embeds and repository cards depend on their providers.

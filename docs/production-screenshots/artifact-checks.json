@@ -1,0 +1,2248 @@
+{
+  "source_revision": "db4f37174e4fc6c31c51fd2978a4d879e71ea36a",
+  "artifact_id": 11384441537,
+  "artifact_contains_nojekyll": true,
+  "files": [
+    {
+      "path": "feed.xml",
+      "route": "/feed.xml",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "889f6e5caf1c2a42780cc5bb4290b6669ab5c873b693a29394aa07af785e96f3",
+      "artifact_sha256": "889f6e5caf1c2a42780cc5bb4290b6669ab5c873b693a29394aa07af785e96f3",
+      "url": "https://romulodrumond.com/feed.xml"
+    },
+    {
+      "path": "index.html",
+      "route": "/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "84809105097ccca47d5c76db0e93ad877371953a089dca43fd43a009c1295f3f",
+      "artifact_sha256": "84809105097ccca47d5c76db0e93ad877371953a089dca43fd43a009c1295f3f",
+      "url": "https://romulodrumond.com/"
+    },
+    {
+      "path": "requirements.txt",
+      "route": "/requirements.txt",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "6e06a4e65d9088add013f08c6879c22c59613aff2a355ecc12f3a1796b843a46",
+      "artifact_sha256": "6e06a4e65d9088add013f08c6879c22c59613aff2a355ecc12f3a1796b843a46",
+      "url": "https://romulodrumond.com/requirements.txt"
+    },
+    {
+      "path": "CNAME",
+      "route": "/CNAME",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "0961128c5db63e2ce7b8293cf65f32db95109203e0743dbc98a396d5676f1f04",
+      "artifact_sha256": "0961128c5db63e2ce7b8293cf65f32db95109203e0743dbc98a396d5676f1f04",
+      "url": "https://romulodrumond.com/CNAME"
+    },
+    {
+      "path": "404.html",
+      "route": "/404.html",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "38c28cb3f6737bccb87384f1e4e991596c3ac0bd85b35b6e0edd295971750bf4",
+      "artifact_sha256": "38c28cb3f6737bccb87384f1e4e991596c3ac0bd85b35b6e0edd295971750bf4",
+      "url": "https://romulodrumond.com/404.html"
+    },
+    {
+      "path": "sitemap.xml",
+      "route": "/sitemap.xml",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "b39305c489fd8e61abcc79ed5d732659c23fbd32df457a6577f1f962f6fa795f",
+      "artifact_sha256": "b39305c489fd8e61abcc79ed5d732659c23fbd32df457a6577f1f962f6fa795f",
+      "url": "https://romulodrumond.com/sitemap.xml"
+    },
+    {
+      "path": "robots.txt",
+      "route": "/robots.txt",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "1f94dec3a2573e77f89705bccb2a4c91ca698afb302dcf2c4b0fb00db951cc0e",
+      "artifact_sha256": "1f94dec3a2573e77f89705bccb2a4c91ca698afb302dcf2c4b0fb00db951cc0e",
+      "url": "https://romulodrumond.com/robots.txt"
+    },
+    {
+      "path": "aivq-media-store/index.html",
+      "route": "/aivq-media-store/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "e84180158dce6357d856053a1e2224853e8bd62dffa9e5d7753d5ba774f122e5",
+      "artifact_sha256": "e84180158dce6357d856053a1e2224853e8bd62dffa9e5d7753d5ba774f122e5",
+      "url": "https://romulodrumond.com/aivq-media-store/"
+    },
+    {
+      "path": "publications/index.html",
+      "route": "/publications/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "3ec4f6b228715d7a29aa5b00a59d124d40dfc255b36a97c25a859a5e10cd3a60",
+      "artifact_sha256": "3ec4f6b228715d7a29aa5b00a59d124d40dfc255b36a97c25a859a5e10cd3a60",
+      "url": "https://romulodrumond.com/publications/"
+    },
+    {
+      "path": "projects/index.html",
+      "route": "/projects/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "957df46b22816d76f4250e35610f4cd9582934792828d1738e175633a9a1670c",
+      "artifact_sha256": "957df46b22816d76f4250e35610f4cd9582934792828d1738e175633a9a1670c",
+      "url": "https://romulodrumond.com/projects/"
+    },
+    {
+      "path": "repositories/index.html",
+      "route": "/repositories/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "cafe3789ff8c33d92d7a20a9df63d2dd4650056cb0a53887d8595a01a31bf445",
+      "artifact_sha256": "cafe3789ff8c33d92d7a20a9df63d2dd4650056cb0a53887d8595a01a31bf445",
+      "url": "https://romulodrumond.com/repositories/"
+    },
+    {
+      "path": "blog/index.html",
+      "route": "/blog/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "be7cf152932a01acfb76fb420b229ee2be17be8cd8b97a4b55df5e8c7427d911",
+      "artifact_sha256": "be7cf152932a01acfb76fb420b229ee2be17be8cd8b97a4b55df5e8c7427d911",
+      "url": "https://romulodrumond.com/blog/"
+    },
+    {
+      "path": "teaching/index.html",
+      "route": "/teaching/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "1a553147c273c5b8dec447a26896902380016c821187b9cd59560b2b02a0c59c",
+      "artifact_sha256": "1a553147c273c5b8dec447a26896902380016c821187b9cd59560b2b02a0c59c",
+      "url": "https://romulodrumond.com/teaching/"
+    },
+    {
+      "path": "cv/index.html",
+      "route": "/cv/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "0564d7d2602f20098730a2d90aaa33331ce296528f2f090264e7bd5890d0b404",
+      "artifact_sha256": "0564d7d2602f20098730a2d90aaa33331ce296528f2f090264e7bd5890d0b404",
+      "url": "https://romulodrumond.com/cv/"
+    },
+    {
+      "path": "aivq-media-store/privacy/index.html",
+      "route": "/aivq-media-store/privacy/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "202a07f1f98301468866ae09f651076c46e39382a4132bd2401c863bc6b44d56",
+      "artifact_sha256": "202a07f1f98301468866ae09f651076c46e39382a4132bd2401c863bc6b44d56",
+      "url": "https://romulodrumond.com/aivq-media-store/privacy/"
+    },
+    {
+      "path": "aivq-media-store/terms/index.html",
+      "route": "/aivq-media-store/terms/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "a3fc3e322643e203954b3c487b53be1fd493ee4d8cfc133206f7250c7c9c896e",
+      "artifact_sha256": "a3fc3e322643e203954b3c487b53be1fd493ee4d8cfc133206f7250c7c9c896e",
+      "url": "https://romulodrumond.com/aivq-media-store/terms/"
+    },
+    {
+      "path": "sheditor/privacy/index.html",
+      "route": "/sheditor/privacy/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "5754c6f9306a2d175d71e7ae18d2707796f0be212143b5423c32c04c9b73d04f",
+      "artifact_sha256": "5754c6f9306a2d175d71e7ae18d2707796f0be212143b5423c32c04c9b73d04f",
+      "url": "https://romulodrumond.com/sheditor/privacy/"
+    },
+    {
+      "path": "projects/6_project/index.html",
+      "route": "/projects/6_project/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "e3d88d02e51b0df853b72a37cab0fec75d825fb1bb0611e33144a1761dde3f23",
+      "artifact_sha256": "e3d88d02e51b0df853b72a37cab0fec75d825fb1bb0611e33144a1761dde3f23",
+      "url": "https://romulodrumond.com/projects/6_project/"
+    },
+    {
+      "path": "projects/5_project/index.html",
+      "route": "/projects/5_project/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "7e423a6eab98a4d640085f01625c7f6e60c457ad8c2a037b1902dc681b2e560f",
+      "artifact_sha256": "7e423a6eab98a4d640085f01625c7f6e60c457ad8c2a037b1902dc681b2e560f",
+      "url": "https://romulodrumond.com/projects/5_project/"
+    },
+    {
+      "path": "projects/4_project/index.html",
+      "route": "/projects/4_project/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "41c61c3b6b3200cd87788ece45cb3d481278c54de6fee8784af61e545dea9f6a",
+      "artifact_sha256": "41c61c3b6b3200cd87788ece45cb3d481278c54de6fee8784af61e545dea9f6a",
+      "url": "https://romulodrumond.com/projects/4_project/"
+    },
+    {
+      "path": "projects/1_project/index.html",
+      "route": "/projects/1_project/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "8aded77abe8028a95975cc277119cc5633cd735cc716acf7dceb7339f324aded",
+      "artifact_sha256": "8aded77abe8028a95975cc277119cc5633cd735cc716acf7dceb7339f324aded",
+      "url": "https://romulodrumond.com/projects/1_project/"
+    },
+    {
+      "path": "projects/2_project/index.html",
+      "route": "/projects/2_project/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "ce53aed7245e1264976424a6d38daef650919ea9fe12cb63ac50b3649a154c88",
+      "artifact_sha256": "ce53aed7245e1264976424a6d38daef650919ea9fe12cb63ac50b3649a154c88",
+      "url": "https://romulodrumond.com/projects/2_project/"
+    },
+    {
+      "path": "projects/3_project/index.html",
+      "route": "/projects/3_project/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "60483b33813e5e7a9747be241aa707cb69aaab97bb518dbbff2bb782970ef246",
+      "artifact_sha256": "60483b33813e5e7a9747be241aa707cb69aaab97bb518dbbff2bb782970ef246",
+      "url": "https://romulodrumond.com/projects/3_project/"
+    },
+    {
+      "path": "blog/2022/index.html",
+      "route": "/blog/2022/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "81aa0ed01949f9c868a5e8d234187827e4ceb7dd55822ec9f47774c18cd57a7f",
+      "artifact_sha256": "81aa0ed01949f9c868a5e8d234187827e4ceb7dd55822ec9f47774c18cd57a7f",
+      "url": "https://romulodrumond.com/blog/2022/"
+    },
+    {
+      "path": "blog/2025/index.html",
+      "route": "/blog/2025/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "46a2571d343c970c57aa92f6bdf175d5bf62fd718bcef80eafcdc10bff165c08",
+      "artifact_sha256": "46a2571d343c970c57aa92f6bdf175d5bf62fd718bcef80eafcdc10bff165c08",
+      "url": "https://romulodrumond.com/blog/2025/"
+    },
+    {
+      "path": "blog/2023/index.html",
+      "route": "/blog/2023/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "ccde220ae0023e60cb719f9fea0e200f9adbf9629a9255a908295ab05c3c67c8",
+      "artifact_sha256": "ccde220ae0023e60cb719f9fea0e200f9adbf9629a9255a908295ab05c3c67c8",
+      "url": "https://romulodrumond.com/blog/2023/"
+    },
+    {
+      "path": "blog/2022/fast-distributed-inference-with-deep-learning-models-on-spark/index.html",
+      "route": "/blog/2022/fast-distributed-inference-with-deep-learning-models-on-spark/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "4f6476884d429af4fa25dc3a5561dedcb40a68ae9a70c8faf76a46a5d065e6f0",
+      "artifact_sha256": "4f6476884d429af4fa25dc3a5561dedcb40a68ae9a70c8faf76a46a5d065e6f0",
+      "url": "https://romulodrumond.com/blog/2022/fast-distributed-inference-with-deep-learning-models-on-spark/"
+    },
+    {
+      "path": "blog/2022/using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/index.html",
+      "route": "/blog/2022/using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "2a18d96c9b832144e5990c4d7c1b335acfdab23ffb9013a33dbfbc4b7f411070",
+      "artifact_sha256": "2a18d96c9b832144e5990c4d7c1b335acfdab23ffb9013a33dbfbc4b7f411070",
+      "url": "https://romulodrumond.com/blog/2022/using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/"
+    },
+    {
+      "path": "blog/2022/dealing-with-data-in-ml-projects-that-go-to-production/index.html",
+      "route": "/blog/2022/dealing-with-data-in-ml-projects-that-go-to-production/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "6c78e2d284ca87a4ec770d0d09200830a549576c759fc921b367d1bd88c9d612",
+      "artifact_sha256": "6c78e2d284ca87a4ec770d0d09200830a549576c759fc921b367d1bd88c9d612",
+      "url": "https://romulodrumond.com/blog/2022/dealing-with-data-in-ml-projects-that-go-to-production/"
+    },
+    {
+      "path": "blog/2022/setting-up-docker-on-wsl2/index.html",
+      "route": "/blog/2022/setting-up-docker-on-wsl2/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "edf151eed5050bcebfec96db00fbf6d4703b2646ae61232d0ac2deb9ccaf7eef",
+      "artifact_sha256": "edf151eed5050bcebfec96db00fbf6d4703b2646ae61232d0ac2deb9ccaf7eef",
+      "url": "https://romulodrumond.com/blog/2022/setting-up-docker-on-wsl2/"
+    },
+    {
+      "path": "blog/2022/welcome-post/index.html",
+      "route": "/blog/2022/welcome-post/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "12a0ec7bc3d659061a110572e05194256fb1d608ffc860dfe0d8d6659f4e6eba",
+      "artifact_sha256": "12a0ec7bc3d659061a110572e05194256fb1d608ffc860dfe0d8d6659f4e6eba",
+      "url": "https://romulodrumond.com/blog/2022/welcome-post/"
+    },
+    {
+      "path": "blog/2025/ineffectiveness-of-ai-agents/index.html",
+      "route": "/blog/2025/ineffectiveness-of-ai-agents/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "5b775e2a7f6018a30887307eea205510dfc19a3056c8c659b0181ba83f1dffb1",
+      "artifact_sha256": "5b775e2a7f6018a30887307eea205510dfc19a3056c8c659b0181ba83f1dffb1",
+      "url": "https://romulodrumond.com/blog/2025/ineffectiveness-of-ai-agents/"
+    },
+    {
+      "path": "blog/page/2/index.html",
+      "route": "/blog/page/2/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "097638298225498ac1575dd7234b5e54a460cfdcfa2d8632b36d1e13f62e9a2b",
+      "artifact_sha256": "097638298225498ac1575dd7234b5e54a460cfdcfa2d8632b36d1e13f62e9a2b",
+      "url": "https://romulodrumond.com/blog/page/2/"
+    },
+    {
+      "path": "blog/2023/escaping-dependency-hell/index.html",
+      "route": "/blog/2023/escaping-dependency-hell/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "4b52858ae9caf8c345774bba98fb538d5a6c1ed1e8d977e60d2d7d3f89fe33de",
+      "artifact_sha256": "4b52858ae9caf8c345774bba98fb538d5a6c1ed1e8d977e60d2d7d3f89fe33de",
+      "url": "https://romulodrumond.com/blog/2023/escaping-dependency-hell/"
+    },
+    {
+      "path": "blog/2023/navigating-the-web-with-python/index.html",
+      "route": "/blog/2023/navigating-the-web-with-python/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "88cbd940b587370425e93725941fee57fe99131009ebdc0646dbfc131f093356",
+      "artifact_sha256": "88cbd940b587370425e93725941fee57fe99131009ebdc0646dbfc131f093356",
+      "url": "https://romulodrumond.com/blog/2023/navigating-the-web-with-python/"
+    },
+    {
+      "path": "blog/2023/finishing-my-data-career-masterplan/index.html",
+      "route": "/blog/2023/finishing-my-data-career-masterplan/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "0b4c8a063ffa620e07a105399a6a59a0df203717f18e43c892896ed833e68e1f",
+      "artifact_sha256": "0b4c8a063ffa620e07a105399a6a59a0df203717f18e43c892896ed833e68e1f",
+      "url": "https://romulodrumond.com/blog/2023/finishing-my-data-career-masterplan/"
+    },
+    {
+      "path": "blog/tag/wsl/index.html",
+      "route": "/blog/tag/wsl/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "6f4a4dac0fd06a3920703fcaecf37e39926e495683f42b96195f63872ba75eed",
+      "artifact_sha256": "6f4a4dac0fd06a3920703fcaecf37e39926e495683f42b96195f63872ba75eed",
+      "url": "https://romulodrumond.com/blog/tag/wsl/"
+    },
+    {
+      "path": "blog/tag/career/index.html",
+      "route": "/blog/tag/career/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "d254f8dd3f3c17ec52990f436d8963572208464cb0f54f5484326cc871a1435f",
+      "artifact_sha256": "d254f8dd3f3c17ec52990f436d8963572208464cb0f54f5484326cc871a1435f",
+      "url": "https://romulodrumond.com/blog/tag/career/"
+    },
+    {
+      "path": "blog/tag/deep-learning/index.html",
+      "route": "/blog/tag/deep-learning/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "0bca485d6e1a7b1ca2fc4c5c796b6f2295538c1b6d8df2953a57cb42b734ab78",
+      "artifact_sha256": "0bca485d6e1a7b1ca2fc4c5c796b6f2295538c1b6d8df2953a57cb42b734ab78",
+      "url": "https://romulodrumond.com/blog/tag/deep-learning/"
+    },
+    {
+      "path": "blog/tag/devcontainers/index.html",
+      "route": "/blog/tag/devcontainers/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "a675c51b4e337a8aedb982af5ddfb68dcad3b0ab6646127ca21a4afdff232571",
+      "artifact_sha256": "a675c51b4e337a8aedb982af5ddfb68dcad3b0ab6646127ca21a4afdff232571",
+      "url": "https://romulodrumond.com/blog/tag/devcontainers/"
+    },
+    {
+      "path": "blog/tag/python/index.html",
+      "route": "/blog/tag/python/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "1525a9d0ac988d62faa4a3b5d552815bdaafb7171a5bd6a78a8d79374cd60cdb",
+      "artifact_sha256": "1525a9d0ac988d62faa4a3b5d552815bdaafb7171a5bd6a78a8d79374cd60cdb",
+      "url": "https://romulodrumond.com/blog/tag/python/"
+    },
+    {
+      "path": "blog/tag/mlops/index.html",
+      "route": "/blog/tag/mlops/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "ccb858269c195ba8397dbd93484030270c03d803252a229709ebe4dc37055681",
+      "artifact_sha256": "ccb858269c195ba8397dbd93484030270c03d803252a229709ebe4dc37055681",
+      "url": "https://romulodrumond.com/blog/tag/mlops/"
+    },
+    {
+      "path": "blog/tag/ai-agents/index.html",
+      "route": "/blog/tag/ai-agents/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "6f065ccea6d52af27cb5d72fafa1d00f8eefd5407f23085e6e913cdf6c1661e0",
+      "artifact_sha256": "6f065ccea6d52af27cb5d72fafa1d00f8eefd5407f23085e6e913cdf6c1661e0",
+      "url": "https://romulodrumond.com/blog/tag/ai-agents/"
+    },
+    {
+      "path": "blog/tag/web-automation/index.html",
+      "route": "/blog/tag/web-automation/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "ea1ba8e50becfeb688394137794740ffe643922fdeafcae8ab34ec877af375be",
+      "artifact_sha256": "ea1ba8e50becfeb688394137794740ffe643922fdeafcae8ab34ec877af375be",
+      "url": "https://romulodrumond.com/blog/tag/web-automation/"
+    },
+    {
+      "path": "blog/tag/web-scraping/index.html",
+      "route": "/blog/tag/web-scraping/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "a8f9d9031f47d3e85e9e8bd9bc65d50f574edc1b8671188b61f1c0a77ef29db8",
+      "artifact_sha256": "a8f9d9031f47d3e85e9e8bd9bc65d50f574edc1b8671188b61f1c0a77ef29db8",
+      "url": "https://romulodrumond.com/blog/tag/web-scraping/"
+    },
+    {
+      "path": "blog/tag/llms/index.html",
+      "route": "/blog/tag/llms/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "24af3e7eb725af0d192a097618a09fc9604af5aa94104e12c460565eb7872094",
+      "artifact_sha256": "24af3e7eb725af0d192a097618a09fc9604af5aa94104e12c460565eb7872094",
+      "url": "https://romulodrumond.com/blog/tag/llms/"
+    },
+    {
+      "path": "blog/tag/genai/index.html",
+      "route": "/blog/tag/genai/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "00be0264d17456e6da39947f5ba47cf464ffbee0d0d9f185f01db45d1908d5eb",
+      "artifact_sha256": "00be0264d17456e6da39947f5ba47cf464ffbee0d0d9f185f01db45d1908d5eb",
+      "url": "https://romulodrumond.com/blog/tag/genai/"
+    },
+    {
+      "path": "blog/tag/kubernetes/index.html",
+      "route": "/blog/tag/kubernetes/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "1dadb256f1fed83172dab07d2081c5b1b2435988c706f2b4dd44f2fbbed323d6",
+      "artifact_sha256": "1dadb256f1fed83172dab07d2081c5b1b2435988c706f2b4dd44f2fbbed323d6",
+      "url": "https://romulodrumond.com/blog/tag/kubernetes/"
+    },
+    {
+      "path": "blog/tag/spark/index.html",
+      "route": "/blog/tag/spark/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "c279e98bd5d2d12b1f4bdf15d5d61968429f067f4cb6ff7b44842e58229a9168",
+      "artifact_sha256": "c279e98bd5d2d12b1f4bdf15d5d61968429f067f4cb6ff7b44842e58229a9168",
+      "url": "https://romulodrumond.com/blog/tag/spark/"
+    },
+    {
+      "path": "_pages/dropdown/index.html",
+      "route": "/_pages/dropdown/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "24e375de1b2b5c4a1924a9b4ce2c3c097eadf8ca30c819daa051ca66c9ef4823",
+      "artifact_sha256": "24e375de1b2b5c4a1924a9b4ce2c3c097eadf8ca30c819daa051ca66c9ef4823",
+      "url": "https://romulodrumond.com/_pages/dropdown/"
+    },
+    {
+      "path": "news/announcement_1/index.html",
+      "route": "/news/announcement_1/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "b70cad86a644e7db189b38001bd13f2f99bd597a93469468c70dbde318b1ff6e",
+      "artifact_sha256": "b70cad86a644e7db189b38001bd13f2f99bd597a93469468c70dbde318b1ff6e",
+      "url": "https://romulodrumond.com/news/announcement_1/"
+    },
+    {
+      "path": "news/announcement_3/index.html",
+      "route": "/news/announcement_3/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "b4592f21d8e1bbebb20e33712385c5f197bda33fde463f7650b334930db0dbe8",
+      "artifact_sha256": "b4592f21d8e1bbebb20e33712385c5f197bda33fde463f7650b334930db0dbe8",
+      "url": "https://romulodrumond.com/news/announcement_3/"
+    },
+    {
+      "path": "news/announcement_2/index.html",
+      "route": "/news/announcement_2/",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "fddf1c03f6ea7f6e5d95b888e13e1ee886723350c85ef9d8738e12a2f1e8fc8e",
+      "artifact_sha256": "fddf1c03f6ea7f6e5d95b888e13e1ee886723350c85ef9d8738e12a2f1e8fc8e",
+      "url": "https://romulodrumond.com/news/announcement_2/"
+    },
+    {
+      "path": "assets/bibliography/2018-12-22-distill.bib",
+      "route": "/assets/bibliography/2018-12-22-distill.bib",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "900cea810093195e82387bb6b7cc484e35fbcf2310f3cbe9084c4b57bcc05e1a",
+      "artifact_sha256": "900cea810093195e82387bb6b7cc484e35fbcf2310f3cbe9084c4b57bcc05e1a",
+      "url": "https://romulodrumond.com/assets/bibliography/2018-12-22-distill.bib"
+    },
+    {
+      "path": "assets/css/jupyter.css",
+      "route": "/assets/css/jupyter.css",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "acfd318896a8536c22a99613c63e4fb68d686baf2a5fbf980701080c1897f3f6",
+      "artifact_sha256": "acfd318896a8536c22a99613c63e4fb68d686baf2a5fbf980701080c1897f3f6",
+      "url": "https://romulodrumond.com/assets/css/jupyter.css"
+    },
+    {
+      "path": "assets/css/al-folio-distill.css",
+      "route": "/assets/css/al-folio-distill.css",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "00d709ca496c53d42a1895e8998b8f211072d40af7a041a8c0be51085ae1beac",
+      "artifact_sha256": "00d709ca496c53d42a1895e8998b8f211072d40af7a041a8c0be51085ae1beac",
+      "url": "https://romulodrumond.com/assets/css/al-folio-distill.css"
+    },
+    {
+      "path": "assets/css/main.css.map",
+      "route": "/assets/css/main.css.map",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "4f8aa6cf798d2e0b39c3702a19275cd262f1b2eb1bcbe9bf22f27ce5ec6c5c38",
+      "artifact_sha256": "4f8aa6cf798d2e0b39c3702a19275cd262f1b2eb1bcbe9bf22f27ce5ec6c5c38",
+      "url": "https://romulodrumond.com/assets/css/main.css.map"
+    },
+    {
+      "path": "assets/css/jupyter-grade3.css",
+      "route": "/assets/css/jupyter-grade3.css",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "8705cc560ceb1634c3f6fbc627c3f16636436d837e97ffbab310bb7fc1bc4ab5",
+      "artifact_sha256": "8705cc560ceb1634c3f6fbc627c3f16636436d837e97ffbab310bb7fc1bc4ab5",
+      "url": "https://romulodrumond.com/assets/css/jupyter-grade3.css"
+    },
+    {
+      "path": "assets/css/jekyll-pygments-themes-github.css",
+      "route": "/assets/css/jekyll-pygments-themes-github.css",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "d40ec7e75a8743243819ca2e857f9fd32fda8138b139f6a7bfc33fdde72f4440",
+      "artifact_sha256": "d40ec7e75a8743243819ca2e857f9fd32fda8138b139f6a7bfc33fdde72f4440",
+      "url": "https://romulodrumond.com/assets/css/jekyll-pygments-themes-github.css"
+    },
+    {
+      "path": "assets/css/al-folio-cv.css",
+      "route": "/assets/css/al-folio-cv.css",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "fda7b3abaff31b11664eea670ec0a9358a29cde9b4471e504423e2f4093471d3",
+      "artifact_sha256": "fda7b3abaff31b11664eea670ec0a9358a29cde9b4471e504423e2f4093471d3",
+      "url": "https://romulodrumond.com/assets/css/al-folio-cv.css"
+    },
+    {
+      "path": "assets/css/jekyll-pygments-themes-native.css",
+      "route": "/assets/css/jekyll-pygments-themes-native.css",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "53cee24c69c2a59b82b2ea06444b088b25c1eb0394b969a6a610c66ccbf10173",
+      "artifact_sha256": "53cee24c69c2a59b82b2ea06444b088b25c1eb0394b969a6a610c66ccbf10173",
+      "url": "https://romulodrumond.com/assets/css/jekyll-pygments-themes-native.css"
+    },
+    {
+      "path": "assets/css/custom.css",
+      "route": "/assets/css/custom.css",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "d8ff4ab5af5f6287f40d62b9c857fcbcd30ce87feaa773790c80231cf56a4e2c",
+      "artifact_sha256": "d8ff4ab5af5f6287f40d62b9c857fcbcd30ce87feaa773790c80231cf56a4e2c",
+      "url": "https://romulodrumond.com/assets/css/custom.css"
+    },
+    {
+      "path": "assets/css/main.css",
+      "route": "/assets/css/main.css",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "b866c481b0825ed8a71ed10e7f2228c9d2b38b299aa3754f6c5e7a9e06887287",
+      "artifact_sha256": "b866c481b0825ed8a71ed10e7f2228c9d2b38b299aa3754f6c5e7a9e06887287",
+      "url": "https://romulodrumond.com/assets/css/main.css"
+    },
+    {
+      "path": "assets/css/tailwind.css",
+      "route": "/assets/css/tailwind.css",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "8ec12492b9509acbb5865da482807b339ea45ee55271692022b6bbe45d333ca2",
+      "artifact_sha256": "8ec12492b9509acbb5865da482807b339ea45ee55271692022b6bbe45d333ca2",
+      "url": "https://romulodrumond.com/assets/css/tailwind.css"
+    },
+    {
+      "path": "assets/css/jupyter-monokai.css",
+      "route": "/assets/css/jupyter-monokai.css",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "9264e7017a92092cb321867a8eb3e33dfb9c234721a3c640092fc5a1f0725856",
+      "artifact_sha256": "9264e7017a92092cb321867a8eb3e33dfb9c234721a3c640092fc5a1f0725856",
+      "url": "https://romulodrumond.com/assets/css/jupyter-monokai.css"
+    },
+    {
+      "path": "assets/js/tooltips-setup.js",
+      "route": "/assets/js/tooltips-setup.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "0a9fc68dbab36e02a07385f0ab4495435c43942bdc27f4b14faa1d9b1f5a25c1",
+      "artifact_sha256": "0a9fc68dbab36e02a07385f0ab4495435c43942bdc27f4b14faa1d9b1f5a25c1",
+      "url": "https://romulodrumond.com/assets/js/tooltips-setup.js"
+    },
+    {
+      "path": "assets/js/progress-bar.js",
+      "route": "/assets/js/progress-bar.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "7120f5aba529a61e19ba178d1c0ccb69ae90ec67ae3a1a14b832e5358063abd2",
+      "artifact_sha256": "7120f5aba529a61e19ba178d1c0ccb69ae90ec67ae3a1a14b832e5358063abd2",
+      "url": "https://romulodrumond.com/assets/js/progress-bar.js"
+    },
+    {
+      "path": "assets/js/bibsearch.js",
+      "route": "/assets/js/bibsearch.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "959f7ee592686a73204b936eada490fe07f7bb6b723a8c8ee98266e4a71dd3fb",
+      "artifact_sha256": "959f7ee592686a73204b936eada490fe07f7bb6b723a8c8ee98266e4a71dd3fb",
+      "url": "https://romulodrumond.com/assets/js/bibsearch.js"
+    },
+    {
+      "path": "assets/js/tabs.js",
+      "route": "/assets/js/tabs.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "7f288a28a1ab718b780363daba37e62b643c563f58f59c528cceb5d56979feef",
+      "artifact_sha256": "7f288a28a1ab718b780363daba37e62b643c563f58f59c528cceb5d56979feef",
+      "url": "https://romulodrumond.com/assets/js/tabs.js"
+    },
+    {
+      "path": "assets/js/typograms.js",
+      "route": "/assets/js/typograms.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "de73efeb3c87002ab80c7f2bed7d7ac8b77f70023de47fe65017d6d4a6e8c365",
+      "artifact_sha256": "de73efeb3c87002ab80c7f2bed7d7ac8b77f70023de47fe65017d6d4a6e8c365",
+      "url": "https://romulodrumond.com/assets/js/typograms.js"
+    },
+    {
+      "path": "assets/js/theme.js",
+      "route": "/assets/js/theme.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "a1a07af6a468a10fc06ff3cf71d30b1b38ae8dc81674e8448c978080bbb78b81",
+      "artifact_sha256": "a1a07af6a468a10fc06ff3cf71d30b1b38ae8dc81674e8448c978080bbb78b81",
+      "url": "https://romulodrumond.com/assets/js/theme.js"
+    },
+    {
+      "path": "assets/js/masonry.js",
+      "route": "/assets/js/masonry.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "901f7b06ecf2812c553a07750fbcc0124656f85f3a6d367c1e723f63f4d7233a",
+      "artifact_sha256": "901f7b06ecf2812c553a07750fbcc0124656f85f3a6d367c1e723f63f4d7233a",
+      "url": "https://romulodrumond.com/assets/js/masonry.js"
+    },
+    {
+      "path": "assets/js/nav-toggle.js",
+      "route": "/assets/js/nav-toggle.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "1b93962a4ac50156b90dd4d97c69855676bddd57b905eaa38dd2fedf0378c4cc",
+      "artifact_sha256": "1b93962a4ac50156b90dd4d97c69855676bddd57b905eaa38dd2fedf0378c4cc",
+      "url": "https://romulodrumond.com/assets/js/nav-toggle.js"
+    },
+    {
+      "path": "assets/js/table-engine.js",
+      "route": "/assets/js/table-engine.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "e86a95c1c055fa32d120ae15e603da395b599f75f241725105b41fc861cb04f6",
+      "artifact_sha256": "e86a95c1c055fa32d120ae15e603da395b599f75f241725105b41fc861cb04f6",
+      "url": "https://romulodrumond.com/assets/js/table-engine.js"
+    },
+    {
+      "path": "assets/js/copy_code.js",
+      "route": "/assets/js/copy_code.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "e123513955a808ebb5703f7c034e88be7072ddc6b6cb943c7375c55ff1ff66ef",
+      "artifact_sha256": "e123513955a808ebb5703f7c034e88be7072ddc6b6cb943c7375c55ff1ff66ef",
+      "url": "https://romulodrumond.com/assets/js/copy_code.js"
+    },
+    {
+      "path": "assets/js/no_defer.js",
+      "route": "/assets/js/no_defer.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "30c1e442becaefce36dba46082f93dc21c8334f102301cb8f1d08ceb7e0aad51",
+      "artifact_sha256": "30c1e442becaefce36dba46082f93dc21c8334f102301cb8f1d08ceb7e0aad51",
+      "url": "https://romulodrumond.com/assets/js/no_defer.js"
+    },
+    {
+      "path": "assets/js/common.js",
+      "route": "/assets/js/common.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "89e65df12a3473705b488338af00c08f4cf947e59dee22748afc1c3a1fcb99fe",
+      "artifact_sha256": "89e65df12a3473705b488338af00c08f4cf947e59dee22748afc1c3a1fcb99fe",
+      "url": "https://romulodrumond.com/assets/js/common.js"
+    },
+    {
+      "path": "assets/js/highlight-search-term.js",
+      "route": "/assets/js/highlight-search-term.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "dcabae4b001b04b9c1f33c0221f50338821527851eb0cc2c1c8e64648261f976",
+      "artifact_sha256": "dcabae4b001b04b9c1f33c0221f50338821527851eb0cc2c1c8e64648261f976",
+      "url": "https://romulodrumond.com/assets/js/highlight-search-term.js"
+    },
+    {
+      "path": "assets/js/calendar-setup.js",
+      "route": "/assets/js/calendar-setup.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "4a5f5ef7dd6e1cb58a3aa2cc6f9c5257b440b1a5f1097d6169ea89292205fbe1",
+      "artifact_sha256": "4a5f5ef7dd6e1cb58a3aa2cc6f9c5257b440b1a5f1097d6169ea89292205fbe1",
+      "url": "https://romulodrumond.com/assets/js/calendar-setup.js"
+    },
+    {
+      "path": "assets/js/jupyter_new_tab.js",
+      "route": "/assets/js/jupyter_new_tab.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "615b786747b4666bf76020b40e0a32cd1c9cc3a61cb2da62ce0d9f3c858f67cd",
+      "artifact_sha256": "615b786747b4666bf76020b40e0a32cd1c9cc3a61cb2da62ce0d9f3c858f67cd",
+      "url": "https://romulodrumond.com/assets/js/jupyter_new_tab.js"
+    },
+    {
+      "path": "assets/tailwind/app.css",
+      "route": "/assets/tailwind/app.css",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "210c55d9586ea9e600e5e6af360ded6cbca3ab977cb305d7570fd59f9bf5fcd7",
+      "artifact_sha256": "210c55d9586ea9e600e5e6af360ded6cbca3ab977cb305d7570fd59f9bf5fcd7",
+      "url": "https://romulodrumond.com/assets/tailwind/app.css"
+    },
+    {
+      "path": "assets/tailwind/input.css",
+      "route": "/assets/tailwind/input.css",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "3112a21f25446a7ec80f4e594bef80a6f1dfad57a4a76504b499499f3c0fe32c",
+      "artifact_sha256": "3112a21f25446a7ec80f4e594bef80a6f1dfad57a4a76504b499499f3c0fe32c",
+      "url": "https://romulodrumond.com/assets/tailwind/input.css"
+    },
+    {
+      "path": "assets/tailwind/bootstrap-compat.input.css",
+      "route": "/assets/tailwind/bootstrap-compat.input.css",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "2914eac985962136a06d0a9909e7eacf4dc547f15f614912ef9deb9e9acaa580",
+      "artifact_sha256": "2914eac985962136a06d0a9909e7eacf4dc547f15f614912ef9deb9e9acaa580",
+      "url": "https://romulodrumond.com/assets/tailwind/bootstrap-compat.input.css"
+    },
+    {
+      "path": "assets/img/profile_picture-480.webp",
+      "route": "/assets/img/profile_picture-480.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "9371ba0ff10db3edcfee7d0f1c968ff79faa1cff7ba0fa7cf6e3fb1bffa9dc06",
+      "artifact_sha256": "9371ba0ff10db3edcfee7d0f1c968ff79faa1cff7ba0fa7cf6e3fb1bffa9dc06",
+      "url": "https://romulodrumond.com/assets/img/profile_picture-480.webp"
+    },
+    {
+      "path": "assets/img/profile_picture.jpg",
+      "route": "/assets/img/profile_picture.jpg",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "428d7ca7d346fcaafaabfb31ef2f653fc54f93a358461859416d27de4a62d8e7",
+      "artifact_sha256": "428d7ca7d346fcaafaabfb31ef2f653fc54f93a358461859416d27de4a62d8e7",
+      "url": "https://romulodrumond.com/assets/img/profile_picture.jpg"
+    },
+    {
+      "path": "assets/img/favicon-32x32-480.webp",
+      "route": "/assets/img/favicon-32x32-480.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "12b57df965a8a1d4306c9a2406266140e9e372104f3c372fc8fb3052bb760541",
+      "artifact_sha256": "12b57df965a8a1d4306c9a2406266140e9e372104f3c372fc8fb3052bb760541",
+      "url": "https://romulodrumond.com/assets/img/favicon-32x32-480.webp"
+    },
+    {
+      "path": "assets/img/pagespeed.svg",
+      "route": "/assets/img/pagespeed.svg",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "e48c8e64029358ac7406222bb98cc378e8c050ec9ae6c31e5136bb915451b253",
+      "artifact_sha256": "e48c8e64029358ac7406222bb98cc378e8c050ec9ae6c31e5136bb915451b253",
+      "url": "https://romulodrumond.com/assets/img/pagespeed.svg"
+    },
+    {
+      "path": "assets/img/favicon-32x32-1400.webp",
+      "route": "/assets/img/favicon-32x32-1400.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "12b57df965a8a1d4306c9a2406266140e9e372104f3c372fc8fb3052bb760541",
+      "artifact_sha256": "12b57df965a8a1d4306c9a2406266140e9e372104f3c372fc8fb3052bb760541",
+      "url": "https://romulodrumond.com/assets/img/favicon-32x32-1400.webp"
+    },
+    {
+      "path": "assets/img/profile_picture-1400.webp",
+      "route": "/assets/img/profile_picture-1400.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "526880d2693fe774d3c503304bfb6a301c06d744ca3ad6684fa24031084e911b",
+      "artifact_sha256": "526880d2693fe774d3c503304bfb6a301c06d744ca3ad6684fa24031084e911b",
+      "url": "https://romulodrumond.com/assets/img/profile_picture-1400.webp"
+    },
+    {
+      "path": "assets/img/profile_picture-800.webp",
+      "route": "/assets/img/profile_picture-800.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "a9c198ee95c92ceec563722a6675f12930626e8af267fc4b22c4a34f36134527",
+      "artifact_sha256": "a9c198ee95c92ceec563722a6675f12930626e8af267fc4b22c4a34f36134527",
+      "url": "https://romulodrumond.com/assets/img/profile_picture-800.webp"
+    },
+    {
+      "path": "assets/img/favicon-32x32-800.webp",
+      "route": "/assets/img/favicon-32x32-800.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "12b57df965a8a1d4306c9a2406266140e9e372104f3c372fc8fb3052bb760541",
+      "artifact_sha256": "12b57df965a8a1d4306c9a2406266140e9e372104f3c372fc8fb3052bb760541",
+      "url": "https://romulodrumond.com/assets/img/favicon-32x32-800.webp"
+    },
+    {
+      "path": "assets/img/favicon-32x32.png",
+      "route": "/assets/img/favicon-32x32.png",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "f88615e9b5eac48f08a11f5be902eb0ac13479099f088b96b259857c82d45336",
+      "artifact_sha256": "f88615e9b5eac48f08a11f5be902eb0ac13479099f088b96b259857c82d45336",
+      "url": "https://romulodrumond.com/assets/img/favicon-32x32.png"
+    },
+    {
+      "path": "assets/al_math/js/mathjax-setup.js",
+      "route": "/assets/al_math/js/mathjax-setup.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "02c1b434fe4a46793874987399a22147526651157a278dad36649a0ffd3df17c",
+      "artifact_sha256": "02c1b434fe4a46793874987399a22147526651157a278dad36649a0ffd3df17c",
+      "url": "https://romulodrumond.com/assets/al_math/js/mathjax-setup.js"
+    },
+    {
+      "path": "assets/al_math/js/pseudocode-setup.js",
+      "route": "/assets/al_math/js/pseudocode-setup.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "3152b3cdbb5d6cd11247be254e38b8082a6f27c5f9c5b6bb9e2973f23bbf0df4",
+      "artifact_sha256": "3152b3cdbb5d6cd11247be254e38b8082a6f27c5f9c5b6bb9e2973f23bbf0df4",
+      "url": "https://romulodrumond.com/assets/al_math/js/pseudocode-setup.js"
+    },
+    {
+      "path": "assets/al_charts/js/diff2html-setup.js",
+      "route": "/assets/al_charts/js/diff2html-setup.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "20356b17dd83614b000971cc670d2e87154f7c5fe856163395e57b26efd4c21c",
+      "artifact_sha256": "20356b17dd83614b000971cc670d2e87154f7c5fe856163395e57b26efd4c21c",
+      "url": "https://romulodrumond.com/assets/al_charts/js/diff2html-setup.js"
+    },
+    {
+      "path": "assets/al_charts/js/chartjs-setup.js",
+      "route": "/assets/al_charts/js/chartjs-setup.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "33795723a6923dd95a17fbb96c3a94379d3ed08a490ad56797d81c9cfa4ea776",
+      "artifact_sha256": "33795723a6923dd95a17fbb96c3a94379d3ed08a490ad56797d81c9cfa4ea776",
+      "url": "https://romulodrumond.com/assets/al_charts/js/chartjs-setup.js"
+    },
+    {
+      "path": "assets/al_charts/js/vega-setup.js",
+      "route": "/assets/al_charts/js/vega-setup.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "cfec27a10a3922d2de8c09664f9440db688bf1fbb648b888e34b708eaaf11bc8",
+      "artifact_sha256": "cfec27a10a3922d2de8c09664f9440db688bf1fbb648b888e34b708eaaf11bc8",
+      "url": "https://romulodrumond.com/assets/al_charts/js/vega-setup.js"
+    },
+    {
+      "path": "assets/al_charts/js/mermaid-setup.js",
+      "route": "/assets/al_charts/js/mermaid-setup.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "101b6db2dad7e4c50b8a1bfe9891935f61b2bf4021feea789e24a01572ca00d4",
+      "artifact_sha256": "101b6db2dad7e4c50b8a1bfe9891935f61b2bf4021feea789e24a01572ca00d4",
+      "url": "https://romulodrumond.com/assets/al_charts/js/mermaid-setup.js"
+    },
+    {
+      "path": "assets/al_charts/js/leaflet-setup.js",
+      "route": "/assets/al_charts/js/leaflet-setup.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "a2427c91753457467aad0e99eaea126864989e848687f2622fb612bcbaa9e2d1",
+      "artifact_sha256": "a2427c91753457467aad0e99eaea126864989e848687f2622fb612bcbaa9e2d1",
+      "url": "https://romulodrumond.com/assets/al_charts/js/leaflet-setup.js"
+    },
+    {
+      "path": "assets/al_charts/js/plotly-setup.js",
+      "route": "/assets/al_charts/js/plotly-setup.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "352ca20c9107025527dc814e0341113c6dec65bfba55162149aa5333b94ea57f",
+      "artifact_sha256": "352ca20c9107025527dc814e0341113c6dec65bfba55162149aa5333b94ea57f",
+      "url": "https://romulodrumond.com/assets/al_charts/js/plotly-setup.js"
+    },
+    {
+      "path": "assets/al_charts/js/echarts-setup.js",
+      "route": "/assets/al_charts/js/echarts-setup.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "f0fec02f88781e0b6d1b34efa0e0c502213f1870888ca405ed67eb76e67c8e31",
+      "artifact_sha256": "f0fec02f88781e0b6d1b34efa0e0c502213f1870888ca405ed67eb76e67c8e31",
+      "url": "https://romulodrumond.com/assets/al_charts/js/echarts-setup.js"
+    },
+    {
+      "path": "assets/js/distillpub/transforms.v2.js",
+      "route": "/assets/js/distillpub/transforms.v2.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "5d85590f5652b910ab2411019749c83ef5a5a3fbb9b739adc92b4557b6bf3d39",
+      "artifact_sha256": "5d85590f5652b910ab2411019749c83ef5a5a3fbb9b739adc92b4557b6bf3d39",
+      "url": "https://romulodrumond.com/assets/js/distillpub/transforms.v2.js"
+    },
+    {
+      "path": "assets/js/distillpub/template.v2.js.map",
+      "route": "/assets/js/distillpub/template.v2.js.map",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "2e7902dfeb45cbd76749e8222377545d71e5ca16b45a2827e0d4a36bbd70d89d",
+      "artifact_sha256": "2e7902dfeb45cbd76749e8222377545d71e5ca16b45a2827e0d4a36bbd70d89d",
+      "url": "https://romulodrumond.com/assets/js/distillpub/template.v2.js.map"
+    },
+    {
+      "path": "assets/js/distillpub/provenance.json",
+      "route": "/assets/js/distillpub/provenance.json",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "9abc2c5e23db6bfe0c274b4f5c19ad6d0c15f481118c7fe55f182454c303068e",
+      "artifact_sha256": "9abc2c5e23db6bfe0c274b4f5c19ad6d0c15f481118c7fe55f182454c303068e",
+      "url": "https://romulodrumond.com/assets/js/distillpub/provenance.json"
+    },
+    {
+      "path": "assets/js/distillpub/overrides.js",
+      "route": "/assets/js/distillpub/overrides.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "41ce4a3744a9083e8913df1256432d2233ba16ff9b40c4878bdb3f35d73c0e8e",
+      "artifact_sha256": "41ce4a3744a9083e8913df1256432d2233ba16ff9b40c4878bdb3f35d73c0e8e",
+      "url": "https://romulodrumond.com/assets/js/distillpub/overrides.js"
+    },
+    {
+      "path": "assets/js/distillpub/template.v2.js",
+      "route": "/assets/js/distillpub/template.v2.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "4790831ced02f7c4f2009b2cdf6978ceda8351f0060d3b59dd9b3aab132e271a",
+      "artifact_sha256": "4790831ced02f7c4f2009b2cdf6978ceda8351f0060d3b59dd9b3aab132e271a",
+      "url": "https://romulodrumond.com/assets/js/distillpub/template.v2.js"
+    },
+    {
+      "path": "assets/js/distillpub/transforms.v2.js.map",
+      "route": "/assets/js/distillpub/transforms.v2.js.map",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "f4c4cbd4167209a706c0750b48dc01cb87a19b5d60c756863b056afaa92b48a6",
+      "artifact_sha256": "f4c4cbd4167209a706c0750b48dc01cb87a19b5d60c756863b056afaa92b48a6",
+      "url": "https://romulodrumond.com/assets/js/distillpub/transforms.v2.js.map"
+    },
+    {
+      "path": "assets/img/publication_preview/regional_modeling-480.webp",
+      "route": "/assets/img/publication_preview/regional_modeling-480.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "99daf9928a75d0ccea62ba44c48feead51de7c1cec42dddc8aba80c63c0914d3",
+      "artifact_sha256": "99daf9928a75d0ccea62ba44c48feead51de7c1cec42dddc8aba80c63c0914d3",
+      "url": "https://romulodrumond.com/assets/img/publication_preview/regional_modeling-480.webp"
+    },
+    {
+      "path": "assets/img/publication_preview/regional_modeling.jpg",
+      "route": "/assets/img/publication_preview/regional_modeling.jpg",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "545eb79837beb6b455ace0be152c5d280a463dc67960e5ee680d4473a8b75a22",
+      "artifact_sha256": "545eb79837beb6b455ace0be152c5d280a463dc67960e5ee680d4473a8b75a22",
+      "url": "https://romulodrumond.com/assets/img/publication_preview/regional_modeling.jpg"
+    },
+    {
+      "path": "assets/img/publication_preview/regional_modeling-1400.webp",
+      "route": "/assets/img/publication_preview/regional_modeling-1400.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "9830054c904bb31de6e06774e8d31f383fc3c16c9e2c1a6bc9187ae5e630a935",
+      "artifact_sha256": "9830054c904bb31de6e06774e8d31f383fc3c16c9e2c1a6bc9187ae5e630a935",
+      "url": "https://romulodrumond.com/assets/img/publication_preview/regional_modeling-1400.webp"
+    },
+    {
+      "path": "assets/img/publication_preview/regional_modeling-800.webp",
+      "route": "/assets/img/publication_preview/regional_modeling-800.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "4f6023ab9f4cb383678f5eb4c581dee1084e2fc753a98d467108a76cca2b9e85",
+      "artifact_sha256": "4f6023ab9f4cb383678f5eb4c581dee1084e2fc753a98d467108a76cca2b9e85",
+      "url": "https://romulodrumond.com/assets/img/publication_preview/regional_modeling-800.webp"
+    },
+    {
+      "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-initial-screen-for-setup-1400.webp",
+      "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-initial-screen-for-setup-1400.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "b75999667dc33ee187517eefd5c82517977f4cf55d1dacf8543b29e082dbdb35",
+      "artifact_sha256": "b75999667dc33ee187517eefd5c82517977f4cf55d1dacf8543b29e082dbdb35",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-initial-screen-for-setup-1400.webp"
+    },
+    {
+      "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-initial-screen-for-setup-800.webp",
+      "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-initial-screen-for-setup-800.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "ffe5ad0749e38e0b4856833a208d8f2025f4ce2466d82eabf00f4afed241e15f",
+      "artifact_sha256": "ffe5ad0749e38e0b4856833a208d8f2025f4ce2466d82eabf00f4afed241e15f",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-initial-screen-for-setup-800.webp"
+    },
+    {
+      "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-connection-error-1400.webp",
+      "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-connection-error-1400.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "c3a3a7bc288b577377d413ee3a71042f52413d5edf0c95ed83e188aeb8f0a634",
+      "artifact_sha256": "c3a3a7bc288b577377d413ee3a71042f52413d5edf0c95ed83e188aeb8f0a634",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-connection-error-1400.webp"
+    },
+    {
+      "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-dashboard-print-800.webp",
+      "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-dashboard-print-800.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "99181231b2a989c0d615b9279a73174ab68298660963e5913549bb717f4848b9",
+      "artifact_sha256": "99181231b2a989c0d615b9279a73174ab68298660963e5913549bb717f4848b9",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-dashboard-print-800.webp"
+    },
+    {
+      "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-connection-error-480.webp",
+      "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-connection-error-480.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "2865f2e44be32a02841cf09500e90078eb8fd19e6dc3ec221db340e791eb94aa",
+      "artifact_sha256": "2865f2e44be32a02841cf09500e90078eb8fd19e6dc3ec221db340e791eb94aa",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-connection-error-480.webp"
+    },
+    {
+      "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/sync-kube-config-480.webp",
+      "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/sync-kube-config-480.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "62ea378a96bb8210cf1248646e99c1c329799d1fb2c0fa4b681706b9602a1d10",
+      "artifact_sha256": "62ea378a96bb8210cf1248646e99c1c329799d1fb2c0fa4b681706b9602a1d10",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/sync-kube-config-480.webp"
+    },
+    {
+      "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/available-clusters-after-sync-kubeconfig-file-480.webp",
+      "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/available-clusters-after-sync-kubeconfig-file-480.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "2441aca7e6ce79dbed17aac7e4316c9c9c73718d07a3c3a8c0e0d88a2f1e3f7d",
+      "artifact_sha256": "2441aca7e6ce79dbed17aac7e4316c9c9c73718d07a3c3a8c0e0d88a2f1e3f7d",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/available-clusters-after-sync-kubeconfig-file-480.webp"
+    },
+    {
+      "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-initial-screen-for-setup.png",
+      "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-initial-screen-for-setup.png",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "00e41063592368d98433e86adfaec0f7e7a6eab7a7f708d01a0caa0e3b742597",
+      "artifact_sha256": "00e41063592368d98433e86adfaec0f7e7a6eab7a7f708d01a0caa0e3b742597",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-initial-screen-for-setup.png"
+    },
+    {
+      "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-connection-error.png",
+      "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-connection-error.png",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "3fb9f8d532a5982da6db1356ea782ccddcfc3d639abce65f8f06556906083ab2",
+      "artifact_sha256": "3fb9f8d532a5982da6db1356ea782ccddcfc3d639abce65f8f06556906083ab2",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-connection-error.png"
+    },
+    {
+      "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-working-with-minikube-800.webp",
+      "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-working-with-minikube-800.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "10588eeb5458fc9758049be938312407cbe62a90f342ff7ab46689c78c6b1348",
+      "artifact_sha256": "10588eeb5458fc9758049be938312407cbe62a90f342ff7ab46689c78c6b1348",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-working-with-minikube-800.webp"
+    },
+    {
+      "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-working-with-minikube-1400.webp",
+      "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-working-with-minikube-1400.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "4a1260f99652064ee7b619ff511f8d1cd9c28c34beb7939832f15dcb4cce83ae",
+      "artifact_sha256": "4a1260f99652064ee7b619ff511f8d1cd9c28c34beb7939832f15dcb4cce83ae",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-working-with-minikube-1400.webp"
+    },
+    {
+      "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/sync-kube-config-800.webp",
+      "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/sync-kube-config-800.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "62ea378a96bb8210cf1248646e99c1c329799d1fb2c0fa4b681706b9602a1d10",
+      "artifact_sha256": "62ea378a96bb8210cf1248646e99c1c329799d1fb2c0fa4b681706b9602a1d10",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/sync-kube-config-800.webp"
+    },
+    {
+      "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-dashboard-print.png",
+      "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-dashboard-print.png",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "c961024d4d850894da749003be57433b247b833c012b177ebc37a7d905f32802",
+      "artifact_sha256": "c961024d4d850894da749003be57433b247b833c012b177ebc37a7d905f32802",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-dashboard-print.png"
+    },
+    {
+      "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/available-clusters-after-sync-kubeconfig-file-800.webp",
+      "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/available-clusters-after-sync-kubeconfig-file-800.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "3983be8007b32eb754444d4d585f3d2ead24f3fd0b91c596f4cde75f32d6cfd2",
+      "artifact_sha256": "3983be8007b32eb754444d4d585f3d2ead24f3fd0b91c596f4cde75f32d6cfd2",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/available-clusters-after-sync-kubeconfig-file-800.webp"
+    },
+    {
+      "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-working-with-minikube-480.webp",
+      "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-working-with-minikube-480.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "9d0e229abd5c15171acb124a0738deea5ad3908df9e1cc99cdd3a07100420e53",
+      "artifact_sha256": "9d0e229abd5c15171acb124a0738deea5ad3908df9e1cc99cdd3a07100420e53",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-working-with-minikube-480.webp"
+    },
+    {
+      "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/sync-kube-config.png",
+      "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/sync-kube-config.png",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "0547ebcd3fcfc3dbe3b1628e1c239c49144a58c54a8c8f379d1fdaed5b4cd2ad",
+      "artifact_sha256": "0547ebcd3fcfc3dbe3b1628e1c239c49144a58c54a8c8f379d1fdaed5b4cd2ad",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/sync-kube-config.png"
+    },
+    {
+      "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-working-with-minikube.png",
+      "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-working-with-minikube.png",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "74958fe8d1c0ee5fb3121915f81fd5422e27e953c0c8c6f9f28678cdebdac316",
+      "artifact_sha256": "74958fe8d1c0ee5fb3121915f81fd5422e27e953c0c8c6f9f28678cdebdac316",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-working-with-minikube.png"
+    },
+    {
+      "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-dashboard-print-1400.webp",
+      "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-dashboard-print-1400.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "89779042b0ecdcc870998b8650fdd6f81de113a78345b803be869069b3336837",
+      "artifact_sha256": "89779042b0ecdcc870998b8650fdd6f81de113a78345b803be869069b3336837",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-dashboard-print-1400.webp"
+    },
+    {
+      "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-initial-screen-for-setup-480.webp",
+      "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-initial-screen-for-setup-480.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "48a810080ec6538c345753f6e8c38560209a8bd203cf9b7965fd9e1d129341b2",
+      "artifact_sha256": "48a810080ec6538c345753f6e8c38560209a8bd203cf9b7965fd9e1d129341b2",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-initial-screen-for-setup-480.webp"
+    },
+    {
+      "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/available-clusters-after-sync-kubeconfig-file-1400.webp",
+      "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/available-clusters-after-sync-kubeconfig-file-1400.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "23bfccb5a582168af7f3ce7012aa630175cb1cf409f22f4edd506f55d65f6102",
+      "artifact_sha256": "23bfccb5a582168af7f3ce7012aa630175cb1cf409f22f4edd506f55d65f6102",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/available-clusters-after-sync-kubeconfig-file-1400.webp"
+    },
+    {
+      "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/available-clusters-after-sync-kubeconfig-file.png",
+      "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/available-clusters-after-sync-kubeconfig-file.png",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "61b67cca381903789794bc40365a7db54855341cdc4807553a64e1007afe4fe2",
+      "artifact_sha256": "61b67cca381903789794bc40365a7db54855341cdc4807553a64e1007afe4fe2",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/available-clusters-after-sync-kubeconfig-file.png"
+    },
+    {
+      "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/sync-kube-config-1400.webp",
+      "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/sync-kube-config-1400.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "62ea378a96bb8210cf1248646e99c1c329799d1fb2c0fa4b681706b9602a1d10",
+      "artifact_sha256": "62ea378a96bb8210cf1248646e99c1c329799d1fb2c0fa4b681706b9602a1d10",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/sync-kube-config-1400.webp"
+    },
+    {
+      "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-dashboard-print-480.webp",
+      "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-dashboard-print-480.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "059a8baca998e0e43a0bc722ea3d8e0564ff88011e5a92af05d73fcebe3c9bb7",
+      "artifact_sha256": "059a8baca998e0e43a0bc722ea3d8e0564ff88011e5a92af05d73fcebe3c9bb7",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-dashboard-print-480.webp"
+    },
+    {
+      "path": "assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-connection-error-800.webp",
+      "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-connection-error-800.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "df9aaf4d74a562f8b0adc771da9efb96930b428ae17583489e7bfd1f6daf178b",
+      "artifact_sha256": "df9aaf4d74a562f8b0adc771da9efb96930b428ae17583489e7bfd1f6daf178b",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-connection-error-800.webp"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/llm-as-router-800.webp",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/llm-as-router-800.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "786a3b9026e56f0cb8f172d3abde837a7966b201ebd0528de0a4685370b9b2b7",
+      "artifact_sha256": "786a3b9026e56f0cb8f172d3abde837a7966b201ebd0528de0a4685370b9b2b7",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/llm-as-router-800.webp"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/llm-as-router-1400.webp",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/llm-as-router-1400.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "35b3d9a35ede9ade6213336b816e55adc6b562f200dc98958e0d3a6d68f64b97",
+      "artifact_sha256": "35b3d9a35ede9ade6213336b816e55adc6b562f200dc98958e0d3a6d68f64b97",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/llm-as-router-1400.webp"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/example-llm-workflow-1400.webp",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/example-llm-workflow-1400.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "a0758591cabdb0b27695c39200592984d64942f6b0b4ef3e639ee951936ba343",
+      "artifact_sha256": "a0758591cabdb0b27695c39200592984d64942f6b0b4ef3e639ee951936ba343",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/example-llm-workflow-1400.webp"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/ai-agents-by-the-author-1400.webp",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/ai-agents-by-the-author-1400.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "ce4a6484eb34e40f0cf5f2ed4e59c6ddca4c78b84fb2bd9e2e8fe082dfc9c122",
+      "artifact_sha256": "ce4a6484eb34e40f0cf5f2ed4e59c6ddca4c78b84fb2bd9e2e8fe082dfc9c122",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/ai-agents-by-the-author-1400.webp"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/example-llm-workflow-480.webp",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/example-llm-workflow-480.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "8bda35d8cb92503bbb831110d656304217630e12f5fda1785a94f35acb3bb995",
+      "artifact_sha256": "8bda35d8cb92503bbb831110d656304217630e12f5fda1785a94f35acb3bb995",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/example-llm-workflow-480.webp"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/react-maw-wwhf-800.webp",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/react-maw-wwhf-800.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "db84802e7880c4fbef450189a5cebd78621112ccbf6dc43af903189fb708237e",
+      "artifact_sha256": "db84802e7880c4fbef450189a5cebd78621112ccbf6dc43af903189fb708237e",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/react-maw-wwhf-800.webp"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/chatbots-are-rl-agents-800.webp",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/chatbots-are-rl-agents-800.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "e85e253b7b8a974fb1c2d21d2f8e360e3cc8e3aaaacedd80cd9ab57b3348effb",
+      "artifact_sha256": "e85e253b7b8a974fb1c2d21d2f8e360e3cc8e3aaaacedd80cd9ab57b3348effb",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/chatbots-are-rl-agents-800.webp"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/the-autonomy-landscape-1400.webp",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/the-autonomy-landscape-1400.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "bac7fa7fcf3d13667140f2849305dfa0b25baf7235046f3bdc8f668bd159d2a7",
+      "artifact_sha256": "bac7fa7fcf3d13667140f2849305dfa0b25baf7235046f3bdc8f668bd159d2a7",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/the-autonomy-landscape-1400.webp"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/chatbots-are-rl-agents-1400.webp",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/chatbots-are-rl-agents-1400.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "017b9dff341c3c1d03663fda90e7374214bbac473122b47bd814e149a764d464",
+      "artifact_sha256": "017b9dff341c3c1d03663fda90e7374214bbac473122b47bd814e149a764d464",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/chatbots-are-rl-agents-1400.webp"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/ai-agents-by-the-author-480.webp",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/ai-agents-by-the-author-480.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "439236ea42d47a48548d2ad687d6f1a5de81e0e95f79e5effcbdf1f53add628f",
+      "artifact_sha256": "439236ea42d47a48548d2ad687d6f1a5de81e0e95f79e5effcbdf1f53add628f",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/ai-agents-by-the-author-480.webp"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/react-maw-wwhf-1400.webp",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/react-maw-wwhf-1400.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "e4f699e2b1503c1c2fb4ac8ad6c2ce69aedf89ed9c4fc4aea5fe1c4d97dc2523",
+      "artifact_sha256": "e4f699e2b1503c1c2fb4ac8ad6c2ce69aedf89ed9c4fc4aea5fe1c4d97dc2523",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/react-maw-wwhf-1400.webp"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/chatbots-are-rl-agents.png",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/chatbots-are-rl-agents.png",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "7470b0932be05d3b2d1f7dedd6e85618aa12a89a852685430ca4638b2b28c098",
+      "artifact_sha256": "7470b0932be05d3b2d1f7dedd6e85618aa12a89a852685430ca4638b2b28c098",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/chatbots-are-rl-agents.png"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/the-autonomy-landscape-480.webp",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/the-autonomy-landscape-480.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "eb54f89b1b4c8eee593099b67fc66f441b003c00b1cf28b6cfa3a6c1c4c98c90",
+      "artifact_sha256": "eb54f89b1b4c8eee593099b67fc66f441b003c00b1cf28b6cfa3a6c1c4c98c90",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/the-autonomy-landscape-480.webp"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/first-ai-agents-800.webp",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/first-ai-agents-800.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "001cd8fd8fcf79e7dd3ceeadd23a7141f5d17d6e1dc69d7060e06964d99f4cd4",
+      "artifact_sha256": "001cd8fd8fcf79e7dd3ceeadd23a7141f5d17d6e1dc69d7060e06964d99f4cd4",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/first-ai-agents-800.webp"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/llm-as-router.png",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/llm-as-router.png",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "d75c42ec83494cd0d8e60ca5bdc5e95740e2ada6950a33fac7305dff8e720ccd",
+      "artifact_sha256": "d75c42ec83494cd0d8e60ca5bdc5e95740e2ada6950a33fac7305dff8e720ccd",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/llm-as-router.png"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/first-ai-agents.png",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/first-ai-agents.png",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "73fcb796e9226cb8fa03e6908dd2f57842826f1a0766b454e726fbba5c22b790",
+      "artifact_sha256": "73fcb796e9226cb8fa03e6908dd2f57842826f1a0766b454e726fbba5c22b790",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/first-ai-agents.png"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/example-llm-workflow.png",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/example-llm-workflow.png",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "fa9455754abacc3ce06a9f625d51d4a3bbd6ece86d6b72d604e0c160df208e04",
+      "artifact_sha256": "fa9455754abacc3ce06a9f625d51d4a3bbd6ece86d6b72d604e0c160df208e04",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/example-llm-workflow.png"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/ai-agents-by-the-author.png",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/ai-agents-by-the-author.png",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "672305c040c511885614a1880abd89d00bf157ed6565eb202d6f543b9d5c304e",
+      "artifact_sha256": "672305c040c511885614a1880abd89d00bf157ed6565eb202d6f543b9d5c304e",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/ai-agents-by-the-author.png"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/chatbots-are-rl-agents-480.webp",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/chatbots-are-rl-agents-480.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "f5f1842b7556de1b49fd9b8658e37cb55e8c7eb1347927c396a1b89ec78a30cf",
+      "artifact_sha256": "f5f1842b7556de1b49fd9b8658e37cb55e8c7eb1347927c396a1b89ec78a30cf",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/chatbots-are-rl-agents-480.webp"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/ai-agents-by-the-author-800.webp",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/ai-agents-by-the-author-800.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "5671b32cd61a35c9864c5f13e61caaa225846291e5c7ff39f4b5bd25783ad81b",
+      "artifact_sha256": "5671b32cd61a35c9864c5f13e61caaa225846291e5c7ff39f4b5bd25783ad81b",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/ai-agents-by-the-author-800.webp"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/react-maw-wwhf.png",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/react-maw-wwhf.png",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "17a1ca85e3680d9aac5747425920e1d775a4f6e04c462c036acaa116352b2781",
+      "artifact_sha256": "17a1ca85e3680d9aac5747425920e1d775a4f6e04c462c036acaa116352b2781",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/react-maw-wwhf.png"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/the-autonomy-landscape-800.webp",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/the-autonomy-landscape-800.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "cc71fe91e5296a891197669811747d0a389901b4413c88dbd7b0e4f073678664",
+      "artifact_sha256": "cc71fe91e5296a891197669811747d0a389901b4413c88dbd7b0e4f073678664",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/the-autonomy-landscape-800.webp"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/first-ai-agents-480.webp",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/first-ai-agents-480.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "2b2c3d085f77b8de415be96936d177881de6bd3027165c5aa56462cd68980f85",
+      "artifact_sha256": "2b2c3d085f77b8de415be96936d177881de6bd3027165c5aa56462cd68980f85",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/first-ai-agents-480.webp"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/llm-as-router-480.webp",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/llm-as-router-480.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "3e4a04c6545998d98c04d5c9eb5b97a640c7e1d0db8671b5f15380e8eb46eb08",
+      "artifact_sha256": "3e4a04c6545998d98c04d5c9eb5b97a640c7e1d0db8671b5f15380e8eb46eb08",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/llm-as-router-480.webp"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/first-ai-agents-1400.webp",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/first-ai-agents-1400.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "c687cf6eeeb6e294d17cbedb025d756a9476331e5e3323c3a5db244c2658d7c7",
+      "artifact_sha256": "c687cf6eeeb6e294d17cbedb025d756a9476331e5e3323c3a5db244c2658d7c7",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/first-ai-agents-1400.webp"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/the-autonomy-landscape.png",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/the-autonomy-landscape.png",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "1ad981b7a6097b994e64ca146dcd7cd48b4428aebce23f196104a4469e298b2c",
+      "artifact_sha256": "1ad981b7a6097b994e64ca146dcd7cd48b4428aebce23f196104a4469e298b2c",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/the-autonomy-landscape.png"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/example-llm-workflow-800.webp",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/example-llm-workflow-800.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "0dec8bc4693d48ca1875a84938cde3bf3792ce622cdebc69fa1bf8f3eb14e2f0",
+      "artifact_sha256": "0dec8bc4693d48ca1875a84938cde3bf3792ce622cdebc69fa1bf8f3eb14e2f0",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/example-llm-workflow-800.webp"
+    },
+    {
+      "path": "assets/img/posts/2025-03-ineffectiveness-of-ai-agents/react-maw-wwhf-480.webp",
+      "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/react-maw-wwhf-480.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "9d523cbe3508ba29838f794d710ec5e9426f3990723c2461d771f0c7419e85cc",
+      "artifact_sha256": "9d523cbe3508ba29838f794d710ec5e9426f3990723c2461d771f0c7419e85cc",
+      "url": "https://romulodrumond.com/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/react-maw-wwhf-480.webp"
+    },
+    {
+      "path": "assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/cluster-configuration.png",
+      "route": "/assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/cluster-configuration.png",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "8b5348b6a3f5d3f3639cd6facad994ae6999a9d93e496bda02cc567f5ac4d591",
+      "artifact_sha256": "8b5348b6a3f5d3f3639cd6facad994ae6999a9d93e496bda02cc567f5ac4d591",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/cluster-configuration.png"
+    },
+    {
+      "path": "assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/spark-cluster-overview-1400.webp",
+      "route": "/assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/spark-cluster-overview-1400.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "f8b9ec2f044db127d318e5b399fb6b7446c632d364ccff6cb8ea09c242de1b01",
+      "artifact_sha256": "f8b9ec2f044db127d318e5b399fb6b7446c632d364ccff6cb8ea09c242de1b01",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/spark-cluster-overview-1400.webp"
+    },
+    {
+      "path": "assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/spark-cluster-overview-480.webp",
+      "route": "/assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/spark-cluster-overview-480.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "9b2693100e6adc65414a5ab183c1c0d0b3e5fa55391f7e2a4184dfa690de7104",
+      "artifact_sha256": "9b2693100e6adc65414a5ab183c1c0d0b3e5fa55391f7e2a4184dfa690de7104",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/spark-cluster-overview-480.webp"
+    },
+    {
+      "path": "assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/cluster-configuration-1400.webp",
+      "route": "/assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/cluster-configuration-1400.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "326c60c6b397fa5ba61a4fc3594d8e0de7810030ac0fb3c0042a136f326e27cb",
+      "artifact_sha256": "326c60c6b397fa5ba61a4fc3594d8e0de7810030ac0fb3c0042a136f326e27cb",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/cluster-configuration-1400.webp"
+    },
+    {
+      "path": "assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/extracting-embeddings-480.webp",
+      "route": "/assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/extracting-embeddings-480.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "c1bf5f5f6acc16adb3894e2beb96f64c92e0fab7dd0b003d4053d537180c3c46",
+      "artifact_sha256": "c1bf5f5f6acc16adb3894e2beb96f64c92e0fab7dd0b003d4053d537180c3c46",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/extracting-embeddings-480.webp"
+    },
+    {
+      "path": "assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/cluster-configuration-480.webp",
+      "route": "/assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/cluster-configuration-480.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "326c60c6b397fa5ba61a4fc3594d8e0de7810030ac0fb3c0042a136f326e27cb",
+      "artifact_sha256": "326c60c6b397fa5ba61a4fc3594d8e0de7810030ac0fb3c0042a136f326e27cb",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/cluster-configuration-480.webp"
+    },
+    {
+      "path": "assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/spark-cluster-overview-800.webp",
+      "route": "/assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/spark-cluster-overview-800.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "f8b9ec2f044db127d318e5b399fb6b7446c632d364ccff6cb8ea09c242de1b01",
+      "artifact_sha256": "f8b9ec2f044db127d318e5b399fb6b7446c632d364ccff6cb8ea09c242de1b01",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/spark-cluster-overview-800.webp"
+    },
+    {
+      "path": "assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/extracting-embeddings-800.webp",
+      "route": "/assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/extracting-embeddings-800.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "d898850102fe6845dc429fae2250d71250365d2e0ca1de7999b14d8939fe89c8",
+      "artifact_sha256": "d898850102fe6845dc429fae2250d71250365d2e0ca1de7999b14d8939fe89c8",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/extracting-embeddings-800.webp"
+    },
+    {
+      "path": "assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/cluster-configuration-800.webp",
+      "route": "/assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/cluster-configuration-800.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "326c60c6b397fa5ba61a4fc3594d8e0de7810030ac0fb3c0042a136f326e27cb",
+      "artifact_sha256": "326c60c6b397fa5ba61a4fc3594d8e0de7810030ac0fb3c0042a136f326e27cb",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/cluster-configuration-800.webp"
+    },
+    {
+      "path": "assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/extracting-embeddings.png",
+      "route": "/assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/extracting-embeddings.png",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "6861cdeff91bb14bfcf313d88aa83a9afa7881e6363be94aaa0d522eadadbdd9",
+      "artifact_sha256": "6861cdeff91bb14bfcf313d88aa83a9afa7881e6363be94aaa0d522eadadbdd9",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/extracting-embeddings.png"
+    },
+    {
+      "path": "assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/spark-cluster-overview.png",
+      "route": "/assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/spark-cluster-overview.png",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "02edec1332b65c7d9b096b008d19a9d39def39ecc41fbcff65252434a7affd01",
+      "artifact_sha256": "02edec1332b65c7d9b096b008d19a9d39def39ecc41fbcff65252434a7affd01",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/spark-cluster-overview.png"
+    },
+    {
+      "path": "assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/extracting-embeddings-1400.webp",
+      "route": "/assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/extracting-embeddings-1400.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "6cc4a79fd4636e311ff97b4985068a19b29c9c445b9898be9be2119fa0d20506",
+      "artifact_sha256": "6cc4a79fd4636e311ff97b4985068a19b29c9c445b9898be9be2119fa0d20506",
+      "url": "https://romulodrumond.com/assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/extracting-embeddings-1400.webp"
+    },
+    {
+      "path": "assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/selenium_vs_bs4_vs_scrapy-1400.webp",
+      "route": "/assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/selenium_vs_bs4_vs_scrapy-1400.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "3c7117b6a6bdc94920c1986c456f59d8d5684caf66378c1a157e64d83debf881",
+      "artifact_sha256": "3c7117b6a6bdc94920c1986c456f59d8d5684caf66378c1a157e64d83debf881",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/selenium_vs_bs4_vs_scrapy-1400.webp"
+    },
+    {
+      "path": "assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/beautifulsoup_serving_a_developer-1400.webp",
+      "route": "/assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/beautifulsoup_serving_a_developer-1400.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "71e09c444fce968936e13d4b4c5ac07ebbbb24519d7db38616811458d6d9d4c3",
+      "artifact_sha256": "71e09c444fce968936e13d4b4c5ac07ebbbb24519d7db38616811458d6d9d4c3",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/beautifulsoup_serving_a_developer-1400.webp"
+    },
+    {
+      "path": "assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/selenium_vs_bs4_vs_scrapy-800.webp",
+      "route": "/assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/selenium_vs_bs4_vs_scrapy-800.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "7ecfcd6693cfc483bfd1c3ee47e1ea2763ece1371773fda7667d7c13d9b2bdb1",
+      "artifact_sha256": "7ecfcd6693cfc483bfd1c3ee47e1ea2763ece1371773fda7667d7c13d9b2bdb1",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/selenium_vs_bs4_vs_scrapy-800.webp"
+    },
+    {
+      "path": "assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/selenium_automation.gif",
+      "route": "/assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/selenium_automation.gif",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "0babe8b2c39b9fae68125530df2e001a64833a274aade3f2fcc7e6e8ea3640fc",
+      "artifact_sha256": "0babe8b2c39b9fae68125530df2e001a64833a274aade3f2fcc7e6e8ea3640fc",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/selenium_automation.gif"
+    },
+    {
+      "path": "assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/beautifulsoup_serving_a_developer-800.webp",
+      "route": "/assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/beautifulsoup_serving_a_developer-800.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "b6a088ebd6e06c91e6720bea11ebc2947d0eecb061dd17bf1466a3de11e0e760",
+      "artifact_sha256": "b6a088ebd6e06c91e6720bea11ebc2947d0eecb061dd17bf1466a3de11e0e760",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/beautifulsoup_serving_a_developer-800.webp"
+    },
+    {
+      "path": "assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/selenium_vs_bs4_vs_scrapy.png",
+      "route": "/assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/selenium_vs_bs4_vs_scrapy.png",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "7b43dc522e7dca7303e3eac1ff89e430ca809e96818a4e046d4f17fdf9abd06a",
+      "artifact_sha256": "7b43dc522e7dca7303e3eac1ff89e430ca809e96818a4e046d4f17fdf9abd06a",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/selenium_vs_bs4_vs_scrapy.png"
+    },
+    {
+      "path": "assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/beautifulsoup_serving_a_developer-480.webp",
+      "route": "/assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/beautifulsoup_serving_a_developer-480.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "41d88e182c1654edcc00b40af261edf5616835965a017e31c8ad4600b67d5b3e",
+      "artifact_sha256": "41d88e182c1654edcc00b40af261edf5616835965a017e31c8ad4600b67d5b3e",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/beautifulsoup_serving_a_developer-480.webp"
+    },
+    {
+      "path": "assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/beautifulsoup_serving_a_developer.png",
+      "route": "/assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/beautifulsoup_serving_a_developer.png",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "06769e08b0211d905e4ea73af7f9dd6753bdda7b22467cb14861c70c1fab8bdd",
+      "artifact_sha256": "06769e08b0211d905e4ea73af7f9dd6753bdda7b22467cb14861c70c1fab8bdd",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/beautifulsoup_serving_a_developer.png"
+    },
+    {
+      "path": "assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/selenium_vs_bs4_vs_scrapy-480.webp",
+      "route": "/assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/selenium_vs_bs4_vs_scrapy-480.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "ade447a54ea44e2af235f7fdeeec1d81e3fbffddf133418483b9152fe47a8006",
+      "artifact_sha256": "ade447a54ea44e2af235f7fdeeec1d81e3fbffddf133418483b9152fe47a8006",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/selenium_vs_bs4_vs_scrapy-480.webp"
+    },
+    {
+      "path": "assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_fsds_appears-480.webp",
+      "route": "/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_fsds_appears-480.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "95b0f4d15816c6fa96de3b81ab6639a9452cf8b7123cc93d57f4ddb86260ff42",
+      "artifact_sha256": "95b0f4d15816c6fa96de3b81ab6639a9452cf8b7123cc93d57f4ddb86260ff42",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_fsds_appears-480.webp"
+    },
+    {
+      "path": "assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/veen_diagram-480.webp",
+      "route": "/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/veen_diagram-480.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "9c6d7d4b063f1db3f74eb79afed9e6ee924ae9963d51f70e2a83724f62da8ce6",
+      "artifact_sha256": "9c6d7d4b063f1db3f74eb79afed9e6ee924ae9963d51f70e2a83724f62da8ce6",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/veen_diagram-480.webp"
+    },
+    {
+      "path": "assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/roles_on_data_pipeline-1400.webp",
+      "route": "/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/roles_on_data_pipeline-1400.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "5d3db1f18b18abc018a9c9f094a8a5aec7db9d1b7b7f4ac5b07d7358ef5f73e1",
+      "artifact_sha256": "5d3db1f18b18abc018a9c9f094a8a5aec7db9d1b7b7f4ac5b07d7358ef5f73e1",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/roles_on_data_pipeline-1400.webp"
+    },
+    {
+      "path": "assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_fsds_appears-1400.webp",
+      "route": "/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_fsds_appears-1400.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "79622c4a5411de634e309d1d6828ca8d67b72d0ad0cc25023c0f8083def8a91f",
+      "artifact_sha256": "79622c4a5411de634e309d1d6828ca8d67b72d0ad0cc25023c0f8083def8a91f",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_fsds_appears-1400.webp"
+    },
+    {
+      "path": "assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/roles_on_data_pipeline-800.webp",
+      "route": "/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/roles_on_data_pipeline-800.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "b6dd0630dc84a8862fa9c9cae250d6d99e9bb48d0c2d2f5b88b73065352000ee",
+      "artifact_sha256": "b6dd0630dc84a8862fa9c9cae250d6d99e9bb48d0c2d2f5b88b73065352000ee",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/roles_on_data_pipeline-800.webp"
+    },
+    {
+      "path": "assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_de_the_ds_and_the_mle-800.webp",
+      "route": "/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_de_the_ds_and_the_mle-800.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "1d31fdde47e2109b79396e38987df11b5e54287d86d2e66f6f6a682baddddcf2",
+      "artifact_sha256": "1d31fdde47e2109b79396e38987df11b5e54287d86d2e66f6f6a682baddddcf2",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_de_the_ds_and_the_mle-800.webp"
+    },
+    {
+      "path": "assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/roles_on_data_pipeline.png",
+      "route": "/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/roles_on_data_pipeline.png",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "f8b197943161ed7dee1f94f54aa40c68bdc6e8aa55271c2af10150504c66c0b6",
+      "artifact_sha256": "f8b197943161ed7dee1f94f54aa40c68bdc6e8aa55271c2af10150504c66c0b6",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/roles_on_data_pipeline.png"
+    },
+    {
+      "path": "assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/roles_on_data_pipeline-480.webp",
+      "route": "/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/roles_on_data_pipeline-480.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "cd3ba87bbf3743f52c94ede77897fd09d93139ed04c901efe8f3d0d1fd6b95d5",
+      "artifact_sha256": "cd3ba87bbf3743f52c94ede77897fd09d93139ed04c901efe8f3d0d1fd6b95d5",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/roles_on_data_pipeline-480.webp"
+    },
+    {
+      "path": "assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_de_the_ds_and_the_mle-1400.webp",
+      "route": "/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_de_the_ds_and_the_mle-1400.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "1d31fdde47e2109b79396e38987df11b5e54287d86d2e66f6f6a682baddddcf2",
+      "artifact_sha256": "1d31fdde47e2109b79396e38987df11b5e54287d86d2e66f6f6a682baddddcf2",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_de_the_ds_and_the_mle-1400.webp"
+    },
+    {
+      "path": "assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_de_the_ds_and_the_mle-480.webp",
+      "route": "/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_de_the_ds_and_the_mle-480.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "19e7890095fd2e2879e871423015ef60b45e771de781f32877b9267bcbf7afdc",
+      "artifact_sha256": "19e7890095fd2e2879e871423015ef60b45e771de781f32877b9267bcbf7afdc",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_de_the_ds_and_the_mle-480.webp"
+    },
+    {
+      "path": "assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_fsds_appears.jpg",
+      "route": "/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_fsds_appears.jpg",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "e0646f69345278ed67fc7aeb6561a147039a0b7f6dbc02ab5ed747c2acf58eb2",
+      "artifact_sha256": "e0646f69345278ed67fc7aeb6561a147039a0b7f6dbc02ab5ed747c2acf58eb2",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_fsds_appears.jpg"
+    },
+    {
+      "path": "assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/veen_diagram-800.webp",
+      "route": "/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/veen_diagram-800.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "d27d0c0fbdb92e63ca4a9198d0efa1afc23b3573da401b10c6e8c4e3bb177611",
+      "artifact_sha256": "d27d0c0fbdb92e63ca4a9198d0efa1afc23b3573da401b10c6e8c4e3bb177611",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/veen_diagram-800.webp"
+    },
+    {
+      "path": "assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_fsds_appears-800.webp",
+      "route": "/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_fsds_appears-800.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "79622c4a5411de634e309d1d6828ca8d67b72d0ad0cc25023c0f8083def8a91f",
+      "artifact_sha256": "79622c4a5411de634e309d1d6828ca8d67b72d0ad0cc25023c0f8083def8a91f",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_fsds_appears-800.webp"
+    },
+    {
+      "path": "assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_de_the_ds_and_the_mle.jpg",
+      "route": "/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_de_the_ds_and_the_mle.jpg",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "adf0d8bc37eeeece52a842fe8474aa9163b99d2dc11acf958b7efb3ac1049fc2",
+      "artifact_sha256": "adf0d8bc37eeeece52a842fe8474aa9163b99d2dc11acf958b7efb3ac1049fc2",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_de_the_ds_and_the_mle.jpg"
+    },
+    {
+      "path": "assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/veen_diagram.jpeg",
+      "route": "/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/veen_diagram.jpeg",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "97c6f2eb174523c79505f98dba3ea36c12fc014f57ec83ddcc1e1ad36e7affc5",
+      "artifact_sha256": "97c6f2eb174523c79505f98dba3ea36c12fc014f57ec83ddcc1e1ad36e7affc5",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/veen_diagram.jpeg"
+    },
+    {
+      "path": "assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/veen_diagram-1400.webp",
+      "route": "/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/veen_diagram-1400.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "485d53a6c13c2b871c3858a36908dfdc384f468a620a33d13d0f8480394d23a0",
+      "artifact_sha256": "485d53a6c13c2b871c3858a36908dfdc384f468a620a33d13d0f8480394d23a0",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/veen_diagram-1400.webp"
+    },
+    {
+      "path": "assets/img/posts/2023-12-13-escaping-dependency-hell/architecture-containers-480.webp",
+      "route": "/assets/img/posts/2023-12-13-escaping-dependency-hell/architecture-containers-480.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "a8f79477a99a9e3591d0d00c963f81c7acaebec6d746b818952abc31cc5561f9",
+      "artifact_sha256": "a8f79477a99a9e3591d0d00c963f81c7acaebec6d746b818952abc31cc5561f9",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-12-13-escaping-dependency-hell/architecture-containers-480.webp"
+    },
+    {
+      "path": "assets/img/posts/2023-12-13-escaping-dependency-hell/architecture-containers.png",
+      "route": "/assets/img/posts/2023-12-13-escaping-dependency-hell/architecture-containers.png",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "6cd2d8165a5ef06303795e59f5239fdc0d21c4c2a83c53d0caf2f56d9ccb2c3e",
+      "artifact_sha256": "6cd2d8165a5ef06303795e59f5239fdc0d21c4c2a83c53d0caf2f56d9ccb2c3e",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-12-13-escaping-dependency-hell/architecture-containers.png"
+    },
+    {
+      "path": "assets/img/posts/2023-12-13-escaping-dependency-hell/architecture-containers-1400.webp",
+      "route": "/assets/img/posts/2023-12-13-escaping-dependency-hell/architecture-containers-1400.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "41772522590929085f4f5422c6dcd53dd628bcabf93cc3e4cd9c36d4a0287242",
+      "artifact_sha256": "41772522590929085f4f5422c6dcd53dd628bcabf93cc3e4cd9c36d4a0287242",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-12-13-escaping-dependency-hell/architecture-containers-1400.webp"
+    },
+    {
+      "path": "assets/img/posts/2023-12-13-escaping-dependency-hell/architecture-containers-800.webp",
+      "route": "/assets/img/posts/2023-12-13-escaping-dependency-hell/architecture-containers-800.webp",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "29c708d02f15b7019be4b4f406e19da582e574e3b18e7e371d70969dabe74a2a",
+      "artifact_sha256": "29c708d02f15b7019be4b4f406e19da582e574e3b18e7e371d70969dabe74a2a",
+      "url": "https://romulodrumond.com/assets/img/posts/2023-12-13-escaping-dependency-hell/architecture-containers-800.webp"
+    },
+    {
+      "path": "assets/al_img_tools/css/lightbox2-adapter.css",
+      "route": "/assets/al_img_tools/css/lightbox2-adapter.css",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "ad1fa9b3f6ca1bf0c3373152e71b9e2c9de657614eb0d62f0873fb33fe5d6663",
+      "artifact_sha256": "ad1fa9b3f6ca1bf0c3373152e71b9e2c9de657614eb0d62f0873fb33fe5d6663",
+      "url": "https://romulodrumond.com/assets/al_img_tools/css/lightbox2-adapter.css"
+    },
+    {
+      "path": "assets/al_img_tools/js/venobox-setup.js",
+      "route": "/assets/al_img_tools/js/venobox-setup.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "5231cc7c631047fb83cda3140a0e2e682204385151063df830baefcd10648e26",
+      "artifact_sha256": "5231cc7c631047fb83cda3140a0e2e682204385151063df830baefcd10648e26",
+      "url": "https://romulodrumond.com/assets/al_img_tools/js/venobox-setup.js"
+    },
+    {
+      "path": "assets/al_img_tools/js/zoom.js",
+      "route": "/assets/al_img_tools/js/zoom.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "50e3c5c5098c57506509bb58c9395a56ff3de3f61056fe2107f44762d67b7682",
+      "artifact_sha256": "50e3c5c5098c57506509bb58c9395a56ff3de3f61056fe2107f44762d67b7682",
+      "url": "https://romulodrumond.com/assets/al_img_tools/js/zoom.js"
+    },
+    {
+      "path": "assets/al_img_tools/js/lightbox2-adapter.js",
+      "route": "/assets/al_img_tools/js/lightbox2-adapter.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "34ea927837ea6dfa88f6b22792265d1dbaf4821885261db9ee482de54437f6f9",
+      "artifact_sha256": "34ea927837ea6dfa88f6b22792265d1dbaf4821885261db9ee482de54437f6f9",
+      "url": "https://romulodrumond.com/assets/al_img_tools/js/lightbox2-adapter.js"
+    },
+    {
+      "path": "assets/al_marimo/css/marimo.css",
+      "route": "/assets/al_marimo/css/marimo.css",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "27f2bc38597eb56cdf3d0aecbd739fddc058b4059878d4622d73c75c8c6819cf",
+      "artifact_sha256": "27f2bc38597eb56cdf3d0aecbd739fddc058b4059878d4622d73c75c8c6819cf",
+      "url": "https://romulodrumond.com/assets/al_marimo/css/marimo.css"
+    },
+    {
+      "path": "assets/al_marimo/js/marimo-init.js",
+      "route": "/assets/al_marimo/js/marimo-init.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "8f36c8b40c5bc5e03403303687aa68264dcfabf78cc55d9e0463bc47f741f481",
+      "artifact_sha256": "8f36c8b40c5bc5e03403303687aa68264dcfabf78cc55d9e0463bc47f741f481",
+      "url": "https://romulodrumond.com/assets/al_marimo/js/marimo-init.js"
+    },
+    {
+      "path": "assets/al_marimo/js/marimo-snippets.js",
+      "route": "/assets/al_marimo/js/marimo-snippets.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "40435b5c14f693de415c1c0e9f90adc7a3ebd1ca78e9cc985b1da044cbfbbeac",
+      "artifact_sha256": "40435b5c14f693de415c1c0e9f90adc7a3ebd1ca78e9cc985b1da044cbfbbeac",
+      "url": "https://romulodrumond.com/assets/al_marimo/js/marimo-snippets.js"
+    },
+    {
+      "path": "assets/al_rtl/css/rtl.css",
+      "route": "/assets/al_rtl/css/rtl.css",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "24e1f1dde4d0583ac70da16369659281e0af37d5fb00e34f14acdb4871ed2c22",
+      "artifact_sha256": "24e1f1dde4d0583ac70da16369659281e0af37d5fb00e34f14acdb4871ed2c22",
+      "url": "https://romulodrumond.com/assets/al_rtl/css/rtl.css"
+    },
+    {
+      "path": "assets/al_newsletter/js/newsletter.js",
+      "route": "/assets/al_newsletter/js/newsletter.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "db1df7b04b587e759cb94156a69faf9de98347a4130a9b5fca0661ea0a88be04",
+      "artifact_sha256": "db1df7b04b587e759cb94156a69faf9de98347a4130a9b5fca0661ea0a88be04",
+      "url": "https://romulodrumond.com/assets/al_newsletter/js/newsletter.js"
+    },
+    {
+      "path": "assets/al_search/js/search-setup.js",
+      "route": "/assets/al_search/js/search-setup.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "f3fa1069e63db55794b5a67f3a61e5a689461a495b7e1394b203a7f325a4cd5b",
+      "artifact_sha256": "f3fa1069e63db55794b5a67f3a61e5a689461a495b7e1394b203a7f325a4cd5b",
+      "url": "https://romulodrumond.com/assets/al_search/js/search-setup.js"
+    },
+    {
+      "path": "assets/al_search/js/shortcut-key.js",
+      "route": "/assets/al_search/js/shortcut-key.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "04457d815ebd9df3ec1e7c77cb84eb60126ce9370138e96fde14fb911ec3683b",
+      "artifact_sha256": "04457d815ebd9df3ec1e7c77cb84eb60126ce9370138e96fde14fb911ec3683b",
+      "url": "https://romulodrumond.com/assets/al_search/js/shortcut-key.js"
+    },
+    {
+      "path": "assets/al_search/js/search/ninja-keys.min.js",
+      "route": "/assets/al_search/js/search/ninja-keys.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "36f7aa6cfa69221f917c790241d6d422a3833d5d323adef57e50265f25e261f4",
+      "artifact_sha256": "36f7aa6cfa69221f917c790241d6d422a3833d5d323adef57e50265f25e261f4",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/ninja-keys.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/ninja-action.min.js",
+      "route": "/assets/al_search/js/search/ninja-action.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "629f86eca48eab1222121bdbf2363bc2c971c3975ce67dd0da4d69a3f2b641b5",
+      "artifact_sha256": "629f86eca48eab1222121bdbf2363bc2c971c3975ce67dd0da4d69a3f2b641b5",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/ninja-action.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/ninja-footer.min.js",
+      "route": "/assets/al_search/js/search/ninja-footer.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "1a0719c6867eaf3fc99e65012154ce68748da5079ea189fb75c615b3871ed502",
+      "artifact_sha256": "1a0719c6867eaf3fc99e65012154ce68748da5079ea189fb75c615b3871ed502",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/ninja-footer.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/base-styles.min.js",
+      "route": "/assets/al_search/js/search/base-styles.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "d105e0f88745c2eb94542f1e81573ba751839393eaea989e25edd4b91765ecd8",
+      "artifact_sha256": "d105e0f88745c2eb94542f1e81573ba751839393eaea989e25edd4b91765ecd8",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/base-styles.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/ninja-header.min.js",
+      "route": "/assets/al_search/js/search/ninja-header.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "9e8d66aef937f10ff8297e38badfd42595ec06f43ca850c7e051b43114020b74",
+      "artifact_sha256": "9e8d66aef937f10ff8297e38badfd42595ec06f43ca850c7e051b43114020b74",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/ninja-header.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/command-score.min.js",
+      "route": "/assets/al_search/js/search/command-score.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "06e2860c7f3542a35248b45b803f26baa3527411539264d9722c5b18ce756985",
+      "artifact_sha256": "06e2860c7f3542a35248b45b803f26baa3527411539264d9722c5b18ce756985",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/command-score.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/lit/decorators.min.js",
+      "route": "/assets/al_search/js/search/lit/decorators.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "c23fa90278dea7019e6a93a0faafd4a420595998d9ff807f3f73f84863cefd8e",
+      "artifact_sha256": "c23fa90278dea7019e6a93a0faafd4a420595998d9ff807f3f73f84863cefd8e",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/lit/decorators.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/lit/index.min.js",
+      "route": "/assets/al_search/js/search/lit/index.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "09a2cbedfc9eac8f28c0162fd9984ebf1a688aa0bd93377fea7acd6a6d89e3ae",
+      "artifact_sha256": "09a2cbedfc9eac8f28c0162fd9984ebf1a688aa0bd93377fea7acd6a6d89e3ae",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/lit/index.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/hotkeys-js/hotkeys.esm.min.js",
+      "route": "/assets/al_search/js/search/hotkeys-js/hotkeys.esm.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "12712a9b7214e85b027b8b329a1c071f3f1079824c923c6a42149eeff2cf6328",
+      "artifact_sha256": "12712a9b7214e85b027b8b329a1c071f3f1079824c923c6a42149eeff2cf6328",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/hotkeys-js/hotkeys.esm.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/lit-html/is-server.min.js",
+      "route": "/assets/al_search/js/search/lit-html/is-server.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "8bb28c742f0e67d766945a8a0598e47a7a6791fd4cc487b4d4e321b3d7de4d6b",
+      "artifact_sha256": "8bb28c742f0e67d766945a8a0598e47a7a6791fd4cc487b4d4e321b3d7de4d6b",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/lit-html/is-server.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/lit-html/lit-html.min.js",
+      "route": "/assets/al_search/js/search/lit-html/lit-html.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "f21e6c3fbb91d2d5f76f2bc2418e89bf06cbd11b632a06eeb8d509e61376215d",
+      "artifact_sha256": "f21e6c3fbb91d2d5f76f2bc2418e89bf06cbd11b632a06eeb8d509e61376215d",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/lit-html/lit-html.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/reactive-element/reactive-element.min.js",
+      "route": "/assets/al_search/js/search/reactive-element/reactive-element.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "1ae8a925129cdb0f61e63d044a42ffa0bca223c8ccc51236ad8d24d4296af151",
+      "artifact_sha256": "1ae8a925129cdb0f61e63d044a42ffa0bca223c8ccc51236ad8d24d4296af151",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/reactive-element/reactive-element.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/lit-element/lit-element.min.js",
+      "route": "/assets/al_search/js/search/lit-element/lit-element.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "e2f3e4e91c5f63f0935943fac18997d7bbae2d7cc0df6d9ccace36084b0ea89d",
+      "artifact_sha256": "e2f3e4e91c5f63f0935943fac18997d7bbae2d7cc0df6d9ccace36084b0ea89d",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/lit-element/lit-element.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/lit/directives/live.min.js",
+      "route": "/assets/al_search/js/search/lit/directives/live.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "e971cabd52264f56982e1cbfc897fdccae1bf6dc8fdb362e0fc55d4ac89a0ec0",
+      "artifact_sha256": "e971cabd52264f56982e1cbfc897fdccae1bf6dc8fdb362e0fc55d4ac89a0ec0",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/lit/directives/live.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/lit/directives/ref.min.js",
+      "route": "/assets/al_search/js/search/lit/directives/ref.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "939651ebda2f1e9075204586fb4c4083e4d7c25e969069abf9f030a7d53b2adf",
+      "artifact_sha256": "939651ebda2f1e9075204586fb4c4083e4d7c25e969069abf9f030a7d53b2adf",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/lit/directives/ref.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/lit/directives/class-map.min.js",
+      "route": "/assets/al_search/js/search/lit/directives/class-map.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "bafb64bd6145c0679dcf2395d1d19f25e3b900015b5f3aa0448cc9e2d87decf4",
+      "artifact_sha256": "bafb64bd6145c0679dcf2395d1d19f25e3b900015b5f3aa0448cc9e2d87decf4",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/lit/directives/class-map.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/lit/directives/join.min.js",
+      "route": "/assets/al_search/js/search/lit/directives/join.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "12709bec3dc1305c5180cbc17d589439246f9ae147a99aa45293189e52cb52f0",
+      "artifact_sha256": "12709bec3dc1305c5180cbc17d589439246f9ae147a99aa45293189e52cb52f0",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/lit/directives/join.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/lit/directives/repeat.min.js",
+      "route": "/assets/al_search/js/search/lit/directives/repeat.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "2efa664792a3fc78e40d7a6e02f718a2b7ef191f01c7a1d056a4d8a789b22550",
+      "artifact_sha256": "2efa664792a3fc78e40d7a6e02f718a2b7ef191f01c7a1d056a4d8a789b22550",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/lit/directives/repeat.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/lit/directives/unsafe-html.min.js",
+      "route": "/assets/al_search/js/search/lit/directives/unsafe-html.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "6c5e4980abab5cb8797d9600101fbda55a44cb1c75e38ec9bfde17dab0c00082",
+      "artifact_sha256": "6c5e4980abab5cb8797d9600101fbda55a44cb1c75e38ec9bfde17dab0c00082",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/lit/directives/unsafe-html.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/lit-html/directives/live.min.js",
+      "route": "/assets/al_search/js/search/lit-html/directives/live.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "f6382dcd0a976edff71e677f7eb05c9012ade5b1bdd050a8346aa484ab9239f1",
+      "artifact_sha256": "f6382dcd0a976edff71e677f7eb05c9012ade5b1bdd050a8346aa484ab9239f1",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/lit-html/directives/live.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/lit-html/directives/ref.min.js",
+      "route": "/assets/al_search/js/search/lit-html/directives/ref.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "662996bf13a8a55755b6b547a9ea44077959fbf2fca3ac6f417e3538cfd537dc",
+      "artifact_sha256": "662996bf13a8a55755b6b547a9ea44077959fbf2fca3ac6f417e3538cfd537dc",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/lit-html/directives/ref.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/lit-html/directives/class-map.min.js",
+      "route": "/assets/al_search/js/search/lit-html/directives/class-map.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "fb1721a3c812fc58b5a7659a9a18303a3658f7683766903ab04aed5b51870f9e",
+      "artifact_sha256": "fb1721a3c812fc58b5a7659a9a18303a3658f7683766903ab04aed5b51870f9e",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/lit-html/directives/class-map.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/lit-html/directives/join.min.js",
+      "route": "/assets/al_search/js/search/lit-html/directives/join.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "af15ab57a3c301eb023c5944068a0fd4283420fb8618f84a38105940f2994bd9",
+      "artifact_sha256": "af15ab57a3c301eb023c5944068a0fd4283420fb8618f84a38105940f2994bd9",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/lit-html/directives/join.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/lit-html/directives/repeat.min.js",
+      "route": "/assets/al_search/js/search/lit-html/directives/repeat.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "b329b2af682514ea1f07cd60f23670aede2192b514abd8659c737520f274ee52",
+      "artifact_sha256": "b329b2af682514ea1f07cd60f23670aede2192b514abd8659c737520f274ee52",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/lit-html/directives/repeat.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/lit-html/directives/unsafe-html.min.js",
+      "route": "/assets/al_search/js/search/lit-html/directives/unsafe-html.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "7163829d15732d45afbb5c363d88d0bc0f8b4dcf6b2547c57c9277a41e61e68a",
+      "artifact_sha256": "7163829d15732d45afbb5c363d88d0bc0f8b4dcf6b2547c57c9277a41e61e68a",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/lit-html/directives/unsafe-html.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/reactive-element/decorators/state.min.js",
+      "route": "/assets/al_search/js/search/reactive-element/decorators/state.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "0da4a245c6b54f1cd370dd75314d8bd3c4000665c141acaaaf410a93685884b3",
+      "artifact_sha256": "0da4a245c6b54f1cd370dd75314d8bd3c4000665c141acaaaf410a93685884b3",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/reactive-element/decorators/state.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/reactive-element/decorators/property.min.js",
+      "route": "/assets/al_search/js/search/reactive-element/decorators/property.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "3b7de50040e8e973fd4315d4bcac412345c73fc630d714b97c4dd699ddf0110f",
+      "artifact_sha256": "3b7de50040e8e973fd4315d4bcac412345c73fc630d714b97c4dd699ddf0110f",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/reactive-element/decorators/property.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/reactive-element/decorators/query.min.js",
+      "route": "/assets/al_search/js/search/reactive-element/decorators/query.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "398ca60662e98da549bfd60a456e344d615b2d7961c770e23b3ab5c24a4328f5",
+      "artifact_sha256": "398ca60662e98da549bfd60a456e344d615b2d7961c770e23b3ab5c24a4328f5",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/reactive-element/decorators/query.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/reactive-element/decorators/query-assigned-elements.min.js",
+      "route": "/assets/al_search/js/search/reactive-element/decorators/query-assigned-elements.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "14834adaffeff4c815474de0f32e1cb9c575cc4fa73265225ca64b00c8759add",
+      "artifact_sha256": "14834adaffeff4c815474de0f32e1cb9c575cc4fa73265225ca64b00c8759add",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/reactive-element/decorators/query-assigned-elements.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/reactive-element/decorators/event-options.min.js",
+      "route": "/assets/al_search/js/search/reactive-element/decorators/event-options.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "bf51526a246979e9bb684cac935084acec202406236fbefba67a7fbfa04530fc",
+      "artifact_sha256": "bf51526a246979e9bb684cac935084acec202406236fbefba67a7fbfa04530fc",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/reactive-element/decorators/event-options.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/reactive-element/decorators/query-async.min.js",
+      "route": "/assets/al_search/js/search/reactive-element/decorators/query-async.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "59215a61b30dab42e0775d7a75d34e5d48ae0808542c247c8a4eb63f0453abaa",
+      "artifact_sha256": "59215a61b30dab42e0775d7a75d34e5d48ae0808542c247c8a4eb63f0453abaa",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/reactive-element/decorators/query-async.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/reactive-element/decorators/custom-element.min.js",
+      "route": "/assets/al_search/js/search/reactive-element/decorators/custom-element.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "8e32e0f39eda1c3b4b518bdb8c04761c20a0e2231562b6c867811dc29ae99b51",
+      "artifact_sha256": "8e32e0f39eda1c3b4b518bdb8c04761c20a0e2231562b6c867811dc29ae99b51",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/reactive-element/decorators/custom-element.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/reactive-element/decorators/query-assigned-nodes.min.js",
+      "route": "/assets/al_search/js/search/reactive-element/decorators/query-assigned-nodes.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "260f3260a587f36dba819592e468ac11dfbe5b6d7c9dba62bcae5efc31ae311d",
+      "artifact_sha256": "260f3260a587f36dba819592e468ac11dfbe5b6d7c9dba62bcae5efc31ae311d",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/reactive-element/decorators/query-assigned-nodes.min.js"
+    },
+    {
+      "path": "assets/al_search/js/search/reactive-element/decorators/query-all.min.js",
+      "route": "/assets/al_search/js/search/reactive-element/decorators/query-all.min.js",
+      "status": 200,
+      "matches_artifact": true,
+      "sha256": "14222658e50c55b9a020afae8326964c92b7bf798dd5a38aeaa43e077587f2eb",
+      "artifact_sha256": "14222658e50c55b9a020afae8326964c92b7bf798dd5a38aeaa43e077587f2eb",
+      "url": "https://romulodrumond.com/assets/al_search/js/search/reactive-element/decorators/query-all.min.js"
+    }
+  ]
+}

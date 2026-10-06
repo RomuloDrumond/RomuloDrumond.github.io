@@ -1,0 +1,22 @@
+Production source: db4f37174e4fc6c31c51fd2978a4d879e71ea36a
+Production Pages: c72768e5a2edfa9e1f95e7372c730d14d7dae2fe
+Production build/deploy run: https://github.com/RomuloDrumond/RomuloDrumond.github.io/actions/runs/37398244331
+Pages publication run: https://github.com/RomuloDrumond/RomuloDrumond.github.io/actions/runs/37398389036
+Local make check: 1970 preservation assertions passed.
+Linux CI make check: 1970 preservation assertions passed.
+Upstream migration audit: Blocking: 0, Non-blocking: 0.
+Upstream override audit: 1 acknowledged default.liquid override.
+Workflow actionlint: passed before publishing.
+Git diff --check: passed before publishing.
+Public artifact files: 249/249 HTTP 200, 249/249 SHA256 match.
+Artifact .nojekyll: present.
+Desktop routes: 17/17 sampled layouts match; no broken images or overflow.
+Mobile routes: 13/13 native 390x844 checks pass.
+Screenshot pairs: 24 local/production, 13 original/production.
+Fresh mobile screenshot geometry: 3/3 match.
+Clipboard read-back on production: blocked by browser focus restriction.
+
+CI evidence:
+build	Build and validate	2026-10-06T01:16:50.4031723Z Migration checks passed (1970 assertions): routes, content, images, code, embeds, canonicals, feed, archives, AIVQ, search and local links.
+build	Build and validate	2026-10-06T01:16:50.9498979Z Upgrade audit complete. Blocking: 0, Non-blocking: 0.
+build	Build and validate	2026-10-06T01:16:51.4811127Z - _layouts/default.liquid: acknowledged (al_folio_core 1.0.15, upstream _layouts/default.liquid)

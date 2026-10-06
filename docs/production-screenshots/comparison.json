@@ -1,0 +1,476 @@
+{
+  "method": "Pillow ImageCms converts each embedded screenshot ICC profile to sRGB for comparison; source PNGs are preserved. Difference is mean absolute RGB channel error on a 0\u2013255 scale.",
+  "pairs": [
+    {
+      "name": "home",
+      "size": [
+        1280,
+        800
+      ],
+      "exact": false,
+      "mean_absolute_channel_difference": 0.051169,
+      "difference_bounds": [
+        388,
+        17,
+        962,
+        793
+      ],
+      "sampled_layout_equal": true,
+      "profile_sha256": {
+        "local": "f990a8265bacd895500449fd454dca0faecfaf03dd7d5744cc7b3793e4b92a91",
+        "production": "4c0ff0fead968dfabb20d3534cab8e0287146c4cfcdce51a61fd1caa9ba1de7c"
+      }
+    },
+    {
+      "name": "blog",
+      "size": [
+        1280,
+        800
+      ],
+      "exact": false,
+      "mean_absolute_channel_difference": 0.030068,
+      "difference_bounds": [
+        337,
+        15,
+        964,
+        793
+      ],
+      "sampled_layout_equal": true,
+      "profile_sha256": {
+        "local": "f990a8265bacd895500449fd454dca0faecfaf03dd7d5744cc7b3793e4b92a91",
+        "production": "4c0ff0fead968dfabb20d3534cab8e0287146c4cfcdce51a61fd1caa9ba1de7c"
+      }
+    },
+    {
+      "name": "publications",
+      "size": [
+        1280,
+        800
+      ],
+      "exact": false,
+      "mean_absolute_channel_difference": 0.006755,
+      "difference_bounds": [
+        317,
+        15,
+        864,
+        793
+      ],
+      "sampled_layout_equal": true,
+      "profile_sha256": {
+        "local": "f990a8265bacd895500449fd454dca0faecfaf03dd7d5744cc7b3793e4b92a91",
+        "production": "4c0ff0fead968dfabb20d3534cab8e0287146c4cfcdce51a61fd1caa9ba1de7c"
+      }
+    },
+    {
+      "name": "repositories",
+      "size": [
+        1280,
+        800
+      ],
+      "exact": false,
+      "mean_absolute_channel_difference": 0.022315,
+      "difference_bounds": [
+        326,
+        18,
+        954,
+        793
+      ],
+      "sampled_layout_equal": true,
+      "profile_sha256": {
+        "local": "f990a8265bacd895500449fd454dca0faecfaf03dd7d5744cc7b3793e4b92a91",
+        "production": "4c0ff0fead968dfabb20d3534cab8e0287146c4cfcdce51a61fd1caa9ba1de7c"
+      }
+    },
+    {
+      "name": "2022-04-30-welcome-post",
+      "size": [
+        1280,
+        800
+      ],
+      "exact": false,
+      "mean_absolute_channel_difference": 0.00305,
+      "difference_bounds": [
+        333,
+        15,
+        943,
+        793
+      ],
+      "sampled_layout_equal": true,
+      "profile_sha256": {
+        "local": "f990a8265bacd895500449fd454dca0faecfaf03dd7d5744cc7b3793e4b92a91",
+        "production": "4c0ff0fead968dfabb20d3534cab8e0287146c4cfcdce51a61fd1caa9ba1de7c"
+      }
+    },
+    {
+      "name": "2022-08-29-setting-up-docker-on-wsl2",
+      "size": [
+        1280,
+        800
+      ],
+      "exact": false,
+      "mean_absolute_channel_difference": 0.021492,
+      "difference_bounds": [
+        204,
+        15,
+        1086,
+        793
+      ],
+      "sampled_layout_equal": true,
+      "profile_sha256": {
+        "local": "f990a8265bacd895500449fd454dca0faecfaf03dd7d5744cc7b3793e4b92a91",
+        "production": "4c0ff0fead968dfabb20d3534cab8e0287146c4cfcdce51a61fd1caa9ba1de7c"
+      }
+    },
+    {
+      "name": "2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl",
+      "size": [
+        1280,
+        800
+      ],
+      "exact": false,
+      "mean_absolute_channel_difference": 0.093437,
+      "difference_bounds": [
+        204,
+        15,
+        1088,
+        793
+      ],
+      "sampled_layout_equal": true,
+      "profile_sha256": {
+        "local": "f990a8265bacd895500449fd454dca0faecfaf03dd7d5744cc7b3793e4b92a91",
+        "production": "4c0ff0fead968dfabb20d3534cab8e0287146c4cfcdce51a61fd1caa9ba1de7c"
+      }
+    },
+    {
+      "name": "2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark",
+      "size": [
+        1280,
+        800
+      ],
+      "exact": false,
+      "mean_absolute_channel_difference": 0.088444,
+      "difference_bounds": [
+        319,
+        15,
+        961,
+        793
+      ],
+      "sampled_layout_equal": true,
+      "profile_sha256": {
+        "local": "f990a8265bacd895500449fd454dca0faecfaf03dd7d5744cc7b3793e4b92a91",
+        "production": "4c0ff0fead968dfabb20d3534cab8e0287146c4cfcdce51a61fd1caa9ba1de7c"
+      }
+    },
+    {
+      "name": "2022-12-05-dealing-with-data-in-ml-projects-that-go-to-production",
+      "size": [
+        1280,
+        800
+      ],
+      "exact": false,
+      "mean_absolute_channel_difference": 0.001275,
+      "difference_bounds": [
+        204,
+        15,
+        864,
+        793
+      ],
+      "sampled_layout_equal": true,
+      "profile_sha256": {
+        "local": "f990a8265bacd895500449fd454dca0faecfaf03dd7d5744cc7b3793e4b92a91",
+        "production": "4c0ff0fead968dfabb20d3534cab8e0287146c4cfcdce51a61fd1caa9ba1de7c"
+      }
+    },
+    {
+      "name": "2023-10-06-finishing-my-data-career-masterplan",
+      "size": [
+        1280,
+        800
+      ],
+      "exact": false,
+      "mean_absolute_channel_difference": 0.27291,
+      "difference_bounds": [
+        204,
+        15,
+        973,
+        793
+      ],
+      "sampled_layout_equal": true,
+      "profile_sha256": {
+        "local": "f990a8265bacd895500449fd454dca0faecfaf03dd7d5744cc7b3793e4b92a91",
+        "production": "4c0ff0fead968dfabb20d3534cab8e0287146c4cfcdce51a61fd1caa9ba1de7c"
+      }
+    },
+    {
+      "name": "2023-12-06-navigating-the-web-with-python",
+      "size": [
+        1280,
+        800
+      ],
+      "exact": false,
+      "mean_absolute_channel_difference": 0.131676,
+      "difference_bounds": [
+        204,
+        15,
+        1053,
+        793
+      ],
+      "sampled_layout_equal": true,
+      "profile_sha256": {
+        "local": "f990a8265bacd895500449fd454dca0faecfaf03dd7d5744cc7b3793e4b92a91",
+        "production": "4c0ff0fead968dfabb20d3534cab8e0287146c4cfcdce51a61fd1caa9ba1de7c"
+      }
+    },
+    {
+      "name": "2023-12-11-escaping-dependency-hell",
+      "size": [
+        1280,
+        800
+      ],
+      "exact": false,
+      "mean_absolute_channel_difference": 0.125305,
+      "difference_bounds": [
+        204,
+        15,
+        1021,
+        793
+      ],
+      "sampled_layout_equal": true,
+      "profile_sha256": {
+        "local": "f990a8265bacd895500449fd454dca0faecfaf03dd7d5744cc7b3793e4b92a91",
+        "production": "4c0ff0fead968dfabb20d3534cab8e0287146c4cfcdce51a61fd1caa9ba1de7c"
+      }
+    },
+    {
+      "name": "2025-03-27-ineffectiveness-of-ai-agents",
+      "size": [
+        1280,
+        800
+      ],
+      "exact": false,
+      "mean_absolute_channel_difference": 0.018606,
+      "difference_bounds": [
+        204,
+        15,
+        1060,
+        793
+      ],
+      "sampled_layout_equal": true,
+      "profile_sha256": {
+        "local": "f990a8265bacd895500449fd454dca0faecfaf03dd7d5744cc7b3793e4b92a91",
+        "production": "4c0ff0fead968dfabb20d3534cab8e0287146c4cfcdce51a61fd1caa9ba1de7c"
+      }
+    },
+    {
+      "name": "sheditor-privacy",
+      "size": [
+        1280,
+        800
+      ],
+      "exact": false,
+      "mean_absolute_channel_difference": 3e-05,
+      "difference_bounds": [
+        413,
+        782,
+        864,
+        793
+      ],
+      "sampled_layout_equal": true,
+      "profile_sha256": {
+        "local": "f990a8265bacd895500449fd454dca0faecfaf03dd7d5744cc7b3793e4b92a91",
+        "production": "4c0ff0fead968dfabb20d3534cab8e0287146c4cfcdce51a61fd1caa9ba1de7c"
+      }
+    },
+    {
+      "name": "aivq",
+      "size": [
+        1280,
+        800
+      ],
+      "exact": false,
+      "mean_absolute_channel_difference": 0.005903,
+      "difference_bounds": [
+        375,
+        426,
+        864,
+        793
+      ],
+      "sampled_layout_equal": true,
+      "profile_sha256": {
+        "local": "f990a8265bacd895500449fd454dca0faecfaf03dd7d5744cc7b3793e4b92a91",
+        "production": "4c0ff0fead968dfabb20d3534cab8e0287146c4cfcdce51a61fd1caa9ba1de7c"
+      }
+    },
+    {
+      "name": "aivq-privacy",
+      "size": [
+        1280,
+        800
+      ],
+      "exact": false,
+      "mean_absolute_channel_difference": 0.000722,
+      "difference_bounds": [
+        413,
+        341,
+        874,
+        793
+      ],
+      "sampled_layout_equal": true,
+      "profile_sha256": {
+        "local": "f990a8265bacd895500449fd454dca0faecfaf03dd7d5744cc7b3793e4b92a91",
+        "production": "4c0ff0fead968dfabb20d3534cab8e0287146c4cfcdce51a61fd1caa9ba1de7c"
+      }
+    },
+    {
+      "name": "aivq-terms",
+      "size": [
+        1280,
+        800
+      ],
+      "exact": false,
+      "mean_absolute_channel_difference": 0.003104,
+      "difference_bounds": [
+        343,
+        697,
+        864,
+        793
+      ],
+      "sampled_layout_equal": true,
+      "profile_sha256": {
+        "local": "f990a8265bacd895500449fd454dca0faecfaf03dd7d5744cc7b3793e4b92a91",
+        "production": "4c0ff0fead968dfabb20d3534cab8e0287146c4cfcdce51a61fd1caa9ba1de7c"
+      }
+    },
+    {
+      "name": "table-light",
+      "size": [
+        1280,
+        800
+      ],
+      "exact": false,
+      "mean_absolute_channel_difference": 0.657978,
+      "difference_bounds": [
+        0,
+        15,
+        1262,
+        793
+      ],
+      "profile_sha256": {
+        "local": "f990a8265bacd895500449fd454dca0faecfaf03dd7d5744cc7b3793e4b92a91",
+        "production": "4c0ff0fead968dfabb20d3534cab8e0287146c4cfcdce51a61fd1caa9ba1de7c"
+      }
+    },
+    {
+      "name": "table-dark",
+      "size": [
+        1280,
+        800
+      ],
+      "exact": false,
+      "mean_absolute_channel_difference": 0.169408,
+      "difference_bounds": [
+        0,
+        14,
+        1252,
+        790
+      ],
+      "profile_sha256": {
+        "local": "f990a8265bacd895500449fd454dca0faecfaf03dd7d5744cc7b3793e4b92a91",
+        "production": "4c0ff0fead968dfabb20d3534cab8e0287146c4cfcdce51a61fd1caa9ba1de7c"
+      }
+    },
+    {
+      "name": "code",
+      "size": [
+        1280,
+        800
+      ],
+      "exact": false,
+      "mean_absolute_channel_difference": 0.121418,
+      "difference_bounds": [
+        0,
+        15,
+        930,
+        793
+      ],
+      "profile_sha256": {
+        "local": "f990a8265bacd895500449fd454dca0faecfaf03dd7d5744cc7b3793e4b92a91",
+        "production": "4c0ff0fead968dfabb20d3534cab8e0287146c4cfcdce51a61fd1caa9ba1de7c"
+      }
+    },
+    {
+      "name": "search",
+      "size": [
+        1280,
+        800
+      ],
+      "exact": false,
+      "mean_absolute_channel_difference": 0.179334,
+      "difference_bounds": [
+        290,
+        17,
+        990,
+        791
+      ],
+      "profile_sha256": {
+        "local": "f990a8265bacd895500449fd454dca0faecfaf03dd7d5744cc7b3793e4b92a91",
+        "production": "4c0ff0fead968dfabb20d3534cab8e0287146c4cfcdce51a61fd1caa9ba1de7c"
+      }
+    },
+    {
+      "name": "mobile-home",
+      "size": [
+        780,
+        1688
+      ],
+      "exact": false,
+      "mean_absolute_channel_difference": 0.709786,
+      "difference_bounds": [
+        30,
+        422,
+        750,
+        1322
+      ],
+      "sampled_layout_equal": true,
+      "profile_sha256": {
+        "local": "4c0ff0fead968dfabb20d3534cab8e0287146c4cfcdce51a61fd1caa9ba1de7c",
+        "production": "4c0ff0fead968dfabb20d3534cab8e0287146c4cfcdce51a61fd1caa9ba1de7c"
+      }
+    },
+    {
+      "name": "mobile-menu",
+      "size": [
+        780,
+        1688
+      ],
+      "exact": false,
+      "mean_absolute_channel_difference": 0.620698,
+      "difference_bounds": [
+        30,
+        422,
+        750,
+        1322
+      ],
+      "sampled_layout_equal": true,
+      "profile_sha256": {
+        "local": "4c0ff0fead968dfabb20d3534cab8e0287146c4cfcdce51a61fd1caa9ba1de7c",
+        "production": "4c0ff0fead968dfabb20d3534cab8e0287146c4cfcdce51a61fd1caa9ba1de7c"
+      }
+    },
+    {
+      "name": "mobile-article",
+      "size": [
+        780,
+        1688
+      ],
+      "exact": true,
+      "mean_absolute_channel_difference": 0.0,
+      "difference_bounds": null,
+      "sampled_layout_equal": true,
+      "profile_sha256": {
+        "local": "4c0ff0fead968dfabb20d3534cab8e0287146c4cfcdce51a61fd1caa9ba1de7c",
+        "production": "4c0ff0fead968dfabb20d3534cab8e0287146c4cfcdce51a61fd1caa9ba1de7c"
+      }
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "pages": [
+    {
+      "route": "/",
+      "canonical": "https://romulodrumond.com/",
+      "robots": null,
+      "iframe_sources": []
+    },
+    {
+      "route": "/blog/",
+      "canonical": "https://romulodrumond.com/blog/",
+      "robots": null,
+      "iframe_sources": []
+    },
+    {
+      "route": "/publications/",
+      "canonical": "https://romulodrumond.com/publications/",
+      "robots": null,
+      "iframe_sources": []
+    },
+    {
+      "route": "/repositories/",
+      "canonical": "https://romulodrumond.com/repositories/",
+      "robots": null,
+      "iframe_sources": []
+    },
+    {
+      "route": "/blog/2022/welcome-post/",
+      "canonical": "https://romulodrumond.com/blog/2022/welcome-post/",
+      "robots": null,
+      "iframe_sources": [
+        "https://pointerpointer.com/"
+      ]
+    },
+    {
+      "route": "/blog/2022/setting-up-docker-on-wsl2/",
+      "canonical": "https://romulodrumond.com/blog/2022/setting-up-docker-on-wsl2/",
+      "robots": null,
+      "iframe_sources": [
+        "https://www.youtube.com/embed/MrZolfGm8Zk",
+        "https://www.youtube.com/embed/0qotVMX-J5s",
+        "https://www.youtube.com/embed/ymtq8yjmD9I",
+        "https://www.youtube.com/embed/nnndxbr_Xq4"
+      ]
+    },
+    {
+      "route": "/blog/2022/using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/",
+      "canonical": "https://romulodrumond.com/blog/2022/using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/",
+      "robots": null,
+      "iframe_sources": [
+        "https://www.youtube.com/embed/eeDwdVXattc",
+        "https://www.youtube.com/embed/E2pP1MOfo3g"
+      ]
+    },
+    {
+      "route": "/blog/2022/fast-distributed-inference-with-deep-learning-models-on-spark/",
+      "canonical": "https://romulodrumond.com/blog/2022/fast-distributed-inference-with-deep-learning-models-on-spark/",
+      "robots": null,
+      "iframe_sources": []
+    },
+    {
+      "route": "/blog/2022/dealing-with-data-in-ml-projects-that-go-to-production/",
+      "canonical": "https://romulodrumond.com/blog/2022/dealing-with-data-in-ml-projects-that-go-to-production/",
+      "robots": null,
+      "iframe_sources": []
+    },
+    {
+      "route": "/blog/2023/finishing-my-data-career-masterplan/",
+      "canonical": "https://romulodrumond.com/blog/2023/finishing-my-data-career-masterplan/",
+      "robots": null,
+      "iframe_sources": []
+    },
+    {
+      "route": "/blog/2023/navigating-the-web-with-python/",
+      "canonical": "https://romulodrumond.com/blog/2023/navigating-the-web-with-python/",
+      "robots": null,
+      "iframe_sources": []
+    },
+    {
+      "route": "/blog/2023/escaping-dependency-hell/",
+      "canonical": "https://romulodrumond.com/blog/2023/escaping-dependency-hell/",
+      "robots": null,
+      "iframe_sources": []
+    },
+    {
+      "route": "/blog/2025/ineffectiveness-of-ai-agents/",
+      "canonical": "https://romulodrumond.com/blog/2025/ineffectiveness-of-ai-agents/",
+      "robots": null,
+      "iframe_sources": []
+    },
+    {
+      "route": "/sheditor/privacy/",
+      "canonical": "https://romulodrumond.com/sheditor/privacy/",
+      "robots": null,
+      "iframe_sources": []
+    },
+    {
+      "route": "/aivq-media-store/",
+      "canonical": "https://romulodrumond.com/aivq-media-store/",
+      "robots": "noindex, nofollow",
+      "iframe_sources": []
+    },
+    {
+      "route": "/aivq-media-store/privacy/",
+      "canonical": "https://romulodrumond.com/aivq-media-store/privacy/",
+      "robots": "noindex, nofollow",
+      "iframe_sources": []
+    },
+    {
+      "route": "/aivq-media-store/terms/",
+      "canonical": "https://romulodrumond.com/aivq-media-store/terms/",
+      "robots": "noindex, nofollow",
+      "iframe_sources": []
+    }
+  ],
+  "aivq_excluded": true,
+  "cname": "romulodrumond.com",
+  "comments_enabled_on": []
+}
