@@ -1,0 +1,26 @@
+/* Site-owned presentation; component styling stays in al_folio_core. */
+.post table:not(.rouge-table) {
+  width: 100%;
+  border-collapse: collapse;
+}
+.post table:not(.rouge-table) th {
+  background-color: #009879;
+  color: white;
+}
+.post table:not(.rouge-table) th, .post table:not(.rouge-table) td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+/* Preserve the unobtrusive code treatment and compact profile details. */
+.post pre, .post code {
+  background: none;
+  border: none;
+}
+.profile .more-info { font-size: 13px; }
+.social .contact-icons a { font-size: 0.8em; }
+.post figcaption { overflow-wrap: anywhere; }
+
+/* Give the sidebar its own space, preserving the original article reading width. */
+@media (min-width: 992px) {
+  .container:has(#toc-sidebar) { max-width: 1100px; }
+}

@@ -1,0 +1,2 @@
+# Needed only for future posts embedding Jupyter notebooks.
+nbconvert>=7,<8
