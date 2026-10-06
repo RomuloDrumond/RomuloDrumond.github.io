@@ -2,6 +2,10 @@
 
 Local candidate: **passed**. Production candidate: **pending deployment**.
 
+Isolated GitHub Pages preview: **passed**. See the [deployment report](PREVIEW_DEPLOYMENT.md)
+and [24-pair local-versus-deployed gallery](deployment-screenshots/index.html).
+The production root remains unchanged; the post-cutover check below is still pending.
+
 Open the [interactive screenshot gallery](migration-screenshots/index.html), or serve it locally:
 
 ```sh

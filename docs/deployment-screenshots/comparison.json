@@ -1,0 +1,247 @@
+[
+  {
+    "name": "home",
+    "pixel_identical": false,
+    "mean_channel_error_255": 0.047576,
+    "same_dimensions": true,
+    "difference_bounds": [
+      766,
+      165,
+      962,
+      411
+    ],
+    "layout_matches": true
+  },
+  {
+    "name": "blog",
+    "pixel_identical": true,
+    "mean_channel_error_255": 0.0,
+    "same_dimensions": true,
+    "difference_bounds": null,
+    "layout_matches": true
+  },
+  {
+    "name": "publications",
+    "pixel_identical": false,
+    "mean_channel_error_255": 0.003127,
+    "same_dimensions": true,
+    "difference_bounds": [
+      317,
+      237,
+      408,
+      326
+    ],
+    "layout_matches": true
+  },
+  {
+    "name": "repositories",
+    "pixel_identical": true,
+    "mean_channel_error_255": 0.0,
+    "same_dimensions": true,
+    "difference_bounds": null,
+    "layout_matches": true
+  },
+  {
+    "name": "2022-04-30-welcome-post",
+    "pixel_identical": true,
+    "mean_channel_error_255": 0.0,
+    "same_dimensions": true,
+    "difference_bounds": null,
+    "layout_matches": true
+  },
+  {
+    "name": "2022-08-29-setting-up-docker-on-wsl2",
+    "pixel_identical": true,
+    "mean_channel_error_255": 0.0,
+    "same_dimensions": true,
+    "difference_bounds": null,
+    "layout_matches": true
+  },
+  {
+    "name": "2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl",
+    "pixel_identical": true,
+    "mean_channel_error_255": 0.0,
+    "same_dimensions": true,
+    "difference_bounds": null,
+    "layout_matches": true
+  },
+  {
+    "name": "2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark",
+    "pixel_identical": false,
+    "mean_channel_error_255": 0.065624,
+    "same_dimensions": true,
+    "difference_bounds": [
+      322,
+      392,
+      937,
+      704
+    ],
+    "layout_matches": true
+  },
+  {
+    "name": "2022-12-05-dealing-with-data-in-ml-projects-that-go-to-production",
+    "pixel_identical": true,
+    "mean_channel_error_255": 0.0,
+    "same_dimensions": true,
+    "difference_bounds": null,
+    "layout_matches": true
+  },
+  {
+    "name": "2023-10-06-finishing-my-data-career-masterplan",
+    "pixel_identical": false,
+    "mean_channel_error_255": 0.261189,
+    "same_dimensions": true,
+    "difference_bounds": [
+      537,
+      422,
+      973,
+      774
+    ],
+    "layout_matches": true
+  },
+  {
+    "name": "2023-12-06-navigating-the-web-with-python",
+    "pixel_identical": false,
+    "mean_channel_error_255": 0.11976,
+    "same_dimensions": true,
+    "difference_bounds": [
+      587,
+      542,
+      923,
+      774
+    ],
+    "layout_matches": true
+  },
+  {
+    "name": "2023-12-11-escaping-dependency-hell",
+    "pixel_identical": false,
+    "mean_channel_error_255": 0.113076,
+    "same_dimensions": true,
+    "difference_bounds": [
+      489,
+      521,
+      1021,
+      744
+    ],
+    "layout_matches": true
+  },
+  {
+    "name": "2025-03-27-ineffectiveness-of-ai-agents",
+    "pixel_identical": true,
+    "mean_channel_error_255": 0.0,
+    "same_dimensions": true,
+    "difference_bounds": null,
+    "layout_matches": true
+  },
+  {
+    "name": "sheditor-privacy",
+    "pixel_identical": true,
+    "mean_channel_error_255": 0.0,
+    "same_dimensions": true,
+    "difference_bounds": null,
+    "layout_matches": true
+  },
+  {
+    "name": "aivq",
+    "pixel_identical": true,
+    "mean_channel_error_255": 0.0,
+    "same_dimensions": true,
+    "difference_bounds": null,
+    "layout_matches": true
+  },
+  {
+    "name": "aivq-privacy",
+    "pixel_identical": true,
+    "mean_channel_error_255": 0.0,
+    "same_dimensions": true,
+    "difference_bounds": null,
+    "layout_matches": true
+  },
+  {
+    "name": "aivq-terms",
+    "pixel_identical": true,
+    "mean_channel_error_255": 0.0,
+    "same_dimensions": true,
+    "difference_bounds": null,
+    "layout_matches": true
+  },
+  {
+    "name": "table-light",
+    "pixel_identical": false,
+    "mean_channel_error_255": 0.005743,
+    "same_dimensions": true,
+    "difference_bounds": [
+      1047,
+      45,
+      1094,
+      51
+    ]
+  },
+  {
+    "name": "table-dark",
+    "pixel_identical": false,
+    "mean_channel_error_255": 0.137938,
+    "same_dimensions": true,
+    "difference_bounds": [
+      388,
+      14,
+      955,
+      267
+    ]
+  },
+  {
+    "name": "code",
+    "pixel_identical": false,
+    "mean_channel_error_255": 0.129014,
+    "same_dimensions": true,
+    "difference_bounds": [
+      208,
+      45,
+      386,
+      178
+    ]
+  },
+  {
+    "name": "search",
+    "pixel_identical": false,
+    "mean_channel_error_255": 0.178932,
+    "same_dimensions": true,
+    "difference_bounds": [
+      290,
+      90,
+      990,
+      559
+    ]
+  },
+  {
+    "name": "mobile-home",
+    "pixel_identical": false,
+    "mean_channel_error_255": 0.135469,
+    "same_dimensions": true,
+    "difference_bounds": [
+      487,
+      222,
+      793,
+      602
+    ]
+  },
+  {
+    "name": "mobile-menu",
+    "pixel_identical": false,
+    "mean_channel_error_255": 0.120902,
+    "same_dimensions": true,
+    "difference_bounds": [
+      487,
+      223,
+      793,
+      602
+    ]
+  },
+  {
+    "name": "mobile-article",
+    "pixel_identical": true,
+    "mean_channel_error_255": 0.0,
+    "same_dimensions": true,
+    "difference_bounds": null
+  }
+]

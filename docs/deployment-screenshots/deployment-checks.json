@@ -1,0 +1,123 @@
+{
+  "pages": [
+    {
+      "route": "/",
+      "canonical": "https://romulodrumond.com/blog-v12-preview/",
+      "robots": "noindex, nofollow",
+      "embeds": []
+    },
+    {
+      "route": "/blog/",
+      "canonical": "https://romulodrumond.com/blog-v12-preview/blog/",
+      "robots": "noindex, nofollow",
+      "embeds": []
+    },
+    {
+      "route": "/publications/",
+      "canonical": "https://romulodrumond.com/blog-v12-preview/publications/",
+      "robots": "noindex, nofollow",
+      "embeds": []
+    },
+    {
+      "route": "/repositories/",
+      "canonical": "https://romulodrumond.com/blog-v12-preview/repositories/",
+      "robots": "noindex, nofollow",
+      "embeds": []
+    },
+    {
+      "route": "/blog/2022/welcome-post/",
+      "canonical": "https://romulodrumond.com/blog-v12-preview/blog/2022/welcome-post/",
+      "robots": "noindex, nofollow",
+      "embeds": [
+        "https://pointerpointer.com/"
+      ]
+    },
+    {
+      "route": "/blog/2022/setting-up-docker-on-wsl2/",
+      "canonical": "https://romulodrumond.com/blog-v12-preview/blog/2022/setting-up-docker-on-wsl2/",
+      "robots": "noindex, nofollow",
+      "embeds": [
+        "https://www.youtube.com/embed/MrZolfGm8Zk",
+        "https://www.youtube.com/embed/0qotVMX-J5s",
+        "https://www.youtube.com/embed/ymtq8yjmD9I",
+        "https://www.youtube.com/embed/nnndxbr_Xq4"
+      ]
+    },
+    {
+      "route": "/blog/2022/using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/",
+      "canonical": "https://romulodrumond.com/blog-v12-preview/blog/2022/using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/",
+      "robots": "noindex, nofollow",
+      "embeds": [
+        "https://www.youtube.com/embed/eeDwdVXattc",
+        "https://www.youtube.com/embed/E2pP1MOfo3g"
+      ]
+    },
+    {
+      "route": "/blog/2022/fast-distributed-inference-with-deep-learning-models-on-spark/",
+      "canonical": "https://romulodrumond.com/blog-v12-preview/blog/2022/fast-distributed-inference-with-deep-learning-models-on-spark/",
+      "robots": "noindex, nofollow",
+      "embeds": []
+    },
+    {
+      "route": "/blog/2022/dealing-with-data-in-ml-projects-that-go-to-production/",
+      "canonical": "https://romulodrumond.com/blog-v12-preview/blog/2022/dealing-with-data-in-ml-projects-that-go-to-production/",
+      "robots": "noindex, nofollow",
+      "embeds": []
+    },
+    {
+      "route": "/blog/2023/finishing-my-data-career-masterplan/",
+      "canonical": "https://romulodrumond.com/blog-v12-preview/blog/2023/finishing-my-data-career-masterplan/",
+      "robots": "noindex, nofollow",
+      "embeds": []
+    },
+    {
+      "route": "/blog/2023/navigating-the-web-with-python/",
+      "canonical": "https://romulodrumond.com/blog-v12-preview/blog/2023/navigating-the-web-with-python/",
+      "robots": "noindex, nofollow",
+      "embeds": []
+    },
+    {
+      "route": "/blog/2023/escaping-dependency-hell/",
+      "canonical": "https://romulodrumond.com/blog-v12-preview/blog/2023/escaping-dependency-hell/",
+      "robots": "noindex, nofollow",
+      "embeds": []
+    },
+    {
+      "route": "/blog/2025/ineffectiveness-of-ai-agents/",
+      "canonical": "https://romulodrumond.com/blog-v12-preview/blog/2025/ineffectiveness-of-ai-agents/",
+      "robots": "noindex, nofollow",
+      "embeds": []
+    },
+    {
+      "route": "/sheditor/privacy/",
+      "canonical": "https://romulodrumond.com/blog-v12-preview/sheditor/privacy/",
+      "robots": "noindex, nofollow",
+      "embeds": []
+    },
+    {
+      "route": "/aivq-media-store/",
+      "canonical": "https://romulodrumond.com/blog-v12-preview/aivq-media-store/",
+      "robots": "noindex, nofollow",
+      "embeds": []
+    },
+    {
+      "route": "/aivq-media-store/privacy/",
+      "canonical": "https://romulodrumond.com/blog-v12-preview/aivq-media-store/privacy/",
+      "robots": "noindex, nofollow",
+      "embeds": []
+    },
+    {
+      "route": "/aivq-media-store/terms/",
+      "canonical": "https://romulodrumond.com/blog-v12-preview/aivq-media-store/terms/",
+      "robots": "noindex, nofollow",
+      "embeds": []
+    }
+  ],
+  "aivq_excluded": true,
+  "custom_css_sha256": "d8ff4ab5af5f6287f40d62b9c857fcbcd30ce87feaa773790c80231cf56a4e2c",
+  "production_unchanged": {
+    "master": "b91040febddd29e7494f09a38d05aa78137a616d",
+    "gh_pages": "b094be7b2d59bb1c1476b197b92380b745960dcc",
+    "homepage_sha256": "9b868c547dfd74da540eab513fee153aa7f38595127d160568f6032654970108"
+  }
+}

@@ -1,0 +1,19 @@
+Source: 17870fb388c28f7bb7e7a02f0adf25c03749c8a4
+Workflow: https://github.com/RomuloDrumond/blog-v12-preview/actions/runs/37391203770
+Build and deploy: success
+
+build	Check production build and prepare isolated preview	2026-10-05T23:56:19.0977762Z Migration checks passed (1970 assertions): routes, content, images, code, embeds, canonicals, feed, archives, AIVQ, search and local links.
+build	Check production build and prepare isolated preview	2026-10-05T23:56:19.5337491Z Upgrade audit complete. Blocking: 0, Non-blocking: 0.
+build	Check production build and prepare isolated preview	2026-10-05T23:56:19.9595454Z - _layouts/default.liquid: acknowledged (al_folio_core 1.0.15, upstream _layouts/default.liquid)
+build	Check production build and prepare isolated preview	2026-10-05T23:56:29.1905237Z Preview checks passed (3129 assertions): isolation, noindex, routes, media, links, search and feed.
+
+Local workflow lint and git diff --check: passed
+50 HTTPS requests: passed
+17 deployed canonical/robots checks: passed
+13 deployed mobile checks: passed
+Production refs, Pages config and exact homepage bytes: unchanged
+
+Generated profile_picture-800.webp hashes differ between macOS and Linux builds:
+Local: 602343de3c93739b494144a6aa44027e2060faa261b034b27ee1ed0500f0ae87
+Deployed: a9c198ee95c92ceec563722a6675f12930626e8af267fc4b22c4a34f36134527
+Original profile JPEG and all original post media hashes remain unchanged.

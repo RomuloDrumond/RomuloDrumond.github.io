@@ -1,0 +1,5921 @@
+{
+  "source_revision": "17870fb388c28f7bb7e7a02f0adf25c03749c8a4",
+  "preview_url": "https://romulodrumond.com/blog-v12-preview/",
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "local": {
+        "image": "home-local.png",
+        "metrics": {
+          "bodyHeight": 930,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/",
+          "copyButtons": 0,
+          "height": 960,
+          "imageCount": 1,
+          "mainRect": [
+            {
+              "h": 48,
+              "tag": "H1",
+              "w": 770,
+              "x": 383,
+              "y": 105
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 161
+            },
+            {
+              "h": 288.75,
+              "tag": "IMG",
+              "w": 231,
+              "x": 922,
+              "y": 201
+            },
+            {
+              "h": 168,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 201
+            },
+            {
+              "h": 144,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 385
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 545
+            }
+          ],
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 0,
+          "url": "http://localhost:4000/",
+          "width": 1536
+        }
+      },
+      "deployed": {
+        "image": "home-deployed.png",
+        "metrics": {
+          "bodyHeight": 930,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/blog-v12-preview/",
+          "copyButtons": 0,
+          "height": 960,
+          "imageCount": 1,
+          "mainRect": [
+            {
+              "h": 48,
+              "tag": "H1",
+              "w": 770,
+              "x": 383,
+              "y": 105
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 161
+            },
+            {
+              "h": 288.75,
+              "tag": "IMG",
+              "w": 231,
+              "x": 922,
+              "y": 201
+            },
+            {
+              "h": 168,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 201
+            },
+            {
+              "h": 144,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 385
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 545
+            }
+          ],
+          "overflow": false,
+          "robots": "noindex, nofollow",
+          "theme": "light",
+          "tocLinks": 0,
+          "url": "https://romulodrumond.com/blog-v12-preview/",
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "blog",
+      "route": "/blog/",
+      "local": {
+        "image": "blog-local.png",
+        "metrics": {
+          "bodyHeight": 1791,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/blog/",
+          "copyButtons": 0,
+          "height": 960,
+          "imageCount": 4,
+          "mainRect": [
+            {
+              "h": 96,
+              "tag": "H1",
+              "w": 770,
+              "x": 383,
+              "y": 137
+            },
+            {
+              "h": 0,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 241
+            },
+            {
+              "h": 56,
+              "tag": "P",
+              "w": 21.1796875,
+              "x": 586.4921875,
+              "y": 306
+            },
+            {
+              "h": 56,
+              "tag": "P",
+              "w": 21.1796875,
+              "x": 685.1328125,
+              "y": 306
+            },
+            {
+              "h": 56,
+              "tag": "P",
+              "w": 21.1796875,
+              "x": 791.6640625,
+              "y": 306
+            },
+            {
+              "h": 56,
+              "tag": "P",
+              "w": 21.1796875,
+              "x": 958.578125,
+              "y": 306
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 570,
+              "x": 383,
+              "y": 468.59375
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 570,
+              "x": 383,
+              "y": 508.59375
+            },
+            {
+              "h": 25,
+              "tag": "P",
+              "w": 570,
+              "x": 383,
+              "y": 529.59375
+            },
+            {
+              "h": 229.5,
+              "tag": "IMG",
+              "w": 170,
+              "x": 983,
+              "y": 427
+            },
+            {
+              "h": 0,
+              "tag": "P",
+              "w": 570,
+              "x": 383,
+              "y": 822.1875
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 570,
+              "x": 383,
+              "y": 830.1875
+            },
+            {
+              "h": 25,
+              "tag": "P",
+              "w": 570,
+              "x": 383,
+              "y": 851.1875
+            },
+            {
+              "h": 130.6640625,
+              "tag": "IMG",
+              "w": 170,
+              "x": 983,
+              "y": 747
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 570,
+              "x": 383,
+              "y": 1032.375
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 570,
+              "x": 383,
+              "y": 1072.375
+            },
+            {
+              "h": 25,
+              "tag": "P",
+              "w": 570,
+              "x": 383,
+              "y": 1093.375
+            },
+            {
+              "h": 159.46875,
+              "tag": "IMG",
+              "w": 170,
+              "x": 983,
+              "y": 957.1875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 570,
+              "x": 383,
+              "y": 1240.96875
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 570,
+              "x": 383,
+              "y": 1280.96875
+            },
+            {
+              "h": 25,
+              "tag": "P",
+              "w": 570,
+              "x": 383,
+              "y": 1301.96875
+            },
+            {
+              "h": 153,
+              "tag": "IMG",
+              "w": 170,
+              "x": 983,
+              "y": 1199.375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1475.96875
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1515.96875
+            },
+            {
+              "h": 25,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1536.96875
+            }
+          ],
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 0,
+          "url": "http://localhost:4000/blog/",
+          "width": 1536
+        }
+      },
+      "deployed": {
+        "image": "blog-deployed.png",
+        "metrics": {
+          "bodyHeight": 1791,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/blog-v12-preview/blog/",
+          "copyButtons": 0,
+          "height": 960,
+          "imageCount": 4,
+          "mainRect": [
+            {
+              "h": 96,
+              "tag": "H1",
+              "w": 770,
+              "x": 383,
+              "y": 137
+            },
+            {
+              "h": 0,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 241
+            },
+            {
+              "h": 56,
+              "tag": "P",
+              "w": 21.1796875,
+              "x": 586.4921875,
+              "y": 306
+            },
+            {
+              "h": 56,
+              "tag": "P",
+              "w": 21.1796875,
+              "x": 685.1328125,
+              "y": 306
+            },
+            {
+              "h": 56,
+              "tag": "P",
+              "w": 21.1796875,
+              "x": 791.6640625,
+              "y": 306
+            },
+            {
+              "h": 56,
+              "tag": "P",
+              "w": 21.1796875,
+              "x": 958.578125,
+              "y": 306
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 570,
+              "x": 383,
+              "y": 468.59375
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 570,
+              "x": 383,
+              "y": 508.59375
+            },
+            {
+              "h": 25,
+              "tag": "P",
+              "w": 570,
+              "x": 383,
+              "y": 529.59375
+            },
+            {
+              "h": 229.5,
+              "tag": "IMG",
+              "w": 170,
+              "x": 983,
+              "y": 427
+            },
+            {
+              "h": 0,
+              "tag": "P",
+              "w": 570,
+              "x": 383,
+              "y": 822.1875
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 570,
+              "x": 383,
+              "y": 830.1875
+            },
+            {
+              "h": 25,
+              "tag": "P",
+              "w": 570,
+              "x": 383,
+              "y": 851.1875
+            },
+            {
+              "h": 130.6640625,
+              "tag": "IMG",
+              "w": 170,
+              "x": 983,
+              "y": 747
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 570,
+              "x": 383,
+              "y": 1032.375
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 570,
+              "x": 383,
+              "y": 1072.375
+            },
+            {
+              "h": 25,
+              "tag": "P",
+              "w": 570,
+              "x": 383,
+              "y": 1093.375
+            },
+            {
+              "h": 159.46875,
+              "tag": "IMG",
+              "w": 170,
+              "x": 983,
+              "y": 957.1875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 570,
+              "x": 383,
+              "y": 1240.96875
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 570,
+              "x": 383,
+              "y": 1280.96875
+            },
+            {
+              "h": 25,
+              "tag": "P",
+              "w": 570,
+              "x": 383,
+              "y": 1301.96875
+            },
+            {
+              "h": 153,
+              "tag": "IMG",
+              "w": 170,
+              "x": 983,
+              "y": 1199.375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1475.96875
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1515.96875
+            },
+            {
+              "h": 25,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1536.96875
+            }
+          ],
+          "overflow": false,
+          "robots": "noindex, nofollow",
+          "theme": "light",
+          "tocLinks": 0,
+          "url": "https://romulodrumond.com/blog-v12-preview/blog/",
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "publications",
+      "route": "/publications/",
+      "local": {
+        "image": "publications-local.png",
+        "metrics": {
+          "bodyHeight": 509,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/publications/",
+          "copyButtons": 0,
+          "height": 960,
+          "imageCount": 1,
+          "mainRect": [
+            {
+              "h": 48,
+              "tag": "H1",
+              "w": 770,
+              "x": 383,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 161
+            },
+            {
+              "h": 49.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 222
+            },
+            {
+              "h": 103.328125,
+              "tag": "IMG",
+              "w": 103.328125,
+              "x": 383,
+              "y": 287.3984375
+            },
+            {
+              "h": 352.828125,
+              "tag": "P",
+              "w": 481.328125,
+              "x": 527.328125,
+              "y": 431.7578125
+            }
+          ],
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 0,
+          "url": "http://localhost:4000/publications/",
+          "width": 1536
+        }
+      },
+      "deployed": {
+        "image": "publications-deployed.png",
+        "metrics": {
+          "bodyHeight": 509,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/blog-v12-preview/publications/",
+          "copyButtons": 0,
+          "height": 960,
+          "imageCount": 1,
+          "mainRect": [
+            {
+              "h": 48,
+              "tag": "H1",
+              "w": 770,
+              "x": 383,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 161
+            },
+            {
+              "h": 49.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 222
+            },
+            {
+              "h": 103.328125,
+              "tag": "IMG",
+              "w": 103.328125,
+              "x": 383,
+              "y": 287.3984375
+            },
+            {
+              "h": 352.828125,
+              "tag": "P",
+              "w": 481.328125,
+              "x": 527.328125,
+              "y": 431.7578125
+            }
+          ],
+          "overflow": false,
+          "robots": "noindex, nofollow",
+          "theme": "light",
+          "tocLinks": 0,
+          "url": "https://romulodrumond.com/blog-v12-preview/publications/",
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "repositories",
+      "route": "/repositories/",
+      "local": {
+        "image": "repositories-local.png",
+        "metrics": {
+          "bodyHeight": 826,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/repositories/",
+          "copyButtons": 0,
+          "height": 960,
+          "imageCount": 10,
+          "mainRect": [
+            {
+              "h": 48,
+              "tag": "H1",
+              "w": 770,
+              "x": 383,
+              "y": 105
+            },
+            {
+              "h": 0,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 161
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 185
+            },
+            {
+              "h": 154.078125,
+              "tag": "IMG",
+              "w": 369,
+              "x": 391,
+              "y": 239.3984375
+            },
+            {
+              "h": 0,
+              "tag": "IMG",
+              "w": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 419.4765625
+            },
+            {
+              "h": 129.1484375,
+              "tag": "IMG",
+              "w": 369,
+              "x": 391,
+              "y": 473.875
+            },
+            {
+              "h": 0,
+              "tag": "IMG",
+              "w": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 129.1484375,
+              "tag": "IMG",
+              "w": 369,
+              "x": 776,
+              "y": 473.875
+            },
+            {
+              "h": 0,
+              "tag": "IMG",
+              "w": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 129.1484375,
+              "tag": "IMG",
+              "w": 369,
+              "x": 391,
+              "y": 619.0234375
+            },
+            {
+              "h": 0,
+              "tag": "IMG",
+              "w": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 129.1484375,
+              "tag": "IMG",
+              "w": 369,
+              "x": 776,
+              "y": 619.0234375
+            },
+            {
+              "h": 0,
+              "tag": "IMG",
+              "w": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 0,
+          "url": "http://localhost:4000/repositories/",
+          "width": 1536
+        }
+      },
+      "deployed": {
+        "image": "repositories-deployed.png",
+        "metrics": {
+          "bodyHeight": 826,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/blog-v12-preview/repositories/",
+          "copyButtons": 0,
+          "height": 960,
+          "imageCount": 10,
+          "mainRect": [
+            {
+              "h": 48,
+              "tag": "H1",
+              "w": 770,
+              "x": 383,
+              "y": 105
+            },
+            {
+              "h": 0,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 161
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 185
+            },
+            {
+              "h": 154.078125,
+              "tag": "IMG",
+              "w": 369,
+              "x": 391,
+              "y": 239.3984375
+            },
+            {
+              "h": 0,
+              "tag": "IMG",
+              "w": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 419.4765625
+            },
+            {
+              "h": 129.1484375,
+              "tag": "IMG",
+              "w": 369,
+              "x": 391,
+              "y": 473.875
+            },
+            {
+              "h": 0,
+              "tag": "IMG",
+              "w": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 129.1484375,
+              "tag": "IMG",
+              "w": 369,
+              "x": 776,
+              "y": 473.875
+            },
+            {
+              "h": 0,
+              "tag": "IMG",
+              "w": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 129.1484375,
+              "tag": "IMG",
+              "w": 369,
+              "x": 391,
+              "y": 619.0234375
+            },
+            {
+              "h": 0,
+              "tag": "IMG",
+              "w": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 129.1484375,
+              "tag": "IMG",
+              "w": 369,
+              "x": 776,
+              "y": 619.0234375
+            },
+            {
+              "h": 0,
+              "tag": "IMG",
+              "w": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "overflow": false,
+          "robots": "noindex, nofollow",
+          "theme": "light",
+          "tocLinks": 0,
+          "url": "https://romulodrumond.com/blog-v12-preview/repositories/",
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "2022-04-30-welcome-post",
+      "route": "/blog/2022/welcome-post/",
+      "local": {
+        "image": "2022-04-30-welcome-post-local.png",
+        "metrics": {
+          "bodyHeight": 1112,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/blog/2022/welcome-post/",
+          "copyButtons": 0,
+          "height": 960,
+          "imageCount": 1,
+          "mainRect": [
+            {
+              "h": 48,
+              "tag": "H1",
+              "w": 770,
+              "x": 383,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 161
+            },
+            {
+              "h": 41,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 182
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 239
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 279
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 367
+            },
+            {
+              "h": 20,
+              "tag": "IMG",
+              "w": 20,
+              "x": 1110.8046875,
+              "y": 418.2734375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 455
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1001.5
+            }
+          ],
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 0,
+          "url": "http://localhost:4000/blog/2022/welcome-post/",
+          "width": 1536
+        }
+      },
+      "deployed": {
+        "image": "2022-04-30-welcome-post-deployed.png",
+        "metrics": {
+          "bodyHeight": 1112,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/blog-v12-preview/blog/2022/welcome-post/",
+          "copyButtons": 0,
+          "height": 960,
+          "imageCount": 1,
+          "mainRect": [
+            {
+              "h": 48,
+              "tag": "H1",
+              "w": 770,
+              "x": 383,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 161
+            },
+            {
+              "h": 41,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 182
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 239
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 279
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 367
+            },
+            {
+              "h": 20,
+              "tag": "IMG",
+              "w": 20,
+              "x": 1110.8046875,
+              "y": 418.2734375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 455
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1001.5
+            }
+          ],
+          "overflow": false,
+          "robots": "noindex, nofollow",
+          "theme": "light",
+          "tocLinks": 0,
+          "url": "https://romulodrumond.com/blog-v12-preview/blog/2022/welcome-post/",
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "2022-08-29-setting-up-docker-on-wsl2",
+      "route": "/blog/2022/setting-up-docker-on-wsl2/",
+      "local": {
+        "image": "2022-08-29-setting-up-docker-on-wsl2-local.png",
+        "metrics": {
+          "bodyHeight": 3564,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/blog/2022/setting-up-docker-on-wsl2/",
+          "copyButtons": 4,
+          "height": 960,
+          "imageCount": 0,
+          "mainRect": [
+            {
+              "h": 48,
+              "tag": "H1",
+              "w": 795,
+              "x": 508,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 161
+            },
+            {
+              "h": 41,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 182
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 239
+            },
+            {
+              "h": 120,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 285.3984375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 874.25
+            },
+            {
+              "h": 144,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 914.25
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1527.1015625
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2019.953125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2512.8046875
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 2552.8046875
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2599.203125
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2687.203125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2751.203125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2791.203125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2831.203125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2947.203125
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3039.203125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3227.203125
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 3267.203125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3313.6015625
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3453.6015625
+            }
+          ],
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 3,
+          "url": "http://localhost:4000/blog/2022/setting-up-docker-on-wsl2/",
+          "width": 1536
+        }
+      },
+      "deployed": {
+        "image": "2022-08-29-setting-up-docker-on-wsl2-deployed.png",
+        "metrics": {
+          "bodyHeight": 3564,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/blog-v12-preview/blog/2022/setting-up-docker-on-wsl2/",
+          "copyButtons": 4,
+          "height": 960,
+          "imageCount": 0,
+          "mainRect": [
+            {
+              "h": 48,
+              "tag": "H1",
+              "w": 795,
+              "x": 508,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 161
+            },
+            {
+              "h": 41,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 182
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 239
+            },
+            {
+              "h": 120,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 285.3984375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 874.25
+            },
+            {
+              "h": 144,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 914.25
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1527.1015625
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2019.953125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2512.8046875
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 2552.8046875
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2599.203125
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2687.203125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2751.203125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2791.203125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2831.203125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2947.203125
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3039.203125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3227.203125
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 3267.203125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3313.6015625
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3453.6015625
+            }
+          ],
+          "overflow": false,
+          "robots": "noindex, nofollow",
+          "theme": "light",
+          "tocLinks": 3,
+          "url": "https://romulodrumond.com/blog-v12-preview/blog/2022/setting-up-docker-on-wsl2/",
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl",
+      "route": "/blog/2022/using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/",
+      "local": {
+        "image": "2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl-local.png",
+        "metrics": {
+          "bodyHeight": 6393,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/blog/2022/using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/",
+          "copyButtons": 12,
+          "height": 960,
+          "imageCount": 8,
+          "mainRect": [
+            {
+              "h": 96,
+              "tag": "H1",
+              "w": 795,
+              "x": 508,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 209
+            },
+            {
+              "h": 41,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 230
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 287
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 374.9921875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 891.84375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 931.84375
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1013.4375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1530.2890625
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1570.2890625
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1610.2890625
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1674.2890625
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1838.2890625
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1978.2890625
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2190.2890625
+            },
+            {
+              "h": 0,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2330.2890625
+            },
+            {
+              "h": 0,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2354.2890625
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2370.2890625
+            },
+            {
+              "h": 0,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2442.2890625
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2458.2890625
+            },
+            {
+              "h": 0,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2530.2890625
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2546.2890625
+            },
+            {
+              "h": 20,
+              "tag": "IMG",
+              "w": 20,
+              "x": 947.609375,
+              "y": 2573.5625
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2651.8828125
+            },
+            {
+              "h": 76.796875,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 2725.8828125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2810.6796875
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2850.6796875
+            },
+            {
+              "h": 394.65625,
+              "tag": "IMG",
+              "w": 794.984375,
+              "x": 508,
+              "y": 2938.6796875
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3390.3359375
+            },
+            {
+              "h": 0,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3462.3359375
+            }
+          ],
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 5,
+          "url": "http://localhost:4000/blog/2022/using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/",
+          "width": 1536
+        }
+      },
+      "deployed": {
+        "image": "2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl-deployed.png",
+        "metrics": {
+          "bodyHeight": 6393,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/blog-v12-preview/blog/2022/using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/",
+          "copyButtons": 12,
+          "height": 960,
+          "imageCount": 8,
+          "mainRect": [
+            {
+              "h": 96,
+              "tag": "H1",
+              "w": 795,
+              "x": 508,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 209
+            },
+            {
+              "h": 41,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 230
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 287
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 374.9921875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 891.84375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 931.84375
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1013.4375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1530.2890625
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1570.2890625
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1610.2890625
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1674.2890625
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1838.2890625
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1978.2890625
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2190.2890625
+            },
+            {
+              "h": 0,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2330.2890625
+            },
+            {
+              "h": 0,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2354.2890625
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2370.2890625
+            },
+            {
+              "h": 0,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2442.2890625
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2458.2890625
+            },
+            {
+              "h": 0,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2530.2890625
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2546.2890625
+            },
+            {
+              "h": 20,
+              "tag": "IMG",
+              "w": 20,
+              "x": 947.609375,
+              "y": 2573.5625
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2651.8828125
+            },
+            {
+              "h": 76.796875,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 2725.8828125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2810.6796875
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2850.6796875
+            },
+            {
+              "h": 394.65625,
+              "tag": "IMG",
+              "w": 794.984375,
+              "x": 508,
+              "y": 2938.6796875
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3390.3359375
+            },
+            {
+              "h": 0,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3462.3359375
+            }
+          ],
+          "overflow": false,
+          "robots": "noindex, nofollow",
+          "theme": "light",
+          "tocLinks": 5,
+          "url": "https://romulodrumond.com/blog-v12-preview/blog/2022/using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/",
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark",
+      "route": "/blog/2022/fast-distributed-inference-with-deep-learning-models-on-spark/",
+      "local": {
+        "image": "2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark-local.png",
+        "metrics": {
+          "bodyHeight": 3434,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/blog/2022/fast-distributed-inference-with-deep-learning-models-on-spark/",
+          "copyButtons": 1,
+          "height": 960,
+          "imageCount": 3,
+          "mainRect": [
+            {
+              "h": 96,
+              "tag": "H1",
+              "w": 770,
+              "x": 383,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 209
+            },
+            {
+              "h": 41,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 230
+            },
+            {
+              "h": 168,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 287
+            },
+            {
+              "h": 385.546875,
+              "tag": "IMG",
+              "w": 769.9921875,
+              "x": 383,
+              "y": 471
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 934.546875
+            },
+            {
+              "h": 120,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 974.546875
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1110.546875
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1174.546875
+            },
+            {
+              "h": 298.09375,
+              "tag": "IMG",
+              "w": 621.1953125,
+              "x": 457.3984375,
+              "y": 1238.546875
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1614.640625
+            },
+            {
+              "h": 517.125,
+              "tag": "IMG",
+              "w": 385,
+              "x": 575.5,
+              "y": 1702.640625
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 2276.765625
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 2772.15625
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 730,
+              "x": 423,
+              "y": 2812.15625
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 730,
+              "x": 423,
+              "y": 2900.15625
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 3012.15625
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 3236.15625
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 3324.15625
+            }
+          ],
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 0,
+          "url": "http://localhost:4000/blog/2022/fast-distributed-inference-with-deep-learning-models-on-spark/",
+          "width": 1536
+        }
+      },
+      "deployed": {
+        "image": "2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark-deployed.png",
+        "metrics": {
+          "bodyHeight": 3434,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/blog-v12-preview/blog/2022/fast-distributed-inference-with-deep-learning-models-on-spark/",
+          "copyButtons": 1,
+          "height": 960,
+          "imageCount": 3,
+          "mainRect": [
+            {
+              "h": 96,
+              "tag": "H1",
+              "w": 770,
+              "x": 383,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 209
+            },
+            {
+              "h": 41,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 230
+            },
+            {
+              "h": 168,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 287
+            },
+            {
+              "h": 385.546875,
+              "tag": "IMG",
+              "w": 769.9921875,
+              "x": 383,
+              "y": 471
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 934.546875
+            },
+            {
+              "h": 120,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 974.546875
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1110.546875
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1174.546875
+            },
+            {
+              "h": 298.09375,
+              "tag": "IMG",
+              "w": 621.1953125,
+              "x": 457.3984375,
+              "y": 1238.546875
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1614.640625
+            },
+            {
+              "h": 517.125,
+              "tag": "IMG",
+              "w": 385,
+              "x": 575.5,
+              "y": 1702.640625
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 2276.765625
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 2772.15625
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 730,
+              "x": 423,
+              "y": 2812.15625
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 730,
+              "x": 423,
+              "y": 2900.15625
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 3012.15625
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 3236.15625
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 3324.15625
+            }
+          ],
+          "overflow": false,
+          "robots": "noindex, nofollow",
+          "theme": "light",
+          "tocLinks": 0,
+          "url": "https://romulodrumond.com/blog-v12-preview/blog/2022/fast-distributed-inference-with-deep-learning-models-on-spark/",
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "2022-12-05-dealing-with-data-in-ml-projects-that-go-to-production",
+      "route": "/blog/2022/dealing-with-data-in-ml-projects-that-go-to-production/",
+      "local": {
+        "image": "2022-12-05-dealing-with-data-in-ml-projects-that-go-to-production-local.png",
+        "metrics": {
+          "bodyHeight": 3037,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/blog/2022/dealing-with-data-in-ml-projects-that-go-to-production/",
+          "copyButtons": 0,
+          "height": 960,
+          "imageCount": 14,
+          "mainRect": [
+            {
+              "h": 96,
+              "tag": "H1",
+              "w": 795,
+              "x": 508,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 209
+            },
+            {
+              "h": 41,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 230
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 287
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 333.3984375
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 509.3984375
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 573.3984375
+            },
+            {
+              "h": 0,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 749.3984375
+            },
+            {
+              "h": 0,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 773.3984375
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 789.3984375
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 835.796875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 899.796875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 939.796875
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1067.796875
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 1267.796875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1314.1953125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1555.7890625
+            },
+            {
+              "h": 20,
+              "tag": "IMG",
+              "w": 20,
+              "x": 548,
+              "y": 1599.0625
+            },
+            {
+              "h": 20,
+              "tag": "IMG",
+              "w": 20,
+              "x": 548,
+              "y": 1623.0625
+            },
+            {
+              "h": 20,
+              "tag": "IMG",
+              "w": 20,
+              "x": 548,
+              "y": 1647.0625
+            },
+            {
+              "h": 20,
+              "tag": "IMG",
+              "w": 20,
+              "x": 548,
+              "y": 1695.0625
+            },
+            {
+              "h": 20,
+              "tag": "IMG",
+              "w": 20,
+              "x": 548,
+              "y": 1767.0625
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1933.3828125
+            },
+            {
+              "h": 20,
+              "tag": "IMG",
+              "w": 20,
+              "x": 548,
+              "y": 1976.65625
+            },
+            {
+              "h": 20,
+              "tag": "IMG",
+              "w": 20,
+              "x": 548,
+              "y": 2000.65625
+            },
+            {
+              "h": 20,
+              "tag": "IMG",
+              "w": 20,
+              "x": 548,
+              "y": 2024.65625
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2061.3828125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2254.9765625
+            },
+            {
+              "h": 20,
+              "tag": "IMG",
+              "w": 20,
+              "x": 548,
+              "y": 2298.25
+            },
+            {
+              "h": 20,
+              "tag": "IMG",
+              "w": 20,
+              "x": 548,
+              "y": 2322.25
+            }
+          ],
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 8,
+          "url": "http://localhost:4000/blog/2022/dealing-with-data-in-ml-projects-that-go-to-production/",
+          "width": 1536
+        }
+      },
+      "deployed": {
+        "image": "2022-12-05-dealing-with-data-in-ml-projects-that-go-to-production-deployed.png",
+        "metrics": {
+          "bodyHeight": 3037,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/blog-v12-preview/blog/2022/dealing-with-data-in-ml-projects-that-go-to-production/",
+          "copyButtons": 0,
+          "height": 960,
+          "imageCount": 14,
+          "mainRect": [
+            {
+              "h": 96,
+              "tag": "H1",
+              "w": 795,
+              "x": 508,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 209
+            },
+            {
+              "h": 41,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 230
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 287
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 333.3984375
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 509.3984375
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 573.3984375
+            },
+            {
+              "h": 0,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 749.3984375
+            },
+            {
+              "h": 0,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 773.3984375
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 789.3984375
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 835.796875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 899.796875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 939.796875
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1067.796875
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 1267.796875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1314.1953125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1555.7890625
+            },
+            {
+              "h": 20,
+              "tag": "IMG",
+              "w": 20,
+              "x": 548,
+              "y": 1599.0625
+            },
+            {
+              "h": 20,
+              "tag": "IMG",
+              "w": 20,
+              "x": 548,
+              "y": 1623.0625
+            },
+            {
+              "h": 20,
+              "tag": "IMG",
+              "w": 20,
+              "x": 548,
+              "y": 1647.0625
+            },
+            {
+              "h": 20,
+              "tag": "IMG",
+              "w": 20,
+              "x": 548,
+              "y": 1695.0625
+            },
+            {
+              "h": 20,
+              "tag": "IMG",
+              "w": 20,
+              "x": 548,
+              "y": 1767.0625
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1933.3828125
+            },
+            {
+              "h": 20,
+              "tag": "IMG",
+              "w": 20,
+              "x": 548,
+              "y": 1976.65625
+            },
+            {
+              "h": 20,
+              "tag": "IMG",
+              "w": 20,
+              "x": 548,
+              "y": 2000.65625
+            },
+            {
+              "h": 20,
+              "tag": "IMG",
+              "w": 20,
+              "x": 548,
+              "y": 2024.65625
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2061.3828125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2254.9765625
+            },
+            {
+              "h": 20,
+              "tag": "IMG",
+              "w": 20,
+              "x": 548,
+              "y": 2298.25
+            },
+            {
+              "h": 20,
+              "tag": "IMG",
+              "w": 20,
+              "x": 548,
+              "y": 2322.25
+            }
+          ],
+          "overflow": false,
+          "robots": "noindex, nofollow",
+          "theme": "light",
+          "tocLinks": 8,
+          "url": "https://romulodrumond.com/blog-v12-preview/blog/2022/dealing-with-data-in-ml-projects-that-go-to-production/",
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "2023-10-06-finishing-my-data-career-masterplan",
+      "route": "/blog/2023/finishing-my-data-career-masterplan/",
+      "local": {
+        "image": "2023-10-06-finishing-my-data-career-masterplan-local.png",
+        "metrics": {
+          "bodyHeight": 6021,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/blog/2023/finishing-my-data-career-masterplan/",
+          "copyButtons": 0,
+          "height": 960,
+          "imageCount": 4,
+          "mainRect": [
+            {
+              "h": 48,
+              "tag": "H1",
+              "w": 795,
+              "x": 508,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 161
+            },
+            {
+              "h": 41,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 182
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 239
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 285.3984375
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 397.3984375
+            },
+            {
+              "h": 516.75,
+              "tag": "IMG",
+              "w": 516.75,
+              "x": 647.125,
+              "y": 509.3984375
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 1083.1484375
+            },
+            {
+              "h": 168,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1171.140625
+            },
+            {
+              "h": 516.75,
+              "tag": "IMG",
+              "w": 516.75,
+              "x": 647.125,
+              "y": 1355.140625
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1928.890625
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2058.484375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2282.484375
+            },
+            {
+              "h": 344.5,
+              "tag": "IMG",
+              "w": 516.75,
+              "x": 647.125,
+              "y": 2322.484375
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2723.984375
+            },
+            {
+              "h": 516.75,
+              "tag": "IMG",
+              "w": 516.75,
+              "x": 647.125,
+              "y": 2811.984375
+            },
+            {
+              "h": 120,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3385.734375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 4027.328125
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 755,
+              "x": 548,
+              "y": 4067.328125
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 755,
+              "x": 548,
+              "y": 4179.328125
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 755,
+              "x": 548,
+              "y": 4243.328125
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 4307.328125
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 4395.328125
+            },
+            {
+              "h": 120,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 4441.7265625
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 4577.7265625
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 4689.7265625
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 4777.7265625
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 4865.7265625
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 4977.7265625
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 5089.7265625
+            }
+          ],
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 8,
+          "url": "http://localhost:4000/blog/2023/finishing-my-data-career-masterplan/",
+          "width": 1536
+        }
+      },
+      "deployed": {
+        "image": "2023-10-06-finishing-my-data-career-masterplan-deployed.png",
+        "metrics": {
+          "bodyHeight": 6021,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/blog-v12-preview/blog/2023/finishing-my-data-career-masterplan/",
+          "copyButtons": 0,
+          "height": 960,
+          "imageCount": 4,
+          "mainRect": [
+            {
+              "h": 48,
+              "tag": "H1",
+              "w": 795,
+              "x": 508,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 161
+            },
+            {
+              "h": 41,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 182
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 239
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 285.3984375
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 397.3984375
+            },
+            {
+              "h": 516.75,
+              "tag": "IMG",
+              "w": 516.75,
+              "x": 647.125,
+              "y": 509.3984375
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 1083.1484375
+            },
+            {
+              "h": 168,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1171.140625
+            },
+            {
+              "h": 516.75,
+              "tag": "IMG",
+              "w": 516.75,
+              "x": 647.125,
+              "y": 1355.140625
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1928.890625
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2058.484375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2282.484375
+            },
+            {
+              "h": 344.5,
+              "tag": "IMG",
+              "w": 516.75,
+              "x": 647.125,
+              "y": 2322.484375
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2723.984375
+            },
+            {
+              "h": 516.75,
+              "tag": "IMG",
+              "w": 516.75,
+              "x": 647.125,
+              "y": 2811.984375
+            },
+            {
+              "h": 120,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3385.734375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 4027.328125
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 755,
+              "x": 548,
+              "y": 4067.328125
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 755,
+              "x": 548,
+              "y": 4179.328125
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 755,
+              "x": 548,
+              "y": 4243.328125
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 4307.328125
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 4395.328125
+            },
+            {
+              "h": 120,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 4441.7265625
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 4577.7265625
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 4689.7265625
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 4777.7265625
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 4865.7265625
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 4977.7265625
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 5089.7265625
+            }
+          ],
+          "overflow": false,
+          "robots": "noindex, nofollow",
+          "theme": "light",
+          "tocLinks": 8,
+          "url": "https://romulodrumond.com/blog-v12-preview/blog/2023/finishing-my-data-career-masterplan/",
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "2023-12-06-navigating-the-web-with-python",
+      "route": "/blog/2023/navigating-the-web-with-python/",
+      "local": {
+        "image": "2023-12-06-navigating-the-web-with-python-local.png",
+        "metrics": {
+          "bodyHeight": 7272,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/blog/2023/navigating-the-web-with-python/",
+          "copyButtons": 3,
+          "height": 960,
+          "imageCount": 3,
+          "mainRect": [
+            {
+              "h": 96,
+              "tag": "H1",
+              "w": 795,
+              "x": 508,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 209
+            },
+            {
+              "h": 41,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 230
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 287
+            },
+            {
+              "h": 120,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 333.3984375
+            },
+            {
+              "h": 168,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 469.3984375
+            },
+            {
+              "h": 397.109375,
+              "tag": "IMG",
+              "w": 397.5,
+              "x": 706.75,
+              "y": 653.3984375
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 1107.5078125
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1195.5
+            },
+            {
+              "h": 397.5,
+              "tag": "IMG",
+              "w": 397.5,
+              "x": 706.75,
+              "y": 1259.5
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1714
+            },
+            {
+              "h": 120,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2758.984375
+            },
+            {
+              "h": 223.59375,
+              "tag": "IMG",
+              "w": 397.5,
+              "x": 706.75,
+              "y": 2894.984375
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3175.578125
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3423.578125
+            },
+            {
+              "h": 144,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3487.578125
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3647.578125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3735.578125
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3775.578125
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3881.171875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 4872.5625
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 4912.5625
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 5024.5625
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 5112.5625
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 5152.5625
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 5198.9609375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 5727.9609375
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 5767.9609375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 5831.9609375
+            },
+            {
+              "h": 144,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 5871.9609375
+            }
+          ],
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 9,
+          "url": "http://localhost:4000/blog/2023/navigating-the-web-with-python/",
+          "width": 1536
+        }
+      },
+      "deployed": {
+        "image": "2023-12-06-navigating-the-web-with-python-deployed.png",
+        "metrics": {
+          "bodyHeight": 7272,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/blog-v12-preview/blog/2023/navigating-the-web-with-python/",
+          "copyButtons": 3,
+          "height": 960,
+          "imageCount": 3,
+          "mainRect": [
+            {
+              "h": 96,
+              "tag": "H1",
+              "w": 795,
+              "x": 508,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 209
+            },
+            {
+              "h": 41,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 230
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 287
+            },
+            {
+              "h": 120,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 333.3984375
+            },
+            {
+              "h": 168,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 469.3984375
+            },
+            {
+              "h": 397.109375,
+              "tag": "IMG",
+              "w": 397.5,
+              "x": 706.75,
+              "y": 653.3984375
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 1107.5078125
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1195.5
+            },
+            {
+              "h": 397.5,
+              "tag": "IMG",
+              "w": 397.5,
+              "x": 706.75,
+              "y": 1259.5
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1714
+            },
+            {
+              "h": 120,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2758.984375
+            },
+            {
+              "h": 223.59375,
+              "tag": "IMG",
+              "w": 397.5,
+              "x": 706.75,
+              "y": 2894.984375
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3175.578125
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3423.578125
+            },
+            {
+              "h": 144,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3487.578125
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3647.578125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3735.578125
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3775.578125
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3881.171875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 4872.5625
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 4912.5625
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 5024.5625
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 5112.5625
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 5152.5625
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 5198.9609375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 5727.9609375
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 5767.9609375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 5831.9609375
+            },
+            {
+              "h": 144,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 5871.9609375
+            }
+          ],
+          "overflow": false,
+          "robots": "noindex, nofollow",
+          "theme": "light",
+          "tocLinks": 9,
+          "url": "https://romulodrumond.com/blog-v12-preview/blog/2023/navigating-the-web-with-python/",
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "2023-12-11-escaping-dependency-hell",
+      "route": "/blog/2023/escaping-dependency-hell/",
+      "local": {
+        "image": "2023-12-11-escaping-dependency-hell-local.png",
+        "metrics": {
+          "bodyHeight": 6513,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/blog/2023/escaping-dependency-hell/",
+          "copyButtons": 4,
+          "height": 960,
+          "imageCount": 1,
+          "mainRect": [
+            {
+              "h": 96,
+              "tag": "H1",
+              "w": 795,
+              "x": 508,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 209
+            },
+            {
+              "h": 41,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 230
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 287
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 333.3984375
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 421.3984375
+            },
+            {
+              "h": 144,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 467.796875
+            },
+            {
+              "h": 264.1171875,
+              "tag": "IMG",
+              "w": 636,
+              "x": 587.5,
+              "y": 627.796875
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 969.9140625
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1016.3125
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1128.3125
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1192.3125
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 1280.3125
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1326.7109375
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1438.7109375
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 1526.7109375
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2096.296875
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 2160.296875
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2206.6953125
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2360.2890625
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2620.2890625
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2749.8828125
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3057.8828125
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3121.8828125
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3275.4765625
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 3387.4765625
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3433.875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3587.46875
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3992.265625
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 4168.265625
+            }
+          ],
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 16,
+          "url": "http://localhost:4000/blog/2023/escaping-dependency-hell/",
+          "width": 1536
+        }
+      },
+      "deployed": {
+        "image": "2023-12-11-escaping-dependency-hell-deployed.png",
+        "metrics": {
+          "bodyHeight": 6513,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/blog-v12-preview/blog/2023/escaping-dependency-hell/",
+          "copyButtons": 4,
+          "height": 960,
+          "imageCount": 1,
+          "mainRect": [
+            {
+              "h": 96,
+              "tag": "H1",
+              "w": 795,
+              "x": 508,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 209
+            },
+            {
+              "h": 41,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 230
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 287
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 333.3984375
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 421.3984375
+            },
+            {
+              "h": 144,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 467.796875
+            },
+            {
+              "h": 264.1171875,
+              "tag": "IMG",
+              "w": 636,
+              "x": 587.5,
+              "y": 627.796875
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 969.9140625
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1016.3125
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1128.3125
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1192.3125
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 1280.3125
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1326.7109375
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1438.7109375
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 1526.7109375
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2096.296875
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 2160.296875
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2206.6953125
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2360.2890625
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2620.2890625
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2749.8828125
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3057.8828125
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3121.8828125
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3275.4765625
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 3387.4765625
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3433.875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3587.46875
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 3992.265625
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 4168.265625
+            }
+          ],
+          "overflow": false,
+          "robots": "noindex, nofollow",
+          "theme": "light",
+          "tocLinks": 16,
+          "url": "https://romulodrumond.com/blog-v12-preview/blog/2023/escaping-dependency-hell/",
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "2025-03-27-ineffectiveness-of-ai-agents",
+      "route": "/blog/2025/ineffectiveness-of-ai-agents/",
+      "local": {
+        "image": "2025-03-27-ineffectiveness-of-ai-agents-local.png",
+        "metrics": {
+          "bodyHeight": 5345,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/blog/2025/ineffectiveness-of-ai-agents/",
+          "copyButtons": 0,
+          "height": 960,
+          "imageCount": 7,
+          "mainRect": [
+            {
+              "h": 48,
+              "tag": "H1",
+              "w": 795,
+              "x": 508,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 161
+            },
+            {
+              "h": 41,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 182
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 239
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 285.3984375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 397.3984375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 437.3984375
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 477.3984375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 755,
+              "x": 548,
+              "y": 757.3984375
+            },
+            {
+              "h": 346.53125,
+              "tag": "P",
+              "w": 755,
+              "x": 548,
+              "y": 797.3984375
+            },
+            {
+              "h": 346.53125,
+              "tag": "IMG",
+              "w": 377.5,
+              "x": 736.75,
+              "y": 797.3984375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 755,
+              "x": 548,
+              "y": 1159.9296875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 755,
+              "x": 548,
+              "y": 1199.9296875
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 773.3984375
+            },
+            {
+              "h": 596.25,
+              "tag": "IMG",
+              "w": 397.5,
+              "x": 706.75,
+              "y": 861.3984375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1465.6484375
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 1505.6484375
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1552.046875
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1616.046875
+            },
+            {
+              "h": 265,
+              "tag": "IMG",
+              "w": 397.5,
+              "x": 706.75,
+              "y": 1704.046875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1977.046875
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2017.046875
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 2105.046875
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2151.4453125
+            },
+            {
+              "h": 401.1015625,
+              "tag": "IMG",
+              "w": 635.9921875,
+              "x": 587.5,
+              "y": 2239.4453125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2648.546875
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2688.546875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2752.546875
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 755,
+              "x": 548,
+              "y": 2840.546875
+            },
+            {
+              "h": 163.7109375,
+              "tag": "P",
+              "w": 755,
+              "x": 548,
+              "y": 2928.546875
+            }
+          ],
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 5,
+          "url": "http://localhost:4000/blog/2025/ineffectiveness-of-ai-agents/",
+          "width": 1536
+        }
+      },
+      "deployed": {
+        "image": "2025-03-27-ineffectiveness-of-ai-agents-deployed.png",
+        "metrics": {
+          "bodyHeight": 5345,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/blog-v12-preview/blog/2025/ineffectiveness-of-ai-agents/",
+          "copyButtons": 0,
+          "height": 960,
+          "imageCount": 7,
+          "mainRect": [
+            {
+              "h": 48,
+              "tag": "H1",
+              "w": 795,
+              "x": 508,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 161
+            },
+            {
+              "h": 41,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 182
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 239
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 285.3984375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 397.3984375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 437.3984375
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 477.3984375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 755,
+              "x": 548,
+              "y": 757.3984375
+            },
+            {
+              "h": 346.53125,
+              "tag": "P",
+              "w": 755,
+              "x": 548,
+              "y": 797.3984375
+            },
+            {
+              "h": 346.53125,
+              "tag": "IMG",
+              "w": 377.5,
+              "x": 736.75,
+              "y": 797.3984375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 755,
+              "x": 548,
+              "y": 1159.9296875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 755,
+              "x": 548,
+              "y": 1199.9296875
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 773.3984375
+            },
+            {
+              "h": 596.25,
+              "tag": "IMG",
+              "w": 397.5,
+              "x": 706.75,
+              "y": 861.3984375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1465.6484375
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 1505.6484375
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1552.046875
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1616.046875
+            },
+            {
+              "h": 265,
+              "tag": "IMG",
+              "w": 397.5,
+              "x": 706.75,
+              "y": 1704.046875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 1977.046875
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2017.046875
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 795,
+              "x": 508,
+              "y": 2105.046875
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2151.4453125
+            },
+            {
+              "h": 401.1015625,
+              "tag": "IMG",
+              "w": 635.9921875,
+              "x": 587.5,
+              "y": 2239.4453125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2648.546875
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2688.546875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 795,
+              "x": 508,
+              "y": 2752.546875
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 755,
+              "x": 548,
+              "y": 2840.546875
+            },
+            {
+              "h": 163.7109375,
+              "tag": "P",
+              "w": 755,
+              "x": 548,
+              "y": 2928.546875
+            }
+          ],
+          "overflow": false,
+          "robots": "noindex, nofollow",
+          "theme": "light",
+          "tocLinks": 5,
+          "url": "https://romulodrumond.com/blog-v12-preview/blog/2025/ineffectiveness-of-ai-agents/",
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "sheditor-privacy",
+      "route": "/sheditor/privacy/",
+      "local": {
+        "image": "sheditor-privacy-local.png",
+        "metrics": {
+          "bodyHeight": 4670,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/sheditor/privacy/",
+          "copyButtons": 0,
+          "height": 960,
+          "imageCount": 0,
+          "mainRect": [
+            {
+              "h": 48,
+              "tag": "H1",
+              "w": 770,
+              "x": 383,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 161
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 214
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 254
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 359.59375
+            },
+            {
+              "h": 120,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 447.59375
+            },
+            {
+              "h": 120,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 583.59375
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 719.59375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 825.1875
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1001.1875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1130.78125
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1258.78125
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1364.375
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1476.375
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1605.96875
+            },
+            {
+              "h": 120,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1717.96875
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1895.5625
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 2049.15625
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 2178.75
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 2242.75
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 2292.75
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 2339.1484375
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 2379.1484375
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 2484.7421875
+            },
+            {
+              "h": 144,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 2596.7421875
+            },
+            {
+              "h": 144,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 2756.7421875
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 2916.7421875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 3022.3359375
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 3198.3359375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 3327.9296875
+            }
+          ],
+          "overflow": false,
+          "theme": "light",
+          "tocLinks": 0,
+          "url": "http://localhost:4000/sheditor/privacy/",
+          "width": 1536
+        }
+      },
+      "deployed": {
+        "image": "sheditor-privacy-deployed.png",
+        "metrics": {
+          "bodyHeight": 4670,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/blog-v12-preview/sheditor/privacy/",
+          "copyButtons": 0,
+          "height": 960,
+          "imageCount": 0,
+          "mainRect": [
+            {
+              "h": 48,
+              "tag": "H1",
+              "w": 770,
+              "x": 383,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 161
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 214
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 254
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 359.59375
+            },
+            {
+              "h": 120,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 447.59375
+            },
+            {
+              "h": 120,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 583.59375
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 719.59375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 825.1875
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1001.1875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1130.78125
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1258.78125
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1364.375
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1476.375
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1605.96875
+            },
+            {
+              "h": 120,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1717.96875
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1895.5625
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 2049.15625
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 2178.75
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 2242.75
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 2292.75
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 2339.1484375
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 2379.1484375
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 2484.7421875
+            },
+            {
+              "h": 144,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 2596.7421875
+            },
+            {
+              "h": 144,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 2756.7421875
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 2916.7421875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 3022.3359375
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 3198.3359375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 3327.9296875
+            }
+          ],
+          "overflow": false,
+          "robots": "noindex, nofollow",
+          "theme": "light",
+          "tocLinks": 0,
+          "url": "https://romulodrumond.com/blog-v12-preview/sheditor/privacy/",
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "aivq",
+      "route": "/aivq-media-store/",
+      "local": {
+        "image": "aivq-local.png",
+        "metrics": {
+          "bodyHeight": 959,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/aivq-media-store/",
+          "copyButtons": 0,
+          "height": 960,
+          "imageCount": 0,
+          "mainRect": [
+            {
+              "h": 48,
+              "tag": "H1",
+              "w": 770,
+              "x": 383,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 161
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 214
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 278
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 460.3984375
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 506.796875
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 594.796875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 682.796875
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 722.796875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 769.1953125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 809.1953125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 849.1953125
+            }
+          ],
+          "overflow": false,
+          "robots": "noindex, nofollow",
+          "theme": "light",
+          "tocLinks": 0,
+          "url": "http://localhost:4000/aivq-media-store/",
+          "width": 1536
+        }
+      },
+      "deployed": {
+        "image": "aivq-deployed.png",
+        "metrics": {
+          "bodyHeight": 959,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/blog-v12-preview/aivq-media-store/",
+          "copyButtons": 0,
+          "height": 960,
+          "imageCount": 0,
+          "mainRect": [
+            {
+              "h": 48,
+              "tag": "H1",
+              "w": 770,
+              "x": 383,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 161
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 214
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 278
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 460.3984375
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 506.796875
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 594.796875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 682.796875
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 722.796875
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 769.1953125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 809.1953125
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 849.1953125
+            }
+          ],
+          "overflow": false,
+          "robots": "noindex, nofollow",
+          "theme": "light",
+          "tocLinks": 0,
+          "url": "https://romulodrumond.com/blog-v12-preview/aivq-media-store/",
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "aivq-privacy",
+      "route": "/aivq-media-store/privacy/",
+      "local": {
+        "image": "aivq-privacy-local.png",
+        "metrics": {
+          "bodyHeight": 1698,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/aivq-media-store/privacy/",
+          "copyButtons": 0,
+          "height": 960,
+          "imageCount": 0,
+          "mainRect": [
+            {
+              "h": 48,
+              "tag": "H1",
+              "w": 770,
+              "x": 383,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 161
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 214
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 254
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 318
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 364.3984375
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 588.3984375
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 634.796875
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 722.796875
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 786.796875
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 833.1953125
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 945.1953125
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1033.1953125
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 1121.1953125
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1167.59375
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1255.59375
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 1367.59375
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1413.9921875
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 1477.9921875
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1524.390625
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1588.390625
+            }
+          ],
+          "overflow": false,
+          "robots": "noindex, nofollow",
+          "theme": "light",
+          "tocLinks": 0,
+          "url": "http://localhost:4000/aivq-media-store/privacy/",
+          "width": 1536
+        }
+      },
+      "deployed": {
+        "image": "aivq-privacy-deployed.png",
+        "metrics": {
+          "bodyHeight": 1698,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/blog-v12-preview/aivq-media-store/privacy/",
+          "copyButtons": 0,
+          "height": 960,
+          "imageCount": 0,
+          "mainRect": [
+            {
+              "h": 48,
+              "tag": "H1",
+              "w": 770,
+              "x": 383,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 161
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 214
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 254
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 318
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 364.3984375
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 588.3984375
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 634.796875
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 722.796875
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 786.796875
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 833.1953125
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 945.1953125
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1033.1953125
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 1121.1953125
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1167.59375
+            },
+            {
+              "h": 96,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1255.59375
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 1367.59375
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1413.9921875
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 1477.9921875
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1524.390625
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 1588.390625
+            }
+          ],
+          "overflow": false,
+          "robots": "noindex, nofollow",
+          "theme": "light",
+          "tocLinks": 0,
+          "url": "https://romulodrumond.com/blog-v12-preview/aivq-media-store/privacy/",
+          "width": 1536
+        }
+      }
+    },
+    {
+      "name": "aivq-terms",
+      "route": "/aivq-media-store/terms/",
+      "local": {
+        "image": "aivq-terms-local.png",
+        "metrics": {
+          "bodyHeight": 1046,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/aivq-media-store/terms/",
+          "copyButtons": 0,
+          "height": 960,
+          "imageCount": 0,
+          "mainRect": [
+            {
+              "h": 48,
+              "tag": "H1",
+              "w": 770,
+              "x": 383,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 161
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 214
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 254
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 300.3984375
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 364.3984375
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 452.3984375
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 498.796875
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 586.796875
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 650.796875
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 697.1953125
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 785.1953125
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 831.59375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 895.59375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 935.59375
+            }
+          ],
+          "overflow": false,
+          "robots": "noindex, nofollow",
+          "theme": "light",
+          "tocLinks": 0,
+          "url": "http://localhost:4000/aivq-media-store/terms/",
+          "width": 1536
+        }
+      },
+      "deployed": {
+        "image": "aivq-terms-deployed.png",
+        "metrics": {
+          "bodyHeight": 1046,
+          "brokenImages": [],
+          "canonical": "https://romulodrumond.com/blog-v12-preview/aivq-media-store/terms/",
+          "copyButtons": 0,
+          "height": 960,
+          "imageCount": 0,
+          "mainRect": [
+            {
+              "h": 48,
+              "tag": "H1",
+              "w": 770,
+              "x": 383,
+              "y": 105
+            },
+            {
+              "h": 21,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 161
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 214
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 254
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 300.3984375
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 364.3984375
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 452.3984375
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 498.796875
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 586.796875
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 650.796875
+            },
+            {
+              "h": 72,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 697.1953125
+            },
+            {
+              "h": 38.3984375,
+              "tag": "H2",
+              "w": 770,
+              "x": 383,
+              "y": 785.1953125
+            },
+            {
+              "h": 48,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 831.59375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 895.59375
+            },
+            {
+              "h": 24,
+              "tag": "P",
+              "w": 770,
+              "x": 383,
+              "y": 935.59375
+            }
+          ],
+          "overflow": false,
+          "robots": "noindex, nofollow",
+          "theme": "light",
+          "tocLinks": 0,
+          "url": "https://romulodrumond.com/blog-v12-preview/aivq-media-store/terms/",
+          "width": 1536
+        }
+      }
+    }
+  ],
+  "focused": [
+    {
+      "name": "table-light",
+      "route": "/blog/2023/navigating-the-web-with-python/",
+      "local": {
+        "image": "table-light-local.png",
+        "width": 1536,
+        "height": 960,
+        "theme": "light"
+      },
+      "deployed": {
+        "image": "table-light-deployed.png",
+        "width": 1536,
+        "height": 960,
+        "theme": "light"
+      }
+    },
+    {
+      "name": "table-dark",
+      "route": "/blog/2023/navigating-the-web-with-python/",
+      "local": {
+        "image": "table-dark-local.png",
+        "width": 1536,
+        "height": 960,
+        "theme": "dark"
+      },
+      "deployed": {
+        "image": "table-dark-deployed.png",
+        "width": 1536,
+        "height": 960,
+        "theme": "dark"
+      }
+    },
+    {
+      "name": "code",
+      "route": "/blog/2023/navigating-the-web-with-python/",
+      "local": {
+        "image": "code-local.png",
+        "width": 1536,
+        "height": 960,
+        "theme": "light"
+      },
+      "deployed": {
+        "image": "code-deployed.png",
+        "width": 1536,
+        "height": 960,
+        "theme": "light"
+      }
+    },
+    {
+      "name": "search",
+      "route": "/",
+      "local": {
+        "image": "search-local.png",
+        "width": 1536,
+        "height": 960,
+        "theme": "light"
+      },
+      "deployed": {
+        "image": "search-deployed.png",
+        "width": 1536,
+        "height": 960,
+        "theme": "light"
+      }
+    },
+    {
+      "name": "mobile-home",
+      "route": "/",
+      "local": {
+        "image": "mobile-home-local.png",
+        "width": 390,
+        "height": 844,
+        "theme": "light",
+        "harness": "same-origin iframe"
+      },
+      "deployed": {
+        "image": "mobile-home-deployed.png",
+        "width": 390,
+        "height": 844,
+        "theme": "light",
+        "harness": "same-origin iframe"
+      }
+    },
+    {
+      "name": "mobile-menu",
+      "route": "/",
+      "local": {
+        "image": "mobile-menu-local.png",
+        "width": 390,
+        "height": 844,
+        "theme": "light",
+        "harness": "same-origin iframe"
+      },
+      "deployed": {
+        "image": "mobile-menu-deployed.png",
+        "width": 390,
+        "height": 844,
+        "theme": "light",
+        "harness": "same-origin iframe"
+      }
+    },
+    {
+      "name": "mobile-article",
+      "route": "/blog/2023/navigating-the-web-with-python/",
+      "local": {
+        "image": "mobile-article-local.png",
+        "width": 390,
+        "height": 844,
+        "theme": "light",
+        "harness": "same-origin iframe"
+      },
+      "deployed": {
+        "image": "mobile-article-deployed.png",
+        "width": 390,
+        "height": 844,
+        "theme": "light",
+        "harness": "same-origin iframe"
+      }
+    }
+  ],
+  "mobile_checks": [
+    {
+      "broken": [],
+      "overflow": false,
+      "route": "/",
+      "width": 390
+    },
+    {
+      "broken": [],
+      "overflow": false,
+      "route": "/blog/",
+      "width": 390
+    },
+    {
+      "broken": [],
+      "overflow": false,
+      "route": "/publications/",
+      "width": 390
+    },
+    {
+      "broken": [],
+      "overflow": false,
+      "route": "/repositories/",
+      "width": 390
+    },
+    {
+      "broken": [],
+      "overflow": false,
+      "route": "/blog/2022/welcome-post/",
+      "width": 390
+    },
+    {
+      "broken": [],
+      "overflow": false,
+      "route": "/blog/2022/setting-up-docker-on-wsl2/",
+      "width": 390
+    },
+    {
+      "broken": [],
+      "overflow": false,
+      "route": "/blog/2022/using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/",
+      "width": 390
+    },
+    {
+      "broken": [],
+      "overflow": false,
+      "route": "/blog/2022/fast-distributed-inference-with-deep-learning-models-on-spark/",
+      "width": 390
+    },
+    {
+      "broken": [],
+      "overflow": false,
+      "route": "/blog/2022/dealing-with-data-in-ml-projects-that-go-to-production/",
+      "width": 390
+    },
+    {
+      "broken": [],
+      "overflow": false,
+      "route": "/blog/2023/finishing-my-data-career-masterplan/",
+      "width": 390
+    },
+    {
+      "broken": [],
+      "overflow": false,
+      "route": "/blog/2023/navigating-the-web-with-python/",
+      "width": 390
+    },
+    {
+      "broken": [],
+      "overflow": false,
+      "route": "/blog/2023/escaping-dependency-hell/",
+      "width": 390
+    },
+    {
+      "broken": [],
+      "overflow": false,
+      "route": "/blog/2025/ineffectiveness-of-ai-agents/",
+      "width": 390
+    }
+  ],
+  "captured_on_local": "2026-10-05",
+  "completed_at_utc": "2026-10-06T00:28:01.270236+00:00",
+  "capture_method": "Native T3 browser; fonts/images settled; local warm-up snapshot; desktop 1536x960 CSS pixels saved as 1280x800 PNG; mobile 390x844 same-origin iframe."
+}

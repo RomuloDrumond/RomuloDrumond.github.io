@@ -1,0 +1,302 @@
+[
+  {
+    "route": "/",
+    "status": 200,
+    "original_hash_match": null,
+    "bytes": 17238
+  },
+  {
+    "route": "/blog/",
+    "status": 200,
+    "original_hash_match": null,
+    "bytes": 19842
+  },
+  {
+    "route": "/publications/",
+    "status": 200,
+    "original_hash_match": null,
+    "bytes": 17389
+  },
+  {
+    "route": "/repositories/",
+    "status": 200,
+    "original_hash_match": null,
+    "bytes": 18304
+  },
+  {
+    "route": "/blog/2022/welcome-post/",
+    "status": 200,
+    "original_hash_match": null,
+    "bytes": 15774
+  },
+  {
+    "route": "/blog/2022/setting-up-docker-on-wsl2/",
+    "status": 200,
+    "original_hash_match": null,
+    "bytes": 21790
+  },
+  {
+    "route": "/blog/2022/using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/",
+    "status": 200,
+    "original_hash_match": null,
+    "bytes": 47117
+  },
+  {
+    "route": "/blog/2022/fast-distributed-inference-with-deep-learning-models-on-spark/",
+    "status": 200,
+    "original_hash_match": null,
+    "bytes": 26331
+  },
+  {
+    "route": "/blog/2022/dealing-with-data-in-ml-projects-that-go-to-production/",
+    "status": 200,
+    "original_hash_match": null,
+    "bytes": 25386
+  },
+  {
+    "route": "/blog/2023/finishing-my-data-career-masterplan/",
+    "status": 200,
+    "original_hash_match": null,
+    "bytes": 31027
+  },
+  {
+    "route": "/blog/2023/navigating-the-web-with-python/",
+    "status": 200,
+    "original_hash_match": null,
+    "bytes": 41422
+  },
+  {
+    "route": "/blog/2023/escaping-dependency-hell/",
+    "status": 200,
+    "original_hash_match": null,
+    "bytes": 39302
+  },
+  {
+    "route": "/blog/2025/ineffectiveness-of-ai-agents/",
+    "status": 200,
+    "original_hash_match": null,
+    "bytes": 28338
+  },
+  {
+    "route": "/sheditor/privacy/",
+    "status": 200,
+    "original_hash_match": null,
+    "bytes": 27531
+  },
+  {
+    "route": "/aivq-media-store/",
+    "status": 200,
+    "original_hash_match": null,
+    "bytes": 16172
+  },
+  {
+    "route": "/aivq-media-store/privacy/",
+    "status": 200,
+    "original_hash_match": null,
+    "bytes": 18790
+  },
+  {
+    "route": "/aivq-media-store/terms/",
+    "status": 200,
+    "original_hash_match": null,
+    "bytes": 16273
+  },
+  {
+    "route": "/feed.xml",
+    "status": 200,
+    "original_hash_match": null,
+    "bytes": 141599
+  },
+  {
+    "route": "/sitemap.xml",
+    "status": 200,
+    "original_hash_match": null,
+    "bytes": 3548
+  },
+  {
+    "route": "/blog/page/2/",
+    "status": 200,
+    "original_hash_match": null,
+    "bytes": 17895
+  },
+  {
+    "route": "/blog/2022/",
+    "status": 200,
+    "original_hash_match": null,
+    "bytes": 15491
+  },
+  {
+    "route": "/blog/2023/",
+    "status": 200,
+    "original_hash_match": null,
+    "bytes": 15072
+  },
+  {
+    "route": "/blog/2025/",
+    "status": 200,
+    "original_hash_match": null,
+    "bytes": 14646
+  },
+  {
+    "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/available-clusters-after-sync-kubeconfig-file.png",
+    "status": 200,
+    "original_hash_match": true,
+    "bytes": 20771
+  },
+  {
+    "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-initial-screen-for-setup.png",
+    "status": 200,
+    "original_hash_match": true,
+    "bytes": 302279
+  },
+  {
+    "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/lens-working-with-minikube.png",
+    "status": 200,
+    "original_hash_match": true,
+    "bytes": 72994
+  },
+  {
+    "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-connection-error.png",
+    "status": 200,
+    "original_hash_match": true,
+    "bytes": 83214
+  },
+  {
+    "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/minikube-dashboard-print.png",
+    "status": 200,
+    "original_hash_match": true,
+    "bytes": 93446
+  },
+  {
+    "route": "/assets/img/posts/2022-10-31-using-lens-to-inspect-a-kubernetes-minikube-cluster-on-wsl/sync-kube-config.png",
+    "status": 200,
+    "original_hash_match": true,
+    "bytes": 16574
+  },
+  {
+    "route": "/assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/cluster-configuration.png",
+    "status": 200,
+    "original_hash_match": true,
+    "bytes": 35894
+  },
+  {
+    "route": "/assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/extracting-embeddings.png",
+    "status": 200,
+    "original_hash_match": true,
+    "bytes": 172336
+  },
+  {
+    "route": "/assets/img/posts/2022-11-07-fast-distributed-inference-with-deep-learning-models-on-spark/spark-cluster-overview.png",
+    "status": 200,
+    "original_hash_match": true,
+    "bytes": 22912
+  },
+  {
+    "route": "/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/roles_on_data_pipeline.png",
+    "status": 200,
+    "original_hash_match": true,
+    "bytes": 811703
+  },
+  {
+    "route": "/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_de_the_ds_and_the_mle.jpg",
+    "status": 200,
+    "original_hash_match": true,
+    "bytes": 146260
+  },
+  {
+    "route": "/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/the_fsds_appears.jpg",
+    "status": 200,
+    "original_hash_match": true,
+    "bytes": 65692
+  },
+  {
+    "route": "/assets/img/posts/2023-10-06-finishing-my-data-career-masterplan/veen_diagram.jpeg",
+    "status": 200,
+    "original_hash_match": true,
+    "bytes": 139349
+  },
+  {
+    "route": "/assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/beautifulsoup_serving_a_developer.png",
+    "status": 200,
+    "original_hash_match": true,
+    "bytes": 1931608
+  },
+  {
+    "route": "/assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/selenium_automation.gif",
+    "status": 200,
+    "original_hash_match": true,
+    "bytes": 6586930
+  },
+  {
+    "route": "/assets/img/posts/2023-11-30-from-web-scraping-to-automation-pythons-tools-overview/selenium_vs_bs4_vs_scrapy.png",
+    "status": 200,
+    "original_hash_match": true,
+    "bytes": 2303668
+  },
+  {
+    "route": "/assets/img/posts/2023-12-13-escaping-dependency-hell/architecture-containers.png",
+    "status": 200,
+    "original_hash_match": true,
+    "bytes": 11261
+  },
+  {
+    "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/ai-agents-by-the-author.png",
+    "status": 200,
+    "original_hash_match": true,
+    "bytes": 3985388
+  },
+  {
+    "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/chatbots-are-rl-agents.png",
+    "status": 200,
+    "original_hash_match": true,
+    "bytes": 1750255
+  },
+  {
+    "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/example-llm-workflow.png",
+    "status": 200,
+    "original_hash_match": true,
+    "bytes": 905968
+  },
+  {
+    "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/first-ai-agents.png",
+    "status": 200,
+    "original_hash_match": true,
+    "bytes": 3803129
+  },
+  {
+    "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/llm-as-router.png",
+    "status": 200,
+    "original_hash_match": true,
+    "bytes": 720468
+  },
+  {
+    "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/react-maw-wwhf.png",
+    "status": 200,
+    "original_hash_match": true,
+    "bytes": 4209687
+  },
+  {
+    "route": "/assets/img/posts/2025-03-ineffectiveness-of-ai-agents/the-autonomy-landscape.png",
+    "status": 200,
+    "original_hash_match": true,
+    "bytes": 1110256
+  },
+  {
+    "route": "/assets/img/profile_picture.jpg",
+    "status": 200,
+    "original_hash_match": true,
+    "bytes": 692760
+  },
+  {
+    "route": "/assets/img/favicon-32x32.png",
+    "status": 200,
+    "original_hash_match": true,
+    "bytes": 828
+  },
+  {
+    "route": "/assets/img/publication_preview/regional_modeling.jpg",
+    "status": 200,
+    "original_hash_match": true,
+    "bytes": 174471
+  }
+]
