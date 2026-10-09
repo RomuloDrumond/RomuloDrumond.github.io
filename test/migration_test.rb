@@ -27,8 +27,8 @@ normalize = ->(text) { text.strip.gsub(/\s+/, ' ') }
 
 check.call(Dir['_posts/*.md'].size == 9, 'Expected nine authored posts')
 check.call(Dir['assets/img/posts/**/*'].count { |p| File.file?(p) } == 24, 'Expected 24 post images')
-check.call(Digest::SHA256.file('_pages/sheditor-privacy.md').hexdigest == '6e45412eba1216f09252bcebefca383b75041db88a4cf8365ea8f7c8559d477d', 'Sheditor policy changed from remote b91040f')
-canonical.call(read_page.call('/sheditor/privacy/'), '/sheditor/privacy/')
+check.call(!File.exist?('_pages/sheditor-privacy.md'), 'Sheditor policy belongs on nonustech.com')
+check.call(!File.exist?('_site/sheditor/privacy/index.html'), 'Retired personal-site policy must not be published')
 check.call(File.file?('_site/.nojekyll'), 'Generated Pages site must bypass a second Jekyll build')
 baseline['assets'].merge(baseline['aivq']).each do |path, sha|
   check.call(File.file?(path) && Digest::SHA256.file(path).hexdigest == sha, "Original content changed: #{path}")

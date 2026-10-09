@@ -52,3 +52,13 @@ Upstream's `integration_upgrade_cli.sh` was run successfully against the pinned 
 The workflow builds PRs without publishing, uploads `_site`, and permits the separate publish job only for a push to `master`. The publish job targets the existing `gh-pages` branch; production configuration and CNAME are never rewritten. `make build` writes `.nojekyll` for the generated Pages branch. The initial migration did not publish. The user subsequently authorized the isolated preview and then the production release; see [PRODUCTION_DEPLOYMENT.md](PRODUCTION_DEPLOYMENT.md) for the successful release and post-deployment evidence.
 
 The build was exercised on macOS with Ruby 4.0.6, Bundler 4.0.6, Jekyll 4.4.1 and ImageMagick 7.1.2. A later authorized deployment test also passed on Linux in a separate GitHub repository; see [PREVIEW_DEPLOYMENT.md](PREVIEW_DEPLOYMENT.md) for the deployed preview, preserved newer Sheditor policy, and local-versus-deployed screenshots. The updated Docker/devcontainer was not executed. External embeds and repository-card services can independently change or become unavailable. Production release `db4f371` and its Linux workflow passed, followed by 249 exact artifact checks and screenshot/interaction validation on the real domain. The original-site, local-build and production comparisons are available in the [production gallery](production-screenshots/index.html).
+
+## 2026-10-09: Sheditor policy moved to Nonus Tech
+
+Sheditor’s existing bilingual privacy policy and deletion/support instructions
+are now hosted at https://nonustech.com/sheditor/privacy/ and
+https://nonustech.com/pt-br/sheditor/privacy/. Both returned HTTP 200 before
+removing `_pages/sheditor-privacy.md` at the owner’s request. The personal-site
+route is retired; no new Terms of Service were created. The regression check
+now requires the old page to be absent. Historical migration screenshots remain
+as evidence, not a current policy page.
