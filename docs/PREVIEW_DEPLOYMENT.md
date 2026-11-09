@@ -8,7 +8,7 @@ comes from its own `gh-pages` branch. It does not replace the account site's roo
 `preview.yml` runs only in that exact repository on `staging`. It uses the same
 Ruby, Node, Python, ImageMagick, production checks, artifact transport, and
 `JamesIves/github-pages-deploy-action` as the production workflow. The production
-publish job additionally requires the original repository and a push to `master`.
+publish job additionally requires the original repository and a push to `main` (named `master` until November 2026).
 No cross-repository publishing token is used.
 
 `make preview` builds `_preview` using `_config.preview.yml`, after which the

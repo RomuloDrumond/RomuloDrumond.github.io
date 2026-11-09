@@ -2,9 +2,9 @@ name: Build and deploy blog
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -44,8 +44,8 @@ jobs:
           include-hidden-files: true
 
   deploy:
-    # PRs and manual branch previews only build. Publication remains master-only.
-    if: github.repository == 'RomuloDrumond/RomuloDrumond.github.io' && github.event_name == 'push' && github.ref == 'refs/heads/master'
+    # PRs and manual branch previews only build. Publication remains main-only.
+    if: github.repository == 'RomuloDrumond/RomuloDrumond.github.io' && github.event_name == 'push' && github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
     permissions:

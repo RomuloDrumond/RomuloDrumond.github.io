@@ -41,4 +41,4 @@ Production clipboard read-back is blocked by the collaborative browser's backgro
 
 External iframe playback and repository-card availability depend on their providers. All seven iframe sources are preserved, but this is not a video-playback certification. No current post opts into comments, so there is no existing comments embed to test; the production Disqus setting remains intact. Docker/devcontainer execution remains untested.
 
-The post-deployment report and screenshots are maintained on `validation/al-folio-production`; publishing this evidence branch does not trigger the master-only deployment workflow or change the validated production revision.
+The post-deployment report and screenshots are maintained on `validation/al-folio-production`; publishing this evidence branch does not trigger the main-only deployment workflow (then named `master`) or change the validated production revision.

@@ -21,4 +21,4 @@ The devcontainer uses the root `Dockerfile`. Notebook authors also need `pip ins
 
 See [migration decisions and checks](docs/MIGRATION.md) and [before/after screenshot evidence](docs/VISUAL_VALIDATION.md). All screenshots compare this site's own content.
 
-CI builds and validates pull requests and uploads the generated site. Only a push to `master` publishes to the existing `gh-pages` branch. Manual workflow runs produce build artifacts without publishing. Keep `CNAME`, the production URL, and empty `baseurl` intact.
+CI builds and validates pull requests and uploads the generated site. Only a push to `main` publishes to the existing `gh-pages` branch. Manual workflow runs produce build artifacts without publishing. Keep `CNAME`, the production URL, and empty `baseurl` intact.
